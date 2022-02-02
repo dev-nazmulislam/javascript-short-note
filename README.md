@@ -1,8 +1,10 @@
 ### **JavaScript Short Note**
 
-1. Variable
-1. Variable Data Types Number, String, Boolean, Null and Undefined.
-1. Type Conversion
+## Variable
+
+## Variable Data Types Number, String, Boolean, Null and Undefined.
+
+## Type Conversion
 
 - Number Conversion: Number().
 
@@ -31,9 +33,11 @@
   - Boolean(""); // false
   - Boolean(" "); // spaces, also true (any non-empty string is true)
 
-1. False Values “”, 0, null, undefined, NaN.
-1. JavaScript Operators
-   > Assignment operators, Comparison operators, Arithmetic operators, Logical operators, Bitwise operators, String operators, Conditional (ternary) operators, Comma operators, Unary operators, Relational operators.
+## False Values “”, 0, null, undefined, NaN.
+
+## JavaScript Operators
+
+> Assignment operators, Comparison operators, Arithmetic operators, Logical operators, Bitwise operators, String operators, Conditional (ternary) operators, Comma operators, Unary operators, Relational operators.
 
 - Assignment Operators : =, +=, -=, \_=, /=, %=, \*\*=, <<=, >>=, >>>=, &=, ^=, |=, &&=, ||=, ??=
 - Comparison Operators: ==, !=, ===, !==, >, >=, <, <=.
