@@ -39,16 +39,16 @@
 
 > Assignment operators, Comparison operators, Arithmetic operators, Logical operators, Bitwise operators, String operators, Conditional (ternary) operators, Comma operators, Unary operators, Relational operators.
 
-- #### Assignment Operators : =, +=, -=, \_=, /=, %=, \*\*=, <<=, >>=, >>>=, &=, ^=, |=, &&=, ||=, ??=
-- #### Comparison Operators: ==, !=, ===, !==, >, >=, <, <=.
-- #### Arithmetic Operators %, ++, --, -, +, \*\*.
-- #### Conditional & Logical Operators: if, else, else if, switch, &&, ||, !.
-- #### Bitwise operators: &, |, ^, ~, <<, >>, >>>.
-- #### String operators:
-- #### Conditional (ternary) operators: condition ? val1 : val2
-- #### Comma operators: ,
-- #### Unary operators: delete.
-- #### Relational operators: in.
+1. Assignment Operators : =, +=, -=, \_=, /=, %=, \*\*=, <<=, >>=, >>>=, &=, ^=, |=, &&=, ||=, ??=
+1. Comparison Operators: ==, !=, ===, !==, >, >=, <, <=.
+1. Arithmetic Operators %, ++, --, -, +, \*\*.
+1. Conditional & Logical Operators: if, else, else if, switch, &&, ||, !.
+1. Bitwise operators: &, |, ^, ~, <<, >>, >>>.
+1. String operators:
+1. Conditional (ternary) operators: condition ? val1 : val2
+1. Comma operators: ,
+1. Unary operators: delete.
+1. Relational operators: in.
 
 - ### Statements: Block, break, continue, Empty, if...else, switch, throw, try...catch.
 - ### Declarations: var, let, const.
