@@ -52,7 +52,7 @@
 
 - ### Statements: Block, break, continue, Empty, if...else, switch, throw, try...catch.
 - ### Declarations: var, let, const.
-- ### Functions and classes: function, function\_, async function, return, class.
+- ### Functions and classes: function, function\*, async function, return, class.
 - ### Iterations: for, for...in, for..of, for await...of, while, do...while.
 - ### Work with Math:
   > Math.abs(n), Math.floor(n), Math.ceil(n), Math.round(n), Math.max(), Math.min(), Math.pow(2, 3), Math.sqrt(9), Math.random(),Math.round()
@@ -83,7 +83,15 @@
 - ### Functional Programming:
   > Pure Function, First Class Function, Higher Order Function, Callback Function, forEach, map, Filter, reduce, find, findIndex, Sort, Some, Every, return, Recursive , Currying.
 
-### JavaScript ES6
+## JavaScript ES6
 
-1. Arrow function, Default parameters, Let scope, Const, Multiline string, Template strings, String includes (), String starts With (), String repeat (), Destructuring array, Destructuring object, Object property assignment, Object function assignment, Object. Assign (), Object. Entries (), Spread & Rest operator, Destructuring Nested Objects, Exponent operator, For of loop, Set & Map, Set Methods, Map Methods,
-1. CheckList: 01. Get the total, largest, smolest, odd & even number. 02. get the total, largest, smolest, odd & even number with a loop. 03. Array traversing with for, while & forEach loop. 06. get total, largest, smolest, odd & even of array elements. 07. Create a new array with many arrays, 08. Create & Traversing Multidimensional array.
+- Arrow function, Default parameters, Let scope, Const, Multiline string, Template strings, String includes (), String starts With (), String repeat (), Destructuring array, Destructuring object, Object property assignment, Object function assignment, Object. Assign (), Object. Entries (), Spread & Rest operator, Destructuring Nested Objects, Exponent operator, For of loop, Set & Map, Set Methods, Map Methods,
+
+#### CheckList:
+
+1.  Get the total, largest, smallest, odd & even number.
+2.  get the total, largest, smallest, odd & even number with a loop.
+3.  Array traversing with for, while & forEach loop.
+4.  get total, largest, smallest, odd & even of array elements.
+5.  get total, largest, smallest, odd & even of objects elements.
+6.  Create a new array with many arrays, 08. Create & Traversing Multidimensional array.
