@@ -2,40 +2,40 @@
 
 - ### Variable
 
-- ### Variable Data Types Number, String, Boolean, Null and Undefined.
+- ### Variable Data Types: Number, String, Boolean, Null and Undefined.
 
-## Type Conversion
+- ### Type Conversion
 
-- Number Conversion: Number().
+  - #### Number Conversion: Number().
 
-  - Number(" 123 "); // 123
-  - Number("123z"); // NaN (error reading a number at "z")
-  - Number(true); // 1
-  - Number(false) ); // 0
-  - Number(undefined) // NaN
-  - Number(null) // 0
-  - Decimal Number to Integer Number: parseInt()
-  - Integer Number to Decimal Number: parseFloat()
+    - Number(" 123 "); // 123
+    - Number("123z"); // NaN (error reading a number at "z")
+    - Number(true); // 1
+    - Number(false) ); // 0
+    - Number(undefined) // NaN
+    - Number(null) // 0
+    - Decimal Number to Integer Number: parseInt()
+    - Integer Number to Decimal Number: parseFloat()
 
-- String Conversion: String() or toString()
+  - #### String Conversion: String() or toString()
 
-  - String(true); // now true is a string "true"
-  - String(x) // returns a string from a number variable x
-  - String(123) // returns a string from a number literal 123
-  - String(100 + 23) // returns a string from a number from an expression
+    - String(true); // now true is a string "true"
+    - String(x) // returns a string from a number variable x
+    - String(123) // returns a string from a number literal 123
+    - String(100 + 23) // returns a string from a number from an expression
 
-- Boolean Conversion: Boolean()
+  - #### Boolean Conversion: Boolean()
 
-  - Boolean(1)); // true
-  - Boolean(0); // false
-  - Boolean("0"); // true
-  - Boolean("hello"); // true
-  - Boolean(""); // false
-  - Boolean(" "); // spaces, also true (any non-empty string is true)
+    - Boolean(1)); // true
+    - Boolean(0); // false
+    - Boolean("0"); // true
+    - Boolean("hello"); // true
+    - Boolean(""); // false
+    - Boolean(" "); // spaces, also true (any non-empty string is true)
 
-## False Values “”, 0, null, undefined, NaN.
+- ### False Values “”, 0, null, undefined, NaN.
 
-## JavaScript Operators
+- ### JavaScript Operators
 
 > Assignment operators, Comparison operators, Arithmetic operators, Logical operators, Bitwise operators, String operators, Conditional (ternary) operators, Comma operators, Unary operators, Relational operators.
 
