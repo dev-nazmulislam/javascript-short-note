@@ -1,21 +1,19 @@
 ### **JavaScript Short Note**
 
-- [Variable]
-- [Variable Data Types]
+- Variable
+- Variable Data Types
   > Number, String, Boolean, Null and Undefined.
-- [Type Conversion]
+- Type Conversion
 
-  - [Number Conversion: Number().]
+  - Number Conversion: Number().
 
-    > Example:
-
-    - [Number(" 123 "); // 123]
-    - [Number("123z"); // NaN (error reading a number at "z")]
-    - [Number(true); // 1]
-    - [Number(false) ); // 0]
-    - [Number(undefined) // NaN]
-    - [Number(null) // 0]
-    - [Decimal Number to Integer Number: parseInt()]
+    - Number(" 123 "); // 123
+    - Number("123z"); // NaN (error reading a number at "z")
+    - Number(true); // 1
+    - Number(false) ); // 0
+    - Number(undefined) // NaN
+    - Number(null) // 0
+    - Decimal Number to Integer Number: parseInt()
     - Integer Number to Decimal Number: parseFloat()
 
   - [String Conversion: String() or toString()]
