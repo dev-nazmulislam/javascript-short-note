@@ -96,11 +96,45 @@
 5.  get total, largest, smallest, odd & even of objects elements.
 6.  Create a new array with many arrays, 08. Create & Traversing Multidimensional array.
 
-#### [Problem Solving](https://github.com/dev-nazmulislam/javaScript-problem-solving)
+# [Problem Solving Question & Solution](https://github.com/dev-nazmulislam/javaScript-problem-solving)
 
-1.  Get the total, largest, smallest, odd & even number.
-2.  get the total, largest, smallest, odd & even number with a loop.
-3.  Array traversing with for, while & forEach loop.
-4.  get total, largest, smallest, odd & even of array elements.
-5.  get total, largest, smallest, odd & even of objects elements.
-6.  Create a new array with many arrays, 08. Create & Traversing Multidimensional array.
+1. Print in Console numbers from 1 to 10
+2. Print in Console the odd numbers less than 100
+3. Print in Console the multiplication table with 7
+4. Calculate the sum of numbers from 1 to 10
+5. Calculate 10!
+6. Calculate the sum of odd numbers greater than 10 and less than 30
+7. Calculate the sum of numbers in an array of numbers
+8. Calculate the average of the numbers in an array of numbers
+9. Find the maximum number in an array of numbers
+10. Create a function that receives an array of numbers and returns an array containing only the positive numbers
+11. Print in Console all the multiplication tables with numbers from 1 to 10
+12. Create a function that will convert from Celsius to Fahrenheit
+13. Create a function that will convert from Fahrenheit to Celsius
+14. Print in Console the first 10 Fibonacci numbers without recursion
+15. Create a function that will find the nth Fibonacci number using recursion
+16. Check Leap Year Using if...else?
+17. Create a function that accepts an array and returns the last item in the array.
+18. Calculate the sum of digits of a positive integer number
+19. Print in Console the first 100 prime numbers
+20. Check Odd or Even Number with Arguments Objects
+21. Create a function that will return in an array the first "nPrimes" prime numbers greater than a particular number "startAt"
+22. Rotate an array to the left 1 position
+23. Reverse an array with createed function, don`t Change orginal array #24: Reverse an array with JavaScript Builtin Method
+24. Reverse a string with JavaScript Builtin Method
+25. Reverse a string with createed function, don`t Change orginal string
+26. Create a function that takes an array and returns the types of values (data types) in a new array.
+27. Create a function that will return in an array. becarefull function parameter and array length is same in count.
+28. Create a function that takes the age in years and returns the age in days.
+29. Create a function that takes voltage and current and returns the calculated power.
+30. Given two numbers, return true if the sum of both numbers is less than 50. Otherwise return false.
+31. Write a function that takes minutes and converts it to seconds.
+32. Write a function that converts hours into seconds.
+33. Create a function that takes an array containing only numbers and return the first element.
+34. Create a function that finds the maximum range of a triangle's third edge, where the side lengths are all integers.
+35. Write a function that takes the base and height of a triangle and return its area.
+36. Create a function that takes a number as an argument, increments the number by +1 and returns the result.
+37. Create a function that takes a base number and an exponent number and returns the calculation.
+38. Create a function that takes two numbers as arguments and return their sum.
+39. Create a function that will merge two arrays and return the result as a new array
+40. Create a function that will receive two arrays of numbers as arguments and return an array composed of all the numbers that are either in the first array or second array but not in both
