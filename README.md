@@ -1,8 +1,8 @@
 ### **JavaScript Short Note**
 
-- ## Variable
+- ### Variable
 
-## Variable Data Types Number, String, Boolean, Null and Undefined.
+- ### Variable Data Types Number, String, Boolean, Null and Undefined.
 
 ## Type Conversion
 
