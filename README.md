@@ -1,4 +1,4 @@
-### **JavaScript Short Note**
+# JavaScript Short Note
 
 - ### Variable
 
