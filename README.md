@@ -95,3 +95,12 @@
 4.  get total, largest, smallest, odd & even of array elements.
 5.  get total, largest, smallest, odd & even of objects elements.
 6.  Create a new array with many arrays, 08. Create & Traversing Multidimensional array.
+
+#### [Problem Solving](https://github.com/dev-nazmulislam/javaScript-problem-solving)
+
+1.  Get the total, largest, smallest, odd & even number.
+2.  get the total, largest, smallest, odd & even number with a loop.
+3.  Array traversing with for, while & forEach loop.
+4.  get total, largest, smallest, odd & even of array elements.
+5.  get total, largest, smallest, odd & even of objects elements.
+6.  Create a new array with many arrays, 08. Create & Traversing Multidimensional array.
