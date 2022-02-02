@@ -96,7 +96,7 @@
 5.  get total, largest, smallest, odd & even of objects elements.
 6.  Create a new array with many arrays, 08. Create & Traversing Multidimensional array.
 
-# [Problem Solving Question & Solution](https://github.com/dev-nazmulislam/javaScript-problem-solving)
+# [Problem Solving](https://github.com/dev-nazmulislam/javaScript-problem-solving)
 
 1. Print in Console numbers from 1 to 10
 2. Print in Console the odd numbers less than 100
