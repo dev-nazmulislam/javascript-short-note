@@ -4,7 +4,9 @@
 - [Variable Data Types]
   > Number, String, Boolean, Null and Undefined.
 - [Type Conversion]
+
   - [Number Conversion: Number().]
+
     > Example:
     > Number(" 123 "); // 123
     > Number("123z"); // NaN (error reading a number at "z")
@@ -14,7 +16,8 @@
     > Number(null) // 0
     > Decimal Number to Integer Number: parseInt()
     > Integer Number to Decimal Number: parseFloat()
-    > String Conversion: String() or toString()
+
+  - [String Conversion: String() or toString()]
     > Example:
     > String(true); // now true is a string "true"
     > String(x) // returns a string from a number variable x
