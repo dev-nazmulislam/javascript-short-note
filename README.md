@@ -5,7 +5,8 @@
 - ### [What can JavaScript do?](#What-can-JavaScript-do?)
 - ### [Where to use JavaScript?](#Where-to-use-JavaScript?)
 - ### [JavaScript output element.](#JavaScript-output-element.)
-- ### [Variable Definition & syntax.]()
+- ### [JavaScript Statements](#JavaScript-Statements)
+- ### [Variable Definition & syntax.](#Variable)
 
 - ### Variable Data Types: Number, String, Boolean, Null and Undefined.
 
@@ -189,8 +190,12 @@
 
 ### Variable
 
-Variable means a container that can store. JavaScript has the functionality of variables that hold the data value and it can be changed anytime. In JavaScript, var, a reserved keyword is used to declare a variable. A variable must have a unique name. One can assign a value to a variable using equal to (=) operator when you declare it or before using it.
-JavaScript uses the keywords var, let and const to declare variables.
+> Variable means a container that can store. JavaScript has the functionality of variables that hold the data value and it can be changed anytime. In JavaScript, var, a reserved keyword is used to declare a variable. A variable must have a unique name. One can assign a value to a variable using equal to (=) operator when you declare it or before using it.
+
+> JavaScript uses the keywords var, let and const to declare variables.
+
+### JavaScript identifiers or Variable Name
+
 All JavaScript identifiers are case sensitive.
 Hyphens are not allowed in JavaScript. They are reserved for subtractions.
 Names can contain letters, digits, underscores, and dollar signs.
