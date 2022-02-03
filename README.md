@@ -10,21 +10,8 @@
 - #### [JavaScript identifiers or Variable Name](#JavaScript-identifiers-or-Variable-Name)
 - #### [Variable Data Types](#Variable-Data-Types)
 - #### [Type Conversion](#Type-Conversion)
-- #### False Values
-- #### JavaScript Operators
-
-> Assignment operators, Comparison operators, Arithmetic operators, Logical operators, Bitwise operators, String operators, Conditional (ternary) operators, Comma operators, Unary operators, Relational operators.
-
-1. Assignment Operators : =, +=, -=, \_=, /=, %=, \*\*=, <<=, >>=, >>>=, &=, ^=, |=, &&=, ||=, ??=
-1. Comparison Operators: ==, !=, ===, !==, >, >=, <, <=.
-1. Arithmetic Operators %, ++, --, -, +, \*\*.
-1. Conditional & Logical Operators: if, else, else if, switch, &&, ||, !.
-1. Bitwise operators: &, |, ^, ~, <<, >>, >>>.
-1. String operators:
-1. Conditional (ternary) operators: condition ? val1 : val2
-1. Comma operators: ,
-1. Unary operators: delete.
-1. Relational operators: in.
+- #### [False Values](#Falsy-Values)
+- #### [JavaScript Operators](#JavaScript-Operators)
 
 - ### Statements: Block, break, continue, Empty, if...else, switch, throw, try...catch.
 - ### Declarations: var, let, const.
@@ -291,41 +278,77 @@
 
 ### Falsy Values
 
-("");
-0;
-null;
-undefined;
-NaN;
-console.log(Boolean(""));
-console.log(Boolean(null));
-console.log(Boolean(undefined));
-console.log(Boolean(NaN));
-console.log(Boolean(0));
+> A falsy value is a value that is considered false when encountered in a Boolean context.
 
-Chapter: 02 JavaScript Operators
-JavaScript Operators
-JavaScript uses many operators to compute values. Such Arithmetic operators, Assignment Operators, Comparison Operators, Logical Operators, Type Operators, String Operators etc.
-Arithmetic Operators
-// + - _ / % ++ --
-var a = 11;
-var b = 6;
-console.log(a % b);
-// Incremental
-// Pre Increment - Post Increment
-console.log(++a);
-console.log(a++);
-// Pre Detrimental - Post Detrimental
-console.log(--a);
-console.log(a--);
-Assignment Operators
-// = += -= _= /= %= <<= >>= >>>= &= ^= |= \*_=
-var a = 10;
-var b = 20;
-a = a + b;
-console.log(a);
-a += b;
-a _= b;
-console.log(a);
+> List of falsy values: false, 0, -0, ""''``, nul, undefined, NaN
+
+```
+
+if (false)
+if (null)
+if (undefined)
+if (0)
+if (-0)
+if (0n)
+if (NaN)
+if ("")
+
+```
+
+### JavaScript Operators
+
+> In JavaScript, an operator is a special symbol used to perform operations on operands (values and variables). For example, 2 + 3; // 5. Here + is an operator that performs addition, and 2 and 3 are operands. In JavaScript has list of operators it`s given vellow.
+
+> List of JavaScript Operators: 1. Assignment operators, 2. Comparison operators, 3. Arithmetic operators, 4. Logical operators, 5. Conditional operators 6. Bitwise operators, 7. String operators, 8. Conditional (ternary) operators, 9. Comma operators, 10. Unary operators, 11. Relational operators.
+
+1. Assignment Operators symbol: =, +=, -=, \_=, /=, %=, \*\*=, <<=, >>=, >>>=, &=, ^=, |=, &&=, ||=, ??=
+
+```
+
+let x = 50; // 50
+x += 10; // 60
+x -= 5; // 55
+x *= 2; // 110
+x /= 2; // 55
+x %= 15; // 10
+x **= 2; // 100
+x <<= 2; // 400
+x >>= 5; // 12
+x &= 5; // 4
+x ^= 10; // 14
+x |= 10; // 14
+x &&= 10; // 10
+x ||= 10; // 10
+x ??= 10; // 10
+
+```
+
+2. Comparison Operators symbol: ==, !=, ===, !==, >, >=, <, <=.
+
+```
+
+let number = 50;
+if (number == 50) //Returns true if the operands are equal.
+if (number != 50) // Returns true if the operands are not equal.
+if (number === 50) // Returns true if the operands are equal and of the same type.
+if (number !== 50) // Returns true if the operands are of the same type but not equal, or are of different type
+if (number > 50) // Returns true if the left operand is greater than the right operand.
+if (number >= 50) // Returns true if the left operand is greater than or equal to the right operand.
+if (number < 50) // Returns true if the left operand is less than the right operand.
+if (number <= 50) // Returns true if the left operand is less than or equal to the right operand.
+
+```
+
+3. Arithmetic Operators symbol: %, ++, --, -, +, \*\*.
+4. Conditional Operators symbol: if, else, else if, switch,
+5. Logical Operators symbol: &&, ||, !.
+6. Bitwise operators symbol: &, |, ^, ~, <<, >>, >>>.
+7. String operators:
+8. Conditional (ternary) operators: condition ? val1 : val2
+9. Comma operators symbol: ,
+10. Unary operators: delete.
+11. Relational operators: in.
+
 Comparison Operators
 // == === != !== > < <= >= ?
 var a = 10;
@@ -336,6 +359,21 @@ var c = "50";
 var d = 50;
 console.log(c == d); // true
 console.log(c === d); //false
+
+Arithmetic Operators
+
+// + - \_ / % ++ --
+var a = 11;
+var b = 6;
+console.log(a % b);
+// Incremental
+// Pre Increment - Post Increment
+console.log(++a);
+console.log(a++);
+// Pre Detrimental - Post Detrimental
+console.log(--a);
+console.log(a--);
+
 Logical Operators
 // && || !
 Statements
@@ -1656,31 +1694,3 @@ JavaScript HTML DOM
 DOM (Document Object Model)
 The Document Object Model (DOM) is the data representation of the objects that comprise the structure and content of a document on the web. This guide will introduce the DOM, look at how the DOM represents an HTML document in memory and how to use APIs to create web content and applications.
 It is just an API to interact with HTML documents and change it later on demand.
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
