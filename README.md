@@ -1,14 +1,14 @@
 # JavaScript Short Note
 
-- ### [JavaScript Definition](#JavaScript-Definition)
-- ### [Environment set up](#Environment-set-up)
-- ### [What can JavaScript do?](#What-can-JavaScript-do?)
-- ### [Where to use JavaScript?](#Where-to-use-JavaScript?)
-- ### [JavaScript output element.](#JavaScript-output-element.)
-- ### [JavaScript Statements](#JavaScript-Statements)
-- ##### [Variable Definition & syntax.](#Variable)
-
-- ### Variable Data Types: Number, String, Boolean, Null and Undefined.
+- #### [JavaScript Definition](#JavaScript-Definition)
+- #### [Environment set up](#Environment-set-up)
+- #### [What can JavaScript do?](#What-can-JavaScript-do?)
+- #### [Where to use JavaScript?](#Where-to-use-JavaScript?)
+- #### [JavaScript output element.](#JavaScript-output-element.)
+- #### [JavaScript Statements](#JavaScript-Statements)
+- #### [Variable Definition & syntax.](#Variable)
+- #### [JavaScript identifiers or Variable Name](#JavaScript-identifiers-or-Variable-Name)
+- #### [Variable Data Types](#Variable-Data-Types)
 
 - ### Type Conversion
 
@@ -196,24 +196,36 @@
 
 ### JavaScript identifiers or Variable Name
 
-All JavaScript identifiers are case sensitive.
-Hyphens are not allowed in JavaScript. They are reserved for subtractions.
-Names can contain letters, digits, underscores, and dollar signs.
-Names must begin with a letter.
-Names can also begin with $ and \_ (but we will not use it in this tutorial)
-Reserved words (like JavaScript keywords) cannot be used as names.
-Variable Data Types
-In a program, data types specify what kind of data can be stored and manipulated. In JavaScript, there are six data types. It can be divided into three main categories.
-Primitive data type –
-String - ‘this is text’ “this is text”.
-Number - 20, 20.5
-Boolean - True or False
-Undefined - var name;
-Null- var name = “”;
-Composite data type - Object, Array, and Function.
-Special data type - Undefined and Null.
-Number
-The most common primitive data type is numbers. To declare numbers in JavaScript is easy. Both integer numbers and floating numbers are the same in JavaScript. Both are considered float numbers. JavaScript provides 64 bits for every single number.
+> 1. All JavaScript identifiers are case sensitive.
+> 2. Hyphens are not allowed in JavaScript. They are reserved for subtractions.
+> 3. Names can contain letters, digits, underscores, and dollar signs.
+> 4. Names must begin with a letter.
+> 5. Names can also begin with $ and \_ (but we will not use it in this tutorial)
+> 6. Reserved words (like JavaScript keywords) cannot be used as names.
+
+### Variable Data Types
+
+> In a program, data types specify what kind of data can be stored and manipulated. In JavaScript, there are six data types. It can be divided into two main categories.
+
+#### Primitive data type –
+
+1. String - ‘this is text’ “this is text”.
+2. Number - 20, 20.5
+3. Boolean - True or False
+4. Undefined - var name;
+5. Null- var name = “”;
+
+#### non-Primitive data type
+
+1. Object
+2. Array
+3. Function.
+
+- Number
+  > The most common primitive data type is numbers. To declare numbers in JavaScript is easy. Both integer numbers and floating numbers are the same in JavaScript. Both are considered float numbers. JavaScript provides 64 bits for every single number.
+
+```
+
 var num = 4546;
 var num2 = 55.5;
 var num3 = Number("55.5");
@@ -224,22 +236,40 @@ console.log(Number.MAX_VALUE);
 console.log(Number.MAX_SAFE_INTEGER);
 console.log(1 / 0);
 console.log("abc" \* 2);
-String
-In the JavaScript programming language, anything wrapped between quotes is considered as string. It can be a single quote or double quote. Even by using a backtick sign, string can be declared in ES6. JavaScript provides two types of string functionality. A. string literal and B. string constructor.
+
+```
+
+- String
+  > In the JavaScript programming language, anything wrapped between quotes is considered as string. It can be a single quote or double quote. Even by using a backtick sign, string can be declared in ES6. JavaScript provides two types of string functionality. A. string literal and B. string constructor.
+
+```
+
 var str = "This is text";
 var str2 = "This is text";
 var str3 = `this is text`;
 var str4 = String("This is text");
 var str5 = String(50);
 var str6 = String(5.5);
-Boolean
-In JavaScript, Boolean is a primitive data type. The Boolean data type has two values only. It deals with true or false. Controlling program flow using conditional statements like - while, do...while, switch, if...else, the Boolean data type is used.
+
+```
+
+- Boolean
+  > In JavaScript, Boolean is a primitive data type. The Boolean data type has two values only. It deals with true or false. Controlling program flow using conditional statements like - while, do...while, switch, if...else, the Boolean data type is used.
+
+```
+
 var isRaining = true;
 var isComming = false;
 var isEqual = Boolean(true);
 var isNotEqual = Boolean(false);
-Null and Undefined
-Generally, in a programming language, we can assign any primitive or non-primitive type of value to a variable. But JavaScript adds the functionalities of two additional primitive type values - null and undefined. These can be assigned to a variable that has a special meaning.
+
+```
+
+- Null and Undefined
+  > Generally, in a programming language, we can assign any primitive or non-primitive type of value to a variable. But JavaScript adds the functionalities of two additional primitive type values - null and undefined. These can be assigned to a variable that has a special meaning.
+
+```
+
 var abc;
 var text = null;
 Type Conversion
@@ -256,6 +286,8 @@ console.log(String(Infinity));
 
 console.log(Boolean(Infinity));
 console.log(Boolean(-Infinity));
+
+```
 
 // Falsy Values
 ("");
