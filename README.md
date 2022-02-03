@@ -549,7 +549,7 @@ console.log("You have got " + rand);
 
 > The JavaScript Math object allows you to perform mathematical tasks on numbers.
 
-### Meth Function
+### Static methods
 
 - Math.abs()
 - Math.floor()
@@ -582,6 +582,8 @@ console.log("You have got " + rand);
 - date.getHours()
 - date.getMinutes()
 - date.getSeconds()
+- date.getTime()
+- date.getDay()
 
 ### String
 
@@ -593,7 +595,7 @@ console.log("You have got " + rand);
 ### Instance methods
 
 - concat()
-- (substr()
+- substr()
 - charAt()
 - startsWith()
 - endsWith()
@@ -626,113 +628,88 @@ console.log("You have got " + rand);
 
 ### Array
 
-An array is a special variable, which can hold more than one value. An array can hold many values under a single name, and you can access the values by referring to an index number. It is a common practice to declare arrays with the const keyword.
-Array Declaration
-Using an array literal is the easiest way to create a JavaScript Array.
-const arr = [1, 2, 3, 4]; //array literal
-const arr2 = Array(10, 50, 60, 80, 20); // Array Constructor
-console.log(arr); // Accessing Array Full Elements
-console.log(arr[0]); // Accessing Array Elements
-arr[2] = 5; // Change array Elements
-console.log(arr);
-console.log(arr.length); // Check length.
-Array Traversing
-To traverse an array means to access each element (item) stored in the array so that the data can be checked or used as part of a process.
-const arr = [2, 7, 3, 4, 5, 8, 6];
+> An array is a special variable, which can hold more than one value. An array can hold many values under a single name, and you can access the values by referring to an index number. It is a common practice to declare arrays with the const keyword.
+
+### Array Declaration
+
+- array literal // Using an array literal is the easiest way to create a JavaScript Array.
+- Array Constructor // The Array() constructor is used to create Array objects.
+
+### Accessing Array Elements
+
+- console.log(arr);
+- arr[indexNumber];
+- arr.length;
+
+### array traversing
+
+> To traverse an array means to access each element (item) stored in the array so that the data can be checked or used as part of a process.
+
+```
+
+const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 for (var i = 0; i < arr.length; i++) {
-console.log(arr[i]);
+  console.log(arr[i]);
 }
-var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-arr.forEach(function (value, index, arr) {
-console.log(value, index);
+
+arr.forEach(function (item, index, array) {
+  console.log(item, index);
 });
 
-var sum = 0;
-for (var i = 0; i < arr.length; i++) {
-sum += arr[i];
+for (const x of arr) {
+  console.log(x);
 }
-console.log(sum);
 
-var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-var sum = 0;
-arr.forEach(function (value, index, arr) {
-sum += value;
-});
-console.log(sum);
+```
 
-for (var i = 0; i < arr.length; i++) {
-if (arr[i] % 2 == 0) {
-console.log(arr[i]);
-}
-}
-Array Insert Remove and Replace
-const arr = [1, 2, 3, 4, 5, 6];
-// Insert array element
-arr[2] = 7; // Replace existing elements.
-arr.push(8); // add elements in ending position.
-arr.unshift(9); // add elements in starting position.
-arr.splice(3, 0, 15); // add elements in specific position.
+- ### Instance methods
 
-// Remove array elements
-arr[3] = 3; // Not a proper solution it can change elements.
-arr.pop(); // Remove elements from ending position.
-arr.shift(); // Remove elements from starting position.
-arr.splice(3, 1); // Remove elements from specific position.
+- push()
+- pop()
+- shift()
+- unshift()
+- indexOf()
+- splice()
+- [...arr]
+- slice()
+- Array.from()
+- join()
+- fill()
+- concat()
+- Array.isArray()
+- Array.from()
+- entries()
+- every()
+- filter()
+- find()
+- forEach()
+- includes()
+- keys()
+- map()
+- reduce()
+- reverse()
+- some()
+- sort()
+- toString()
+- values()
 
-arr.splice(3, 1, 44); // Update array elements
-arr[3] = 4; // Update array elements
+### Multidimensional Array
 
-console.log(arr);
-Search Value in Array
-const arr = [50, 61, 80, 60, 45, 67, 90];
-var find = 61;
-var isFound = false;
-for (var i = 0; i < arr.length; i++) {
-if (arr[i] == find) {
-console.log("Data Found");
-isFound = true;
-break;
-}
-}
-if (!isFound) {
-console.log("Data Not Found");
-}
-Multidimensional Array
+```
+
 var arr = [
 [80, 85, 90, 87],
 [81, 83, 70, 80],
 [70, 80, 75, 65],
 ];
 console.log(arr);
-console.log(arr[0][0]);
-console.log(arr[1][1]);
-for (var i = 0; i < arr.length; i++) {
-for (j = 0; j < arr[i].length; j++) {
-console.log("Element " + i + ": " + arr[i][j]);
-}
-}
-Reverse an Array
-var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-for (var i = 0; i < arr.length / 2; i++) {
-var temp = arr[i];
-arr[i] = arr[arr.length - 1 - i];
-arr[arr.length - 1 - i] = temp;
-}
-console.log(arr);
-console.log(arr.reverse()); // Proper way to reverse array.
-Array Methods
-const arr = [50, 20, 30, 40];
-const arr2 = [30, 40, 50, 60];
-console.log(arr);
-console.log(arr.join(" ")); // to show output in deferent way
-const arr3 = arr.concat(arr2); // to create new array with many array
-console.log(arr3);
-const arr4 = Array.from(arr);
-console.log(arr4);
+
+```
 
 ### JS Object
 
-You have already learned that JavaScript variables are containers for data values. Objects are variables too. But objects can contain many values. The values are written as name:value pairs (name and value separated by a colon).
+> You have already learned that JavaScript variables are containers for data values. Objects are variables too. But objects can contain many values. The values are written as name:value pairs (name and value separated by a colon).
+
 Object Literal vs Constructor
 var obj = {
 x: 10,
@@ -1361,63 +1338,6 @@ return a + b;
 print(multiplyByFive(add(3, 5)));
 Chapter: 10 Scope And Closure
 Standard built-in objects
-
-### Array
-
-> array literal, Array Constructor, Accessing Array Elements width (.) notation or array notation, Change array Elements, Check length, add elements in ending position, add elements in starting position, add elements in specific position, Remove elements from ending position, Remove elements from starting position, Remove elements in specific position, reverse array, array traversing.
-
-- ### Array Method:
-
-  > join(), fill(), concat(), Array.isArray(), Array.from().
-
-Create an Array
-let fruits = ["Apple", "Banana"];
-console.log(fruits.length);
-Access an Array item using the index position
-let fruits = ["Apple", "Banana"];
-let first = fruits[0];
-let last = fruits[fruits.length - 1];
-console.log(fruits.0) // a syntax error
-console.log(fruits["2"] != fruits["02"]); // Result is false
-Loop over an Array
-let fruits = ["Apple", "Banana"];
-fruits.forEach(function (item, index, array) {
-console.log(item, index);
-});
-Add an item to the end of an Array
-let fruits = ["Apple", "Banana"];
-let newLength = fruits.push("Orange");
-console.log(fruits);
-Remove an item from the end of an Array
-let fruits = ["Apple", "Banana", "Ogange"];
-let last = fruits.pop();
-console.log(fruits);
-Remove an item from the beginning of an Array
-let fruits = ["Apple", "Banana", "Ogange"];
-let first = fruits.shift();
-console.log(fruits);
-Add an item to the beginning of an Array
-let fruits = ["Apple", "Banana", "Ogange"];
-let newLength = fruits.unshift("Strawberry");
-Find the index of an item in the Array
-let fruits = ["Apple", "Banana", "Ogange"];
-let pos = fruits.indexOf("Banana");
-console.log(pos);
-Remove an item by index position
-let fruits = ["Apple", "Banana", "Ogange"];
-let removedItem = fruits.splice(1, 1);
-console.log(removedItem);
-console.log(fruits);
-Copy an Array
-let fruits = ["Apple", "Banana", "Ogange"];
-let shallowCopy = fruits.slice();
-console.log(shallowCopy);
-shallowCopy.push("Apple");
-console.log(fruits);
-Array Constructor
-The Array() constructor is used to create Array objects.
-let arr = new Array("element0", "element1", "elementN");
-console.log(arr);
 
 ### Object
 
