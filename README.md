@@ -1,6 +1,6 @@
 # JavaScript Short Note
 
-- ## [JavaScript Definition](#javaScript-definition)
+- ## [JavaScript Definition](#JavaScript-Definition)
 - ### [Environment set up](#Environment-set-up)
 - ### [What can JavaScript do?](#What-can-javaScript-do?)
 - ### [Where to use JavaScript?](#Where-to-use-javaScript?)
