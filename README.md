@@ -9,10 +9,9 @@
 - #### [Variable Definition & syntax.](#Variable)
 - #### [JavaScript identifiers or Variable Name](#JavaScript-identifiers-or-Variable-Name)
 - #### [Variable Data Types](#Variable-Data-Types)
-- ### [Type Conversion](#Type-Conversion)
-- ### False Values
-
-- ### JavaScript Operators
+- #### [Type Conversion](#Type-Conversion)
+- #### False Values
+- #### JavaScript Operators
 
 > Assignment operators, Comparison operators, Arithmetic operators, Logical operators, Bitwise operators, String operators, Conditional (ternary) operators, Comma operators, Unary operators, Relational operators.
 
@@ -248,7 +247,7 @@
 
   ```
 
-#### Type Conversion
+### Type Conversion
 
 - Number Conversion: Number().
 
