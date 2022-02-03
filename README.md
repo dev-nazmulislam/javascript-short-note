@@ -2,8 +2,8 @@
 
 - ## [JavaScript Definition](#JavaScript-Definition)
 - ### [Environment set up](#Environment-set-up)
-- ### [What can JavaScript do?](#What-can-javaScript-do?)
-- ### [Where to use JavaScript?](#Where-to-use-javaScript?)
+- ### [What can JavaScript do?](#What-can-JavaScript-do?)
+- ### [Where to use JavaScript?](#Where-to-use-JavaScript?)
 - ### [Variable Definition & syntax.]()
 
 - ### Variable Data Types: Number, String, Boolean, Null and Undefined.
@@ -157,11 +157,11 @@
 
 ### What can JavaScript do?
 
-1. JavaScript Can Change HTML Content
-2. JavaScript Can Change HTML Attribute Values
-3. JavaScript Can Change HTML Styles (CSS)
-4. JavaScript Can Hide HTML Elements
-5. JavaScript Can Show HTML Elements
+> 1. JavaScript Can Change HTML Content
+> 2. JavaScript Can Change HTML Attribute Values
+> 3. JavaScript Can Change HTML Styles (CSS)
+> 4. JavaScript Can Hide HTML Elements
+> 5. JavaScript Can Show HTML Elements
 
 ### [Where to use JavaScript?]
 
