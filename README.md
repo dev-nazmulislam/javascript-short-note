@@ -170,7 +170,8 @@
 > 2. JavaScript in <head>
 > 3. JavaScript in <body>
 > 4. External JavaScript
->    Placing scripts at the bottom of the <body> element improves the display speed, because script interpretation slows down the display.
+
+> Placing scripts at the bottom of the <body> element improves the display speed, because script interpretation slows down the display.
 
 ### JavaScript output element.
 
@@ -183,6 +184,7 @@
 ### JavaScript Statements
 
 > A computer program is a list of "instructions" to be "executed" by a computer. In a programming language, these programming instructions are called statements. The statements are executed, one by one, in the same order as they are written. Semicolons separate JavaScript statements. When separated by semicolons, multiple statements on one line are allowed.
+
 > JavaScript statements are composed of Values, Operators, Expressions, Keywords, and Comments.
 
 ### Variable
