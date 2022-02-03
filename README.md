@@ -9,37 +9,8 @@
 - #### [Variable Definition & syntax.](#Variable)
 - #### [JavaScript identifiers or Variable Name](#JavaScript-identifiers-or-Variable-Name)
 - #### [Variable Data Types](#Variable-Data-Types)
-
-- ### Type Conversion
-
-  - #### Number Conversion: Number().
-
-    - Number(" 123 "); // 123
-    - Number("123z"); // NaN (error reading a number at "z")
-    - Number(true); // 1
-    - Number(false) ); // 0
-    - Number(undefined) // NaN
-    - Number(null) // 0
-    - Decimal Number to Integer Number: parseInt()
-    - Integer Number to Decimal Number: parseFloat()
-
-  - #### String Conversion: String() or toString()
-
-    - String(true); // now true is a string "true"
-    - String(x) // returns a string from a number variable x
-    - String(123) // returns a string from a number literal 123
-    - String(100 + 23) // returns a string from a number from an expression
-
-  - #### Boolean Conversion: Boolean()
-
-    - Boolean(1)); // true
-    - Boolean(0); // false
-    - Boolean("0"); // true
-    - Boolean("hello"); // true
-    - Boolean(""); // false
-    - Boolean(" "); // spaces, also true (any non-empty string is true)
-
-- ### False Values “”, 0, null, undefined, NaN.
+- ### [Type Conversion](#Type-Conversion)
+- ### False Values
 
 - ### JavaScript Operators
 
@@ -165,7 +136,7 @@
 > 4. JavaScript Can Hide HTML Elements
 > 5. JavaScript Can Show HTML Elements
 
-### [Where to use JavaScript?]
+### Where to use JavaScript?
 
 > 1. In HTML, JavaScript code is inserted between <script> and </script> tags.
 > 2. JavaScript in <head>
@@ -207,13 +178,13 @@
 
 > In a program, data types specify what kind of data can be stored and manipulated. In JavaScript, there are six data types. It can be divided into two main categories.
 
-#### Primitive data type –
+#### Primitive data type
 
-1. String - ‘this is text’ “this is text”.
+1. String - "this is text" "this is text"
 2. Number - 20, 20.5
 3. Boolean - True or False
 4. Undefined - var name;
-5. Null- var name = “”;
+5. Null- var name = "";
 
 #### non-Primitive data type
 
@@ -222,74 +193,105 @@
 3. Function.
 
 - Number
+
   > The most common primitive data type is numbers. To declare numbers in JavaScript is easy. Both integer numbers and floating numbers are the same in JavaScript. Both are considered float numbers. JavaScript provides 64 bits for every single number.
 
-```
+  ```
 
-var num = 4546;
-var num2 = 55.5;
-var num3 = Number("55.5");
-var num4 = Number("55");
-console.log(Number.parseFloat(num4));
-console.log(Number.parseInt(num3));
-console.log(Number.MAX_VALUE);
-console.log(Number.MAX_SAFE_INTEGER);
-console.log(1 / 0);
-console.log("abc" \* 2);
+  var num = 4546;
+  var num2 = 55.5;
+  var num3 = Number("55.5");
+  var num4 = Number("55");
+  console.log(Number.parseFloat(num4));
+  console.log(Number.parseInt(num3));
+  console.log(Number.MAX_VALUE);
+  console.log(Number.MAX_SAFE_INTEGER);
+  console.log(1 / 0);
 
-```
+  ```
 
 - String
+
   > In the JavaScript programming language, anything wrapped between quotes is considered as string. It can be a single quote or double quote. Even by using a backtick sign, string can be declared in ES6. JavaScript provides two types of string functionality. A. string literal and B. string constructor.
 
-```
+  ```
 
-var str = "This is text";
-var str2 = "This is text";
-var str3 = `this is text`;
-var str4 = String("This is text");
-var str5 = String(50);
-var str6 = String(5.5);
-
-```
+  var str = "This is text";
+  var str2 = "This is text";
+  var str3 = `this is text`;
+  var str4 = String("This is text");
+  var str5 = String(50);
+  var str6 = String(5.5);
+  ```
 
 - Boolean
+
   > In JavaScript, Boolean is a primitive data type. The Boolean data type has two values only. It deals with true or false. Controlling program flow using conditional statements like - while, do...while, switch, if...else, the Boolean data type is used.
 
-```
+  ```
 
-var isRaining = true;
-var isComming = false;
-var isEqual = Boolean(true);
-var isNotEqual = Boolean(false);
+  var isRaining = true;
+  var isComming = false;
+  var isEqual = Boolean(true);
+  var isNotEqual = Boolean(false);
 
-```
+  ```
 
 - Null and Undefined
+
   > Generally, in a programming language, we can assign any primitive or non-primitive type of value to a variable. But JavaScript adds the functionalities of two additional primitive type values - null and undefined. These can be assigned to a variable that has a special meaning.
 
-```
+  ```
 
-var abc;
-var text = null;
-Type Conversion
-var str = "100";
-var n = 50;
-var x = true;
+  var abc;
+  var text = null;
 
-console.log(Number(str));
-console.log(Number.parseInt(str));
-console.log(parseInt(str));
-console.log(n.toString());
-console.log(x.toString());
-console.log(String(Infinity));
+  ```
 
-console.log(Boolean(Infinity));
-console.log(Boolean(-Infinity));
+- ### Type Conversion
 
-```
+- Number Conversion: Number().
 
-// Falsy Values
+  ```
+
+  Number(" 123 "); // 123
+  Number("123z"); // NaN (error reading a number at "z")
+  Number(true); // 1
+  Number(false) ); // 0
+  Number(undefined) // NaN
+  Number(null) // 0
+
+  ```
+
+  > Decimal Number to Integer Number: parseInt()
+  > Integer Number to Decimal Number: parseFloat()
+
+- String Conversion: String() or toString()
+
+  ```
+
+  String(true); // now true is a string "true"
+  String(x) // returns a string from a number variable x
+  String(123) // returns a string from a number literal 123
+  String(100 + 23) // returns a string from a number from an expression
+
+  ```
+
+- Boolean Conversion: Boolean()
+
+  ```
+
+  Boolean(1)); // true
+  Boolean(0); // false
+  Boolean("0"); // true
+  Boolean("hello"); // true
+  Boolean(""); // false
+  Boolean(" "); // spaces, also true (any non-empty string is true)
+
+  ```
+
+### Falsy Values
+
 ("");
 0;
 null;
@@ -1655,3 +1657,31 @@ JavaScript HTML DOM
 DOM (Document Object Model)
 The Document Object Model (DOM) is the data representation of the objects that comprise the structure and content of a document on the web. This guide will introduce the DOM, look at how the DOM represents an HTML document in memory and how to use APIs to create web content and applications.
 It is just an API to interact with HTML documents and change it later on demand.
+
+```
+
+```
+
+```
+
+```
+
+```
+
+```
+
+```
+
+```
+
+```
+
+```
+
+```
+
+```
+
+```
+
+```
