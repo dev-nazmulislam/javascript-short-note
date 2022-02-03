@@ -424,7 +424,9 @@ console.log("Not a Valid Number");
 ### Declarations
 
 > var // Declares a variable, optionally initializing it to a value.
+
 > let // Declares a block scope local variable, optionally initializing it to a value.
+
 > const // Declares a read-only named constant.
 
 ### Loops and iteration
@@ -437,7 +439,7 @@ console.log("Not a Valid Number");
 4. while - loops through a block of code while a specified condition is true
 5. do/while - also loops through a block of code while a specified condition is true
 
-- For loops
+- For loop
 
 > Syntax:for (initializer; condition; increment) {
 > // Statements
@@ -451,7 +453,7 @@ console.log(i + " Md. Nazmul islam");
 
 ```
 
-- While Loops
+- While Loop
 
 ```
 
@@ -475,7 +477,7 @@ console.log("I am Running");
 
 ```
 
-- Nested Loops
+- Nested Loop
 
 ```
 
@@ -547,26 +549,20 @@ console.log("You have got " + rand);
 
 > The JavaScript Math object allows you to perform mathematical tasks on numbers.
 
-> Math.abs(n), Math.floor(n), Math.ceil(n), Math.round(n), Math.max(), Math.min(), Math.pow(2, 3), Math.sqrt(9), Math.random(),Math.round()
+### Meth Function
 
-console.log(Math.E);
-console.log(Math.PI);
-
-var n = 5.22;
-console.log(Math.abs(n));
-console.log(Math.floor(n));
-console.log(Math.ceil(n));
-console.log(Math.round(n));
-console.log(Math.max(220, 540, 650));
-console.log(Math.min(220, 540, 650));
-console.log(Math.pow(2, 3));
-console.log(Math.pow(3, 5));
-console.log(Math.sqrt(9));
-console.log(Math.sqrt(64));
-
-console.log(Math.random());
-console.log(Math.random() _ 50 + 1);
-console.log(Math.round(Math.random() _ 50 + 1));
+- Math.abs()
+- Math.floor()
+- Math.ceil()
+- Math.round()
+- Math.max()
+- Math.min()
+- Math.pow()
+- Math.sqrt()
+- Math.random()
+- Math.round()
+- Math.E
+- Math.PI
 
 ### Date Object
 
