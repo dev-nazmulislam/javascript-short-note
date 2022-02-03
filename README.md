@@ -248,7 +248,7 @@
 
   ```
 
-- ### Type Conversion
+#### Type Conversion
 
 - Number Conversion: Number().
 
