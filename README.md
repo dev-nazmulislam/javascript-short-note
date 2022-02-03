@@ -6,7 +6,7 @@
 - ### [Where to use JavaScript?](#Where-to-use-JavaScript?)
 - ### [JavaScript output element.](#JavaScript-output-element.)
 - ### [JavaScript Statements](#JavaScript-Statements)
-- #### [Variable Definition & syntax.](#Variable)
+- ##### [Variable Definition & syntax.](#Variable)
 
 - ### Variable Data Types: Number, String, Boolean, Null and Undefined.
 
