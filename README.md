@@ -1,12 +1,12 @@
 # JavaScript Short Note
 
-- ## [JavaScript Definition](#JavaScript-Definition)
+- ### [JavaScript Definition](#JavaScript-Definition)
 - ### [Environment set up](#Environment-set-up)
 - ### [What can JavaScript do?](#What-can-JavaScript-do?)
 - ### [Where to use JavaScript?](#Where-to-use-JavaScript?)
 - ### [JavaScript output element.](#JavaScript-output-element.)
 - ### [JavaScript Statements](#JavaScript-Statements)
-- ### [Variable Definition & syntax.](#Variable)
+- **Variable Definition & syntax.**(#Variable)
 
 - ### Variable Data Types: Number, String, Boolean, Null and Undefined.
 
