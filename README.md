@@ -4,6 +4,7 @@
 - ### [Environment set up](#Environment-set-up)
 - ### [What can JavaScript do?](#What-can-JavaScript-do?)
 - ### [Where to use JavaScript?](#Where-to-use-JavaScript?)
+- ### [JavaScript output element.](#JavaScript-output-element.)
 - ### [Variable Definition & syntax.]()
 
 - ### Variable Data Types: Number, String, Boolean, Null and Undefined.
@@ -165,21 +166,27 @@
 
 ### [Where to use JavaScript?]
 
-In HTML, JavaScript code is inserted between <script> and </script> tags.
-JavaScript in <head>
-JavaScript in <body>
-External JavaScript
-Placing scripts at the bottom of the <body> element improves the display speed, because script interpretation slows down the display.
-JavaScript output element.
-Writing into an HTML element, using innerHTML.
-Writing into the HTML output using document.write().
-Writing into an alert box, using window.alert().
-Writing into the browser console, using console.log().
-How to use consol.log() & print data.
-JavaScript Statements
-A computer program is a list of "instructions" to be "executed" by a computer. In a programming language, these programming instructions are called statements. The statements are executed, one by one, in the same order as they are written. Semicolons separate JavaScript statements. When separated by semicolons, multiple statements on one line are allowed.
-JavaScript statements are composed of Values, Operators, Expressions, Keywords, and Comments.
-Variable
+> 1. In HTML, JavaScript code is inserted between <script> and </script> tags.
+> 2. JavaScript in <head>
+> 3. JavaScript in <body>
+> 4. External JavaScript
+>    Placing scripts at the bottom of the <body> element improves the display speed, because script interpretation slows down the display.
+
+### JavaScript output element.
+
+> 1. Writing into an HTML element, using innerHTML.
+> 2. Writing into the HTML output using document.write().
+> 3. Writing into an alert box, using window.alert().
+> 4. Writing into the browser console, using console.log().
+> 5. How to use consol.log() & print data.
+
+### JavaScript Statements
+
+> A computer program is a list of "instructions" to be "executed" by a computer. In a programming language, these programming instructions are called statements. The statements are executed, one by one, in the same order as they are written. Semicolons separate JavaScript statements. When separated by semicolons, multiple statements on one line are allowed.
+> JavaScript statements are composed of Values, Operators, Expressions, Keywords, and Comments.
+
+### Variable
+
 Variable means a container that can store. JavaScript has the functionality of variables that hold the data value and it can be changed anytime. In JavaScript, var, a reserved keyword is used to declare a variable. A variable must have a unique name. One can assign a value to a variable using equal to (=) operator when you declare it or before using it.
 JavaScript uses the keywords var, let and const to declare variables.
 All JavaScript identifiers are case sensitive.
