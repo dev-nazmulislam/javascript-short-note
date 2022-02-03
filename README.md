@@ -566,84 +566,66 @@ console.log("You have got " + rand);
 
 ### Date Object
 
-> new Date(), date.toDateString(), date.toTimeString(), date.toLocaleString(), date.toLocaleDateString(), date.toLocaleTimeString(), date.getFullYear(), date.getMonth(), date.getDate(), date.getHours(), date.getMinutes(), date.getSeconds()
+> Date objects are created with the new Date() constructor. Date objects represent a single moment in time in a platform-independent format.
 
-var date = new Date();
-console.log(date);
-console.log(date.toDateString());
-console.log(date.toTimeString());
-console.log(date.toLocaleString());
-console.log(date.toLocaleDateString());
-console.log(date.toLocaleTimeString());
+### Date Function
 
-console.log(date.getFullYear());
-console.log(date.getMonth());
-console.log(date.getDate());
-console.log(date.getHours());
-console.log(date.getMinutes());
-console.log(date.getSeconds());
+- new Date()
+- date.toDateString()
+- date.toTimeString()
+- date.toLocaleString()
+- date.toLocaleDateString()
+- date.toLocaleTimeString()
+- date.getFullYear()
+- date.getMonth()
+- date.getDate()
+- date.getHours()
+- date.getMinutes()
+- date.getSeconds()
 
 ### String
 
-> JavaScript strings are for storing and manipulating text. A JavaScript string is zero or more characters written inside quotes.
+> In the JavaScript programming language, anything wrapped between quotes is considered as string. It can be a single quote or double quote. Even by using a backtick sign, string can be declared in ES6. JavaScript provides two types of string functionality. A. string literal and B. string constructor.
 
-> String Literals, String Constructor, Escape Notation, String Comparison, string Conversion, Concat string (concat()), slice a string (substr()), get value of string index (charAt()), check start string (startsWith("")), check end string(endsWith("")), Upper case(toUpperCase()), Lower case(toLowerCase()), ignore unnecessary space(trim()), split and create array(split(" ")), str.length.
+- String Literals // var str = "Something";
+- String Constructor // var str = String("Something");
 
-var str = "Something"; // String Literals
-var str2 = String("Something"); // String Constructor
-console.log(str2);
-Escape Notation
-// Escape Notation
-var str = "This is 'string'";
-console.log(str);
-var str = "This is \nstring";
-console.log(str);
-var str = "This is \tstring";
-console.log(str);
-var str = "This is \\string";
-console.log(str);
-String Comparison
-// String Comparison
-var a = "abc";
-var b = "bcd";
-console.log(a == b);
-console.log(a > b);
-console.log(a < b);
-// Lexicographic System to Compare to String
-console.log("a" < "b");
-console.log("a" < "A");
-// Or Convert all string to a number
-console.log("001" == 1);
-console.log("2" == 1);
-String Methods
-// String Mathod
-var a = "I am";
-var b = "Md. Nazmul islam";
+### Instance methods
 
-var c = a.concat(" ", b); // to Concat string
-console.log(c);
+- concat()
+- (substr()
+- charAt()
+- startsWith()
+- endsWith()
+- toUpperCase()
+- toLowerCase()
+- trim()
+- split()
+- includes()
+- indexOf()
+- match()
+- replace()
+- search()
+- slice()
+- split()
+- toString()
+- str.length
 
-var d = c.substr(5); // to slice a string
-console.log(d);
-console.log(d.charAt(0)); // to show value of string index
-console.log(d.startsWith("Md.")); // to check start string
-console.log(d.endsWith("m")); // to check end width string
-console.log(c.toUpperCase()); // to Upper case
-console.log(c.toLowerCase()); // to Lower case
-console.log(" abc ".trim()); // to ignore unnecessary space
-console.log(c.split(" ")); // split and create array
-var str = "Md. Nazmul";
-var length = "0";
-while (true) {
-if (str.charAt(length) == "") {
-break;
-} else {
-leanth++;
-}
-}
-console.log(length);
-console.log(str.length);
-Chapter: 06 Array
+### Escape Notation
+
+- \0 // null character
+- \' // single quote
+- \" // double quote
+- \\ // backslash
+- \n // newline
+- \v // vertical tab
+- \t // tab
+- \b // backspace
+
+### String Comparison
+
+### Array
+
 An array is a special variable, which can hold more than one value. An array can hold many values under a single name, and you can access the values by referring to an index number. It is a common practice to declare arrays with the const keyword.
 Array Declaration
 Using an array literal is the easiest way to create a JavaScript Array.
