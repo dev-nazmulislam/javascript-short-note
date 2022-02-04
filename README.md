@@ -593,7 +593,7 @@ console.log("You have got " + rand);
 
 ### Static methods
 
-- Math.abs() `Hi`
+- Math.abs() `consol.log(Math.abs("50"))`
 - Math.floor()
 - Math.ceil()
 - Math.round()
