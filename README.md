@@ -593,8 +593,36 @@ console.log("You have got " + rand);
 
 ### Static methods
 
-- Math.abs() `consol.log(Math.abs("50"))`
-- Math.floor()
+- Math.abs() `The Math.abs() function returns the absolute value of a number.`
+
+```
+
+Math.abs('-1');     // 1
+Math.abs(-2);       // 2
+Math.abs(null);     // 0
+Math.abs('');       // 0
+Math.abs([]);       // 0
+Math.abs([2]);      // 2
+Math.abs([1,2]);    // NaN
+Math.abs({});       // NaN
+Math.abs('string'); // NaN
+Math.abs();         // NaN
+
+```
+
+- Math.floor() `The Math.floor() function returns the largest integer less than or equal to a given number.`
+
+```
+
+Math.floor( 45.95); //  45
+Math.floor( 45.05); //  45
+Math.floor(  4   ); //   4
+Math.floor(-45.05); // -46
+Math.floor(-45.95); // -46
+
+
+```
+
 - Math.ceil()
 - Math.round()
 - Math.max()
