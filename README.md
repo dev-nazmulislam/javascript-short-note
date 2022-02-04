@@ -623,16 +623,100 @@ Math.floor(-45.95); // -46
 
 ```
 
-- Math.ceil()
-- Math.round()
-- Math.max()
-- Math.min()
-- Math.pow()
-- Math.sqrt()
-- Math.random()
-- Math.round()
-- Math.E
-- Math.PI
+- Math.ceil() `The Math.ceil() method rounds a number UPWARDS to the nearest integer, and returns the result.`
+
+```
+
+Math.ceil(.95);    // 1
+Math.ceil(4);      // 4
+Math.ceil(7.004);  // 8
+Math.ceil(-0.95);  // -0
+Math.ceil(-4);     // -4
+Math.ceil(-7.004); // -7
+
+
+```
+
+- Math.round() `The Math.round() function returns the value of a number rounded to the nearest integer.`
+
+```
+
+Math.round( 20.49); //  20
+Math.round( 20.5 ); //  21
+Math.round( 42   ); //  42
+Math.round(-20.5 ); // -20
+Math.round(-20.51); // -21
+
+
+```
+
+- Math.max() `The Math.max() method returns the number with the highest value.`
+
+```
+
+Math.max(10, 20);   //  20
+Math.max(-10, -20); // -10
+Math.max(-10, 20);  //  20
+
+```
+
+- Math.min() `The Math.min() returns the number with the lowest value.`
+
+```
+
+Math.min(10, 5); // 5
+
+```
+
+- Math.pow() `The Math.pow() static method, given two arguments, base and exponent, returns` base<sup>exponent</sup>.
+
+```
+
+// simple
+Math.pow(7, 3);    // 343
+// fractional exponents
+Math.pow(2, 0.5);  // 1.4142135623730951 (square root of 2)
+// signed exponents
+Math.pow(7, -2);   // 0.02040816326530612 (1/49)
+// signed bases
+Math.pow(-7, 2);   // 49 (squares are positive)
+Math.pow(-7, 3);   // -343 (cubes can be negative)
+
+```
+
+- Math.sqrt() `The Math.sqrt() method returns the square root of a number.`
+
+```
+
+Math.sqrt(9); // 3
+Math.sqrt(2); // 1.414213562373095
+
+```
+
+- Math.random() `Math.random() returns a random number between 0 (inclusive), and 1 (exclusive)`
+
+```
+
+function getRandomInt(max) {
+  return Math.floor(Math.random() * max);
+}
+
+console.log(getRandomInt(3));
+// expected output: 0, 1 or 2
+
+```
+
+- Math.round() `The Math.round() method rounds a number to the nearest integer.`
+
+```
+
+Math.round( 20.49); //  20
+Math.round( 20.5 ); //  21
+Math.round( 42   ); //  42
+Math.round(-20.5 ); // -20
+Math.round(-20.51); // -21
+
+```
 
 ### Date Object
 
