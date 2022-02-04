@@ -46,13 +46,13 @@
 
 ## [JavaScript ES6](#JavaScript-ES6)
 
-#### [CheckList](#CheckList)
+- [CheckList](#checklist)
 
-#### [Problem Solving](#Problem-Solving)
+- [Problem Solving](#problem-solving)
 
 # Learn JavaScript
 
-### Javascript Definition
+### Javascript Definition <img src="assets/images/go-to-top.svg" alt="drawing" width="20"/>
 
 > JavaScript is high-level, often just-in-time compiled and multi-paradigm. It has dynamic typing, prototype-based object-orientation and first-class functions. The language was invented by Brendan Eich in 1995. It is also known as a dynamic computer programming language. The official name of JavaScript is ECMAScript. It became ECMA standard in 1997.
 
