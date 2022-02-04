@@ -1,1 +1,4 @@
-new Date(2018, 11, 24, 10, 33, 30, 0); // 2018-12-24T04:33:30.000Z
+const str1 = "Saturday night plans";
+
+console.log(str1.startsWith("Sat")); // expected output: true
+console.log(str1.startsWith("Sat", 3)); // expected output: false

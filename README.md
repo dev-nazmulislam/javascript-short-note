@@ -620,7 +620,6 @@ Math.floor(  4   ); //   4
 Math.floor(-45.05); // -46
 Math.floor(-45.95); // -46
 
-
 ```
 
 - Math.ceil() `The Math.ceil() method rounds a number UPWARDS to the nearest integer, and returns the result.`
@@ -634,7 +633,6 @@ Math.ceil(-0.95);  // -0
 Math.ceil(-4);     // -4
 Math.ceil(-7.004); // -7
 
-
 ```
 
 - Math.round() `The Math.round() function returns the value of a number rounded to the nearest integer.`
@@ -646,7 +644,6 @@ Math.round( 20.5 ); //  21
 Math.round( 42   ); //  42
 Math.round(-20.5 ); // -20
 Math.round(-20.51); // -21
-
 
 ```
 
@@ -746,10 +743,54 @@ Math.round(-20.51); // -21
 
 ### Instance methods
 
-- concat()
-- substr()
-- charAt()
-- startsWith()
+- concat() `The concat() method joins two or more strings. This method does not change the existing strings and returns a new string.`
+
+```
+
+let text1 = "Hello";
+let text2 = "world!";
+let text3 = "Have a nice day!";
+let result = text1.concat(" ", text2, " ", text3);
+
+```
+
+- substr() `The substr() method extracts a part of a string. This method begins at a specified position, and returns a specified number of characters and does not change the original string.`
+
+```
+substr(start, length)
+
+const str = "Mozilla";
+
+console.log(str.substr(1, 2));
+// expected output: "oz"
+
+console.log(str.substr(2));
+// expected output: "zilla"
+
+```
+
+- charAt() `The charAt() method returns the character at a specified index (position) in a string.`
+
+```
+
+charAt(index)
+let text = "HELLO WORLD";
+let letter = text.charAt(1); // E
+
+```
+
+- startsWith() `The startsWith() method returns true if a string starts with a specified string. Otherwise it returns false. This method is case sensitive.`
+
+```
+startsWith(searchString)
+startsWith(searchString, position)
+
+const str1 = "Saturday night plans";
+console.log(str1.startsWith("Sat")); // expected output: true
+console.log(str1.startsWith("Sat", 3)); // expected output: false
+
+```
+
 - endsWith()
 - toUpperCase()
 - toLowerCase()
