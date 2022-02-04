@@ -724,20 +724,18 @@ Math.round(-20.51); // -21
 
 ### Date Function
 
-- new Date()
-- date.toDateString()
-- date.toTimeString()
-- date.toLocaleString()
-- date.toLocaleDateString()
-- date.toLocaleTimeString()
-- date.getFullYear()
-- date.getMonth()
-- date.getDate()
-- date.getHours()
-- date.getMinutes()
-- date.getSeconds()
-- date.getTime()
-- date.getDay()
+- new Date() `new Date() creates a new date object with the current date and time`
+- date.toDateString() `Returns the "date" portion of the Date as a human-readable string like 'Thu Apr 12 2018'.`
+- date.toTimeString() `Returns the "time" portion of the Date as a human-readable string.`
+- date.toLocaleString() `Returns a string with a locality-sensitive representation of the time portion of this date, based on system settings.`
+- date.getFullYear() `Returns the year (4 digits for 4-digit years) of the specified date according to local time.`
+- date.getMonth() `Returns the month (0–11) in the specified date according to local time.`
+- date.getDate() `Returns the day of the month (1–31) for the specified date according to local time.`
+- date.getHours() `Returns the hour (0–23) in the specified date according to local time.`
+- date.getMinutes() `Returns the minutes (0–59) in the specified date according to local time.`
+- date.getSeconds() `Returns the seconds (0–59) in the specified date according to local time.`
+- date.getTime() `Returns the numeric value of the specified date as the number of milliseconds since January 1, 1970, 00:00:00 UTC. (Negative values are returned for prior times.)`
+- date.getDay() `Returns the day of the week (0–6) for the specified date according to local time.`
 
 ### String
 

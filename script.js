@@ -1,6 +1,1 @@
-function getRandomInt(max) {
-  return Math.floor(Math.random() * max);
-}
-
-console.log(getRandomInt(3));
-// expected output: 0, 1 or 2
+new Date(2018, 11, 24, 10, 33, 30, 0); // 2018-12-24T04:33:30.000Z
