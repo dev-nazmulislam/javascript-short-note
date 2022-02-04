@@ -1,32 +1,54 @@
-# JavaScript Short Note
+# JavaScript Tutorial beginner to advanced
 
-- #### [JavaScript Definition](#JavaScript-Definition)
-- #### [Environment set up](#Environment-set-up)
-- #### [What can JavaScript do?](#What-can-JavaScript-do?)
-- #### [Where to use JavaScript?](#Where-to-use-JavaScript?)
-- #### [JavaScript output element.](#JavaScript-output-element.)
-- #### [JavaScript Statements](#JavaScript-Statements)
-- #### [Variable Definition & syntax.](#Variable)
-- #### [JavaScript identifiers or Variable Name](#JavaScript-identifiers-or-Variable-Name)
-- #### [Variable Data Types](#Variable-Data-Types)
-- #### [Type Conversion](#Type-Conversion)
-- #### [False Values](#Falsy-Values)
-- #### [JavaScript Operators](#JavaScript-Operators)
-- #### [Conditional Statements](#Conditional-Statements)
-- #### [Declarations](#Declarations)
-- #### [Loops and iteration](#Loops-and-iteration)
-- #### [JavaScript Comment](#JavaScript-Comment)
-- #### [Math Object](#Math-Object)
-- #### [Date Object](#Date-Object)
-- #### [String](#String)
-- #### [Array](#Array)
-- #### [Object](#Object)
-- #### [Function](#Function)
+#### [JavaScript Definition](#JavaScript-Definition)
+
+#### [Environment set up](#Environment-set-up)
+
+#### [What can JavaScript do?](#What-can-JavaScript-do?)
+
+#### [Where to use JavaScript?](#Where-to-use-JavaScript?)
+
+#### [JavaScript output element.](#JavaScript-output-element.)
+
+#### [JavaScript Statements](#JavaScript-Statements)
+
+#### [Variable Definition & syntax.](#Variable)
+
+#### [JavaScript identifiers or Variable Name](#JavaScript-identifiers-or-Variable-Name)
+
+#### [Variable Data Types](#Variable-Data-Types)
+
+#### [Type Conversion](#Type-Conversion)
+
+#### [False Values](#Falsy-Values)
+
+#### [JavaScript Operators](#JavaScript-Operators)
+
+#### [Conditional Statements](#Conditional-Statements)
+
+#### [Declarations](#Declarations)
+
+#### [Loops and iteration](#Loops-and-iteration)
+
+#### [JavaScript Comment](#JavaScript-Comment)
+
+#### [Math Object](#Math-Object)
+
+#### [Date Object](#Date-Object)
+
+#### [String](#String)
+
+#### [Array](#Array)
+
+#### [Object](#Object)
+
+#### [Function](#Function)
 
 ## [JavaScript ES6](#JavaScript-ES6)
 
-- #### [CheckList](#CheckList)
-- #### [Problem Solving](#Problem-Solving)
+#### [CheckList](#CheckList)
+
+#### [Problem Solving](#Problem-Solving)
 
 # Learn JavaScript
 
@@ -101,17 +123,17 @@ z = x + y; // Statement 4
 
 #### Primitive data type
 
-1. String - "this is text" "this is text"
-2. Number - 20, 20.5
-3. Boolean - True or False
-4. Undefined - var name;
-5. Null- var name = "";
+> 1. String - "this is text" "this is text"
+> 2. Number - 20, 20.5
+> 3. Boolean - True or False
+> 4. Undefined - var name;
+> 5. Null- var name = "";
 
 #### non-Primitive data type
 
-1. Object
-2. Array
-3. Function.
+> 1. Object
+> 2. Array
+> 3. Function.
 
 - Number
 
@@ -234,9 +256,21 @@ if ("")
 
 > In JavaScript, an operator is a special symbol used to perform operations on operands (values and variables). For example, 2 + 3; // 5. Here + is an operator that performs addition, and 2 and 3 are operands. In JavaScript has list of operators it`s given bellow.
 
-> List of JavaScript Operators: 1. Assignment operators, 2. Comparison operators, 3. Arithmetic operators, 4. Logical operators, 5. Conditional operators 6. Bitwise operators, 7. String operators, 8. Conditional (ternary) operators, 9. Comma operators, 10. Unary operators, 11. Relational operators.
+> List of JavaScript Operators:
+>
+> 1.  Assignment operators,
+> 2.  Comparison operators,
+> 3.  Arithmetic operators,
+> 4.  Logical operators,
+> 5.  Conditional operators
+> 6.  Bitwise operators,
+> 7.  String operators,
+> 8.  Conditional (ternary) operators,
+> 9.  Comma operators,
+> 10. Unary operators,
+> 11. Relational operators.
 
-1. Assignment Operators symbol: =, +=, -=, \_=, /=, %=, \*\*=, <<=, >>=, >>>=, &=, ^=, |=, &&=, ||=, ??=
+1. **Assignment Operators symbol: =, +=, -=, \_=, /=, %=, \*\*=, <<=, >>=, >>>=, &=, ^=, |=, &&=, ||=, ??=**
 
 ```
 
@@ -258,7 +292,7 @@ x ??= 10; // 10
 
 ```
 
-2. Comparison Operators symbol: ==, !=, ===, !==, >, >=, <, <=.
+2. **Comparison Operators symbol: ==, !=, ===, !==, >, >=, <, <=.**
 
 ```
 
@@ -274,7 +308,7 @@ if (number <= 50) // Returns true if the left operand is less than or equal to t
 
 ```
 
-3. Arithmetic Operators symbol: %, ++, --, -, +, \*\*.
+3. **Arithmetic Operators symbol: %, ++, --, -, +, \*\*.**
 
 ```
 
@@ -288,7 +322,7 @@ number ** 2; // Calculates the base to the exponent power, that is, base^exponen
 
 ```
 
-4. Logical Operators symbol: &&, ||, !.
+4. **Logical Operators symbol: &&, ||, !.**
 
 ```
 
@@ -309,9 +343,9 @@ b || b; // f && f returns false
 
 ```
 
-5. Bitwise operators symbol: &, |, ^, ~, <<, >>, >>>.
-6. String operators:
-7. Conditional (ternary) operators: condition ? val1 : val2
+5. **Bitwise operators symbol: &, |, ^, ~, <<, >>, >>>.**
+6. **String operators**
+7. **Conditional (ternary) operators: condition ? val1 : val2**
 
 ```
 
@@ -323,9 +357,9 @@ console.log(str);
 
 ```
 
-8. Comma operators symbol: ,
-9. Unary operators: delete.
-10. Relational operators: in.
+8. **Comma operators symbol: ,**
+9. **Unary operators: delete.**
+10. **Relational operators: in.**
 
 ### Conditional Statements
 
@@ -333,10 +367,10 @@ console.log(str);
 
 > In JavaScript we have the following conditional statements:
 
-1. Use if to specify a block of code to be executed, if a specified condition is true
-2. Use else to specify a block of code to be executed, if the same condition is false
-3. Use else if to specify a new condition to test, if the first condition is false
-4. Use switch to specify many alternative blocks of code to be executed
+> 1. Use if to specify a block of code to be executed, if a specified condition is true
+> 2. Use else to specify a block of code to be executed, if the same condition is false
+> 3. Use else if to specify a new condition to test, if the first condition is false
+> 4. Use switch to specify many alternative blocks of code to be executed
 
 - if Statement
 
@@ -455,6 +489,10 @@ console.log(i + " Md. Nazmul islam");
 
 - While Loop
 
+> while (condition) {
+> // code block to be executed
+> }
+
 ```
 
 var i = 0;
@@ -466,6 +504,10 @@ i++;
 ```
 
 - Do While Loop
+
+> do {
+> // code block to be executed
+> } while (condition);
 
 ```
 
@@ -543,7 +585,7 @@ console.log("You have got " + rand);
 > JavaScript comments can be used to explain JavaScript code, and to make it more readable. JavaScript comments can also be used to prevent execution, when testing alternative code. Any text in will be ignored by JavaScript (will not be executed).
 
 1. Single Line Comments - Single line comments start with //.
-1. Multi-line Comments - Multi-line comments start with /_ and end with _/.
+1. Multi-line Comments - Multi-line comments start with /\* and end with \*/.
 
 ### Math Object
 
@@ -551,7 +593,7 @@ console.log("You have got " + rand);
 
 ### Static methods
 
-- Math.abs()
+- Math.abs() `Hi`
 - Math.floor()
 - Math.ceil()
 - Math.round()
