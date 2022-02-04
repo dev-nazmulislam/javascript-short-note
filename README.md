@@ -1,48 +1,48 @@
 # JavaScript Tutorial beginner to advanced
 
-#### [JavaScript Definition](#javascript-definition)
+- [JavaScript Definition](#javascript-definition)
 
-#### [Environment set up](#Environment-set-up)
+- [Environment set up](#environment-set-up)
 
-#### [What can JavaScript do?](#What-can-JavaScript-do?)
+- [What can JavaScript do?](#what-can-javascript-do)
 
-#### [Where to use JavaScript?](#Where-to-use-JavaScript?)
+- [Where to use JavaScript?](#where-to-use-javascript)
 
-#### [JavaScript output element.](#JavaScript-output-element.)
+- [JavaScript output element](#javascript-output-element)
 
-#### [JavaScript Statements](#JavaScript-Statements)
+- [JavaScript Statements](#javascript-statements)
 
-#### [Variable Definition & syntax.](#Variable)
+- [Variable Definition & syntax.](#variable)
 
-#### [JavaScript identifiers or Variable Name](#JavaScript-identifiers-or-Variable-Name)
+- [JavaScript identifiers or Variable Name](#javascript-identifiers-or-variable-name)
 
-#### [Variable Data Types](#Variable-Data-Types)
+- [Variable Data Types](#variable-data-types)
 
-#### [Type Conversion](#Type-Conversion)
+- [Type Conversion](#type-conversion)
 
-#### [False Values](#Falsy-Values)
+- [False Values](#falsy-values)
 
-#### [JavaScript Operators](#JavaScript-Operators)
+- [JavaScript Operators](#javascript-operators)
 
-#### [Conditional Statements](#Conditional-Statements)
+- [Conditional Statements](#conditional-statements)
 
-#### [Declarations](#Declarations)
+- [Declarations](#declarations)
 
-#### [Loops and iteration](#Loops-and-iteration)
+- [Loops and iteration](#loops-and-iteration)
 
-#### [JavaScript Comment](#JavaScript-Comment)
+- [JavaScript Comment](#javascript-comment)
 
-#### [Math Object](#Math-Object)
+- [Math Object](#math-object)
 
-#### [Date Object](#Date-Object)
+- [Date Object](#date-object)
 
-#### [String](#String)
+- [String](#string)
 
-#### [Array](#Array)
+- [Array](#array)
 
-#### [Object](#Object)
+- [Object](#object)
 
-#### [Function](#Function)
+- [Function](#function)
 
 ## [JavaScript ES6](#JavaScript-ES6)
 
