@@ -945,11 +945,56 @@ console.log(p.replace("dog", "monkey")); // expected output: "The quick brown fo
 
 ```
 
-- search()
-- slice()
-- split()
-- toString()
-- str.length
+- search() `The search() method matches a string against a regular expression ** This method returns the index (position) of the first match.This method returns -1 if no match is found.`
+
+```
+
+search(regexp);
+let str = "hey JudE";
+let re = /[A-Z]/g;
+console.log(str.search(re)); // returns 4, which is the index of the first capital letter "J"
+
+```
+
+- slice() `The slice() method returns selected elements in an array, as a new array. The slice() method selects from a given start, up to a (not inclusive) given end. The slice() method does not change the original array.`
+
+```
+
+slice();
+slice(start);
+slice(start, end);
+const animals = ["ant", "bison", "camel", "duck", "elephant"];
+console.log(animals.slice(2)); // expected output: Array ["camel", "duck", "elephant"]
+console.log(animals.slice(2, 4)); // expected output: Array ["camel", "duck"]
+
+
+```
+
+- split() `The split() method splits a string into an array of substrings. The split() method returns the new array. The split() method does not change the original string.`
+
+```
+
+split();
+split(separator);
+split(separator, limit);
+const str = "The quick brown fox jumps over the lazy dog.";
+const words = str.split(" ");
+console.log(words[3]); // expected output: "fox"
+const chars = str.split("");
+console.log(chars[8]); // expected output: "k"
+
+```
+
+- toString() `The toString() method returns a string as a string. This method does not change the original string. The toString() method can be used to convert a string object into a string.`
+
+- str.length `The length property returns the length of a string. The length property of an empty string is 0.`
+
+```
+
+const str = 'Life, the universe and everything. Answer:';
+console.log(str.length); // expected output:  42
+
+```
 
 ### Escape Notation
 
