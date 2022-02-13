@@ -1,4 +1,4 @@
-# JavaScript Tutorial beginner to advanced
+# JavaScript Tutorial
 
 ## Basic
 
