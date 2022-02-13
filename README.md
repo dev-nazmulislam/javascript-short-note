@@ -826,7 +826,7 @@ Math.round(-20.51); // -21
 
 [concat()](#concat) | [substr()](#substr) | [charAt()](#charAt)
 
-#### concat()
+### concat()
 
 `The concat() method joins two or more strings. This method does not change the existing strings and returns a new string.`
 
@@ -839,9 +839,9 @@ let result = text1.concat(" ", text2, " ", text3);
 
 ```
 
-#### substr()
+### substr()
 
-`The substr() method extracts a part of a string. This method begins at a specified position, and returns a specified number of characters and does not change the original string.`
+**`The substr() method extracts a part of a string. This method begins at a specified position, and returns a specified number of characters and does not change the original string.`**
 
 ```
 substr(start, length)
@@ -856,7 +856,7 @@ console.log(str.substr(2));
 
 ```
 
-#### charAt()
+### charAt()
 
 `The charAt() method returns the character at a specified index (position) in a string.`
 
