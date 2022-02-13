@@ -82,14 +82,14 @@
 
 ### Javascript Definition
 
-<small><a href="#javascript-tutorial-beginner-to-advanced">Top</a></small>
+<small><a href="#javascript-tutorial">Top</a></small>
 <small><a href="#environment-set-up">Next</a></small>
 
 > JavaScript is high-level, often just-in-time compiled and multi-paradigm. It has dynamic typing, prototype-based object-orientation and first-class functions. The language was invented by Brendan Eich in 1995. It is also known as a dynamic computer programming language. The official name of JavaScript is ECMAScript. It became ECMA standard in 1997.
 
 ### Environment set up
 
-<small><a href="#javascript-tutorial-beginner-to-advanced">Top</a></small>
+<small><a href="#javascript-tutorial">Top</a></small>
 <small><a href="#what-can-javascript-do">Next</a></small>
 
 > Every programming language needs an environment set up to work with it. Like compilers, text editors etc. In JavaScript, the environment is easy to set up. If you have a browser and a text editor, you can run JavaScript code.
@@ -98,7 +98,7 @@
 
 ### What can JavaScript do?
 
-<small><a href="#javascript-tutorial-beginner-to-advanced">Top</a></small>
+<small><a href="#javascript-tutorial">Top</a></small>
 <small><a href="#where-to-use-javascript">Next</a></small>
 
 > 1. JavaScript Can Change HTML Content
@@ -109,7 +109,7 @@
 
 ### Where to use JavaScript?
 
-<small><a href="#javascript-tutorial-beginner-to-advanced">Top</a></small>
+<small><a href="#javascript-tutorial">Top</a></small>
 <small><a href="#javascript-output-element">Next</a></small>
 
 > 1. In HTML, JavaScript code is inserted between <script> and </script> tags.
@@ -121,7 +121,7 @@
 
 ### JavaScript output element.
 
-<small><a href="#javascript-tutorial-beginner-to-advanced">Top</a></small>
+<small><a href="#javascript-tutorial">Top</a></small>
 <small><a href="#javascript-statements">Next</a></small>
 
 > 1. Writing into an HTML element, using innerHTML.
@@ -132,7 +132,7 @@
 
 ### JavaScript Statements
 
-<small><a href="#javascript-tutorial-beginner-to-advanced">Top</a></small>
+<small><a href="#javascript-tutorial">Top</a></small>
 <small><a href="#variable">Next</a></small>
 
 > A computer program is a list of "instructions" to be "executed" by a computer. In a programming language, these programming instructions are called statements. The statements are executed, one by one, in the same order as they are written. Semicolons separate JavaScript statements. When separated by semicolons, multiple statements on one line are allowed.
@@ -150,7 +150,7 @@ z = x + y; // Statement 4
 
 ### Variable
 
-<small><a href="#javascript-tutorial-beginner-to-advanced">Top</a></small>
+<small><a href="#javascript-tutorial">Top</a></small>
 <small><a href="#javascript-identifiers-or-variable-name">Next</a></small>
 
 > Variable means a container that can store. JavaScript has the functionality of variables that hold the data value and it can be changed anytime. In JavaScript, var, a reserved keyword is used to declare a variable. A variable must have a unique name. One can assign a value to a variable using equal to (=) operator when you declare it or before using it.
@@ -159,7 +159,7 @@ z = x + y; // Statement 4
 
 ### JavaScript identifiers or Variable Name
 
-<small><a href="#javascript-tutorial-beginner-to-advanced">Top</a></small>
+<small><a href="#javascript-tutorial">Top</a></small>
 <small><a href="#variable-data-types">Next</a></small>
 
 > 1. All JavaScript identifiers are case sensitive.
@@ -171,7 +171,7 @@ z = x + y; // Statement 4
 
 ### Variable Data Types
 
-<small><a href="#javascript-tutorial-beginner-to-advanced">Top</a></small>
+<small><a href="#javascript-tutorial">Top</a></small>
 <small><a href="#type-conversion">Next</a></small>
 
 > In a program, data types specify what kind of data can be stored and manipulated. In JavaScript, there are six data types. It can be divided into two main categories.
@@ -248,7 +248,7 @@ z = x + y; // Statement 4
 
 ### Type Conversion
 
-<small><a href="#javascript-tutorial-beginner-to-advanced">Top</a></small>
+<small><a href="#javascript-tutorial">Top</a></small>
 <small><a href="#falsy-values">Next</a></small>
 
 - Number Conversion: Number().
@@ -293,7 +293,7 @@ z = x + y; // Statement 4
 
 ### Falsy Values
 
-<small><a href="#javascript-tutorial-beginner-to-advanced">Top</a></small>
+<small><a href="#javascript-tutorial">Top</a></small>
 <small><a href="#javascript-operators">Next</a></small>
 
 > A falsy value is a value that is considered false when encountered in a Boolean context.
@@ -315,7 +315,7 @@ if ("")
 
 ### JavaScript Operators
 
-<small><a href="#javascript-tutorial-beginner-to-advanced">Top</a></small>
+<small><a href="#javascript-tutorial">Top</a></small>
 <small><a href="#conditional-statements">Next</a></small>
 
 > In JavaScript, an operator is a special symbol used to perform operations on operands (values and variables). For example, 2 + 3; // 5. Here + is an operator that performs addition, and 2 and 3 are operands. In JavaScript has list of operators it`s given bellow.
@@ -427,7 +427,7 @@ console.log(str);
 
 ### Conditional Statements
 
-<small><a href="#javascript-tutorial-beginner-to-advanced">Top</a></small>
+<small><a href="#javascript-tutorial">Top</a></small>
 <small><a href="#declarations">Next</a></small>
 
 > Conditional statements are used to perform different actions based on different conditions. Very often when you write code, you want to perform different actions for different decisions. You can use conditional statements in your code to do this.
@@ -524,7 +524,7 @@ console.log("Not a Valid Number");
 
 ### Declarations
 
-<small><a href="#javascript-tutorial-beginner-to-advanced">Top</a></small>
+<small><a href="#javascript-tutorial">Top</a></small>
 <small><a href="#loops-and-iteration">Next</a></small>
 
 > var // Declares a variable, optionally initializing it to a value.
@@ -535,7 +535,7 @@ console.log("Not a Valid Number");
 
 ### Loops and iteration
 
-<small><a href="#javascript-tutorial-beginner-to-advanced">Top</a></small>
+<small><a href="#javascript-tutorial">Top</a></small>
 <small><a href="#javascript-comment">Next</a></small>
 
 > Loops are handy, if you want to run the same code over and over again, each time with a different value. JavaScript supports different kinds of loops.
@@ -655,7 +655,7 @@ console.log("You have got " + rand);
 
 ### JavaScript Comment
 
-<small><a href="#javascript-tutorial-beginner-to-advanced">Top</a></small>
+<small><a href="#javascript-tutorial">Top</a></small>
 <small><a href="#math-object">Next</a></small>
 
 > JavaScript comments can be used to explain JavaScript code, and to make it more readable. JavaScript comments can also be used to prevent execution, when testing alternative code. Any text in will be ignored by JavaScript (will not be executed).
@@ -665,7 +665,7 @@ console.log("You have got " + rand);
 
 ### Math Object
 
-<small><a href="#javascript-tutorial-beginner-to-advanced">Top</a></small>
+<small><a href="#javascript-tutorial">Top</a></small>
 <small><a href="#date-object">Next</a></small>
 
 > The JavaScript Math object allows you to perform mathematical tasks on numbers.
@@ -796,7 +796,7 @@ Math.round(-20.51); // -21
 
 ### Date Object
 
-<small><a href="#javascript-tutorial-beginner-to-advanced">Top</a></small>
+<small><a href="#javascript-tutorial">Top</a></small>
 <small><a href="#string">Next</a></small>
 
 > Date objects are created with the new Date() constructor. Date objects represent a single moment in time in a platform-independent format.
@@ -818,7 +818,7 @@ Math.round(-20.51); // -21
 
 ### String
 
-<small><a href="#javascript-tutorial-beginner-to-advanced">Top</a></small>
+<small><a href="#javascript-tutorial">Top</a></small>
 <small><a href="#array">Next</a></small>
 
 > In the JavaScript programming language, anything wrapped between quotes is considered as string. It can be a single quote or double quote. Even by using a backtick sign, string can be declared in ES6. JavaScript provides two types of string functionality. A. string literal and B. string constructor.
@@ -1047,7 +1047,7 @@ console.log(str.length); // expected output:  42
 
 ### Array
 
-<small><a href="#javascript-tutorial-beginner-to-advanced">Top</a></small>
+<small><a href="#javascript-tutorial">Top</a></small>
 <small><a href="#object">Next</a></small>
 
 > An array is a special variable, which can hold more than one value. An array can hold many values under a single name, and you can access the values by referring to an index number. It is a common practice to declare arrays with the const keyword.
@@ -1135,7 +1135,7 @@ console.log(arr);
 
 ### JS Object
 
-<small><a href="#javascript-tutorial-beginner-to-advanced">Top</a></small>
+<small><a href="#javascript-tutorial">Top</a></small>
 <small><a href="#function">Next</a></small>
 
 > You have already learned that JavaScript variables are containers for data values. Objects are variables too. But objects can contain many values. The values are written as name:value pairs (name and value separated by a colon).
@@ -1221,7 +1221,7 @@ console.log(obj2);
 
 ### Functions
 
-<small><a href="#javascript-tutorial-beginner-to-advanced">Top</a></small>
+<small><a href="#javascript-tutorial">Top</a></small>
 <small><a href="#checklist">Next</a></small>
 
 > A JavaScript function is a block of code designed to perform a particular task. A JavaScript function is defined with the function keyword, followed by a name, followed by parentheses ().
@@ -1774,7 +1774,7 @@ Standard built-in objects
 
 ### Object
 
-<small><a href="#javascript-tutorial-beginner-to-advanced">Top</a></small>
+<small><a href="#javascript-tutorial">Top</a></small>
 <small><a href="#checklist">Next</a></small>
 
 > Object Literal, Object Constructor, Accessing Object Properties width (.) notation or array notation, update/Change object value, add object property, Remove/Delete Object Properties, Comparing Two Objects by converting, Iterate Object Properties(‘x’ in obj), for in loop.
@@ -2039,7 +2039,7 @@ size // কতটি উপাদান আছে তা রিটার্ন �
 
 ### CheckList
 
-<small><a href="#javascript-tutorial-beginner-to-advanced">Top</a></small>
+<small><a href="#javascript-tutorial">Top</a></small>
 <small><a href="#problem-solving">Next</a></small>
 
 1.  Get the total, largest, smallest, odd & even number.
@@ -2052,7 +2052,7 @@ size // কতটি উপাদান আছে তা রিটার্ন �
 ### Problem Solving
 
 [Solution](https://github.com/dev-nazmulislam/javaScript-problem-solving)
-<small><a href="#javascript-tutorial-beginner-to-advanced">Top</a></small>
+<small><a href="#javascript-tutorial">Top</a></small>
 
 1.  Print in Console numbers from 1 to 10
 2.  Print in Console the odd numbers less than 100
