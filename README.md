@@ -1775,7 +1775,7 @@ Standard built-in objects
 ### Object
 
 <small><a href="#javascript-tutorial">Top</a></small>
-<small><a href="#checklist">Next</a></small>
+<small><a href="#function">Next</a></small>
 
 > Object Literal, Object Constructor, Accessing Object Properties width (.) notation or array notation, update/Change object value, add object property, Remove/Delete Object Properties, Comparing Two Objects by converting, Iterate Object Properties(‘x’ in obj), for in loop.
 
@@ -1784,6 +1784,9 @@ Standard built-in objects
   > Objects.keys(), Objects.values(), Objects.entries(), Objects.assign({}, obj).
 
 ### Function
+
+<small><a href="#javascript-tutorial">Top</a></small>
+<small><a href="#checklist">Next</a></small>
 
 > function, function\*, async function, return, class.
 
