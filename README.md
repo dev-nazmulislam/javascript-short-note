@@ -828,7 +828,7 @@ Math.round(-20.51); // -21
 
 ### concat()
 
-**The concat() method joins two or more strings. This method does not change the existing strings and returns a new string.**
+`The concat() method joins two or more strings. This method does not change the existing strings and returns a new string.`
 
 ```
 
@@ -841,7 +841,7 @@ let result = text1.concat(" ", text2, " ", text3);
 
 ### substr()
 
-**`The substr() method extracts a part of a string. This method begins at a specified position, and returns a specified number of characters and does not change the original string.`**
+_`The substr() method extracts a part of a string. This method begins at a specified position, and returns a specified number of characters and does not change the original string.`_
 
 ```
 substr(start, length)
