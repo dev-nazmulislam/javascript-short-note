@@ -1,48 +1,48 @@
 # JavaScript Tutorial beginner to advanced
 
-- [JavaScript Definition](#javascript-definition)
-
-- [Environment set up](#environment-set-up)
-
-- [What can JavaScript do?](#what-can-javascript-do)
-
-- [Where to use JavaScript?](#where-to-use-javascript)
-
-- [JavaScript output element](#javascript-output-element)
-
-- [JavaScript Statements](#javascript-statements)
-
-- [Variable Definition & syntax.](#variable)
-
-- [JavaScript identifiers or Variable Name](#javascript-identifiers-or-variable-name)
-
-- [Variable Data Types](#variable-data-types)
-
-- [Type Conversion](#type-conversion)
-
-- [False Values](#falsy-values)
-
-- [JavaScript Operators](#javascript-operators)
-
-- [Conditional Statements](#conditional-statements)
-
-- [Declarations](#declarations)
-
-- [Loops and iteration](#loops-and-iteration)
-
-- [JavaScript Comment](#javascript-comment)
-
-- [Math Object](#math-object)
-
-- [Date Object](#date-object)
-
-- [String](#string)
-
-- [Array](#array)
-
-- [Object](#object)
-
-- [Function](#function)
+[JavaScript Definition](#javascript-definition)
+|
+[Environment set up](#environment-set-up)
+|
+[What can JavaScript do?](#what-can-javascript-do)
+|
+[Where to use JavaScript?](#where-to-use-javascript)
+|
+[JavaScript output element](#javascript-output-element)
+|
+[JavaScript Statements](#javascript-statements)
+|
+[Variable Definition & syntax.](#variable)
+|
+[JavaScript identifiers or Variable Name](#javascript-identifiers-or-variable-name)
+|
+[Variable Data Types](#variable-data-types)
+|
+[Type Conversion](#type-conversion)
+|
+[False Values](#falsy-values)
+|
+[JavaScript Operators](#javascript-operators)
+|
+[Conditional Statements](#conditional-statements)
+|
+[Declarations](#declarations)
+|
+[Loops and iteration](#loops-and-iteration)
+|
+[JavaScript Comment](#javascript-comment)
+|
+[Math Object](#math-object)
+|
+[Date Object](#date-object)
+|
+[String](#string)
+|
+[Array](#array)
+|
+[Object](#object)
+|
+[Function](#function)
 
 ## [JavaScript ES6](#JavaScript-ES6)
 
@@ -828,7 +828,7 @@ Math.round(-20.51); // -21
 
 ### concat()
 
-***The concat() method joins two or more strings. This method does not change the existing strings and returns a new string.***
+`The concat() method joins two or more strings. This method does not change the existing strings and returns a new string.`
 
 ```
 
