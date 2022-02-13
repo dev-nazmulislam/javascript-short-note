@@ -46,33 +46,33 @@
 
 ## [JavaScript ES6](#JavaScript-ES6)
 
-- [Dom definition](#dom)
+## [Dom definition](#dom)
 
-- [Selection](#element-selection-using-javaScript)
+[Selection](#element-selection-using-javaScript)
+|
+[Create & Append Elements](#create-and-append-elements-using-javaScript-dynamically)
+|
+[Remove Elements](#remove-elements-using-javaScript-dynamically)
+|
+[Traversing Dom Elements](#traversing-dom-elements-using-javascript-dynamically)
+|
+[Add Events](#add-events-using-javascript-dynamically)
+|
+[Event Listener vs Event Handler](#difference-between-an-event-listener-and-event-handler)
+|
+[Deferent Event types](#deferent-type-of-event)
+|
+[Capturing and Bubbling](#capturing-and-bubbling)
+|
+[Add or remove element using event bubbling](#add-or-remove-element-using-event-bubbling)
+|
+[Event Delegation](#event-delegation)
+|
+[Add or Remove Classes](#add-or-remove-classes-using-javascript-dynamically)
 
-- [Create & Append Elements](#create-and-append-elements-using-javaScript-dynamically)
+## [CheckList](#checklist)
 
-- [Remove Elements](#remove-elements-using-javaScript-dynamically)
-
-- [Traversing Dom Elements](#traversing-dom-elements-using-javascript-dynamically)
-
-- [Add Events](#add-events-using-javascript-dynamically)
-
-- [Event Listener vs Event Handler](#difference-between-an-event-listener-and-event-handler)
-
-- [Deferent Event types](#deferent-type-of-event)
-
-- [Capturing and Bubbling](#capturing-and-bubbling)
-
-- [Add or remove element using event bubbling](#add-or-remove-element-using-event-bubbling)
-
-- [Event Delegation](#event-delegation)
-
-- [Add or Remove Classes](#add-or-remove-classes-using-javascript-dynamically)
-
-- [CheckList](#checklist)
-
-- [Problem Solving](#problem-solving)
+## [Problem Solving](#problem-solving)
 
 # Learn JavaScript
 
