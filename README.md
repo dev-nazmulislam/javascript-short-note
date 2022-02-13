@@ -85,11 +85,11 @@
 <small><a href="#javascript-output-element">Next</a></small>
 
 > 1. In HTML, JavaScript code is inserted between <script> and </script> tags.
-> 2. JavaScript in <head>
-> 3. JavaScript in <body>
+> 2. JavaScript in \<head>
+> 3. JavaScript in \<body>
 > 4. External JavaScript
 
-> Placing scripts at the bottom of the <body> element improves the display speed, because script interpretation slows down the display.
+> Placing scripts at the bottom of the \<body> element improves the display speed, because script interpretation slows down the display.
 
 ### JavaScript output element.
 
@@ -1023,9 +1023,14 @@ console.log(str.length); // expected output:  42
 
 ### Accessing Array Elements
 
-- console.log(arr);
-- arr[indexNumber];
-- arr.length;
+```
+
+let fruits = ['Apple', 'Banana']
+console.log(fruits) // Apple Banana
+let first = fruits[0] // Apple
+let last = fruits[fruits.length - 1] // Banana
+
+```
 
 ### array traversing
 
@@ -1034,15 +1039,15 @@ console.log(str.length); // expected output:  42
 ```
 
 const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-for (var i = 0; i < arr.length; i++) {
+for (var i = 0; i < arr.length; i++) { // Regular For
   console.log(arr[i]);
 }
 
-arr.forEach(function (item, index, array) {
+arr.forEach(function (item, index, array) { // forEach
   console.log(item, index);
 });
 
-for (const x of arr) {
+for (const x of arr) { // for/of
   console.log(x);
 }
 
