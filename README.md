@@ -828,7 +828,7 @@ Math.round(-20.51); // -21
 
 ### concat()
 
-`The concat() method joins two or more strings. This method does not change the existing strings and returns a new string.`
+**The concat() method joins two or more strings. This method does not change the existing strings and returns a new string.**
 
 ```
 
