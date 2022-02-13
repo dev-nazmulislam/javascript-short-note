@@ -1,5 +1,7 @@
 # JavaScript Tutorial beginner to advanced
 
+## Basic
+
 [JavaScript Definition](#javascript-definition)
 |
 [Environment set up](#environment-set-up)
@@ -46,8 +48,10 @@
 
 ## [JavaScript ES6](#JavaScript-ES6)
 
-## [Dom definition](#dom)
+## Dom
 
+[Dom definition](#dom)
+|
 [Selection](#element-selection-using-javaScript)
 |
 [Create & Append Elements](#create-and-append-elements-using-javaScript-dynamically)
