@@ -1,6 +1,6 @@
 # JavaScript Tutorial
 
-## Basic
+### Basic
 
 [JavaScript Definition](#javascript-definition)
 |
@@ -46,9 +46,9 @@
 |
 [Function](#function)
 
-## [JavaScript ES6](#JavaScript-ES6)
+### [JavaScript ES6](#JavaScript-ES6)
 
-## Dom
+### Dom
 
 [Dom definition](#dom)
 |
@@ -74,9 +74,9 @@
 |
 [Add or Remove Classes](#add-or-remove-classes-using-javascript-dynamically)
 
-## [CheckList](#checklist)
+### [CheckList](#checklist)
 
-## [Problem Solving](#problem-solving)
+### [Problem Solving](#problem-solving)
 
 # Learn JavaScript
 
