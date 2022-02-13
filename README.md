@@ -824,7 +824,11 @@ Math.round(-20.51); // -21
 
 ### Instance methods
 
-- concat() `The concat() method joins two or more strings. This method does not change the existing strings and returns a new string.`
+[concat()](#concat) | [substr()](#substr) | [charAt()](#charAt)
+
+#### concat()
+
+`The concat() method joins two or more strings. This method does not change the existing strings and returns a new string.`
 
 ```
 
@@ -835,7 +839,9 @@ let result = text1.concat(" ", text2, " ", text3);
 
 ```
 
-- substr() `The substr() method extracts a part of a string. This method begins at a specified position, and returns a specified number of characters and does not change the original string.`
+#### substr()
+
+`The substr() method extracts a part of a string. This method begins at a specified position, and returns a specified number of characters and does not change the original string.`
 
 ```
 substr(start, length)
@@ -850,7 +856,9 @@ console.log(str.substr(2));
 
 ```
 
-- charAt() `The charAt() method returns the character at a specified index (position) in a string.`
+#### charAt()
+
+`The charAt() method returns the character at a specified index (position) in a string.`
 
 ```
 
