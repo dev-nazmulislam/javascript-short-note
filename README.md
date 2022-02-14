@@ -2001,7 +2001,7 @@ forEach() // প্রতিটি (Key-value)-র জন্য একটি ক
 get() // কোন উপাদান পেতে।
 size // কতটি উপাদান আছে তা রিটার্ন করবে।
 
-## Dom definition
+### Dom definition
 
 > DOM (Document Object Model)
 > The Document Object Model (DOM) is the data representation of the objects that comprise the structure and content of a document on the web. This guide will introduce the DOM, look at how the DOM represents an HTML document in memory and how to use APIs to create web content and applications.
