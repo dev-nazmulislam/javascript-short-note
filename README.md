@@ -50,7 +50,7 @@
 
 ### Dom
 
-[Dom definition](#dom)
+[Dom definition](#dom-definition)
 |
 [Selection](#element-selection-using-javaScript)
 |
@@ -2001,7 +2001,7 @@ forEach() // প্রতিটি (Key-value)-র জন্য একটি ক
 get() // কোন উপাদান পেতে।
 size // কতটি উপাদান আছে তা রিটার্ন করবে।
 
-## DOM
+## Dom definition
 
 > DOM (Document Object Model)
 > The Document Object Model (DOM) is the data representation of the objects that comprise the structure and content of a document on the web. This guide will introduce the DOM, look at how the DOM represents an HTML document in memory and how to use APIs to create web content and applications.
@@ -2010,15 +2010,54 @@ size // কতটি উপাদান আছে তা রিটার্ন �
 ### Element Selection using JavaScript
 
 1. .getElementsByTagName( )
+
    > This method will return an array of all the elements you specify between the parentheses.
+
+   ```
+   const collection = document.getElementsByTagName("p");
+   const collection = document.getElementsByTagName("*");
+
+   ```
+
 2. .getElementsByClassName( )
-   > This method uses the class attribute of an element in order to gain access to it. This allows you to be more specific than .getElementsByTagName() because it will only return the elements that contain the class name you specify within the parentheses.
+
+   > This method will returns a array of html elements that contain the class name you specify within the parentheses.
+
+   ```
+
+   const collection = document.getElementsByClassName("class");
+
+   ```
+
 3. .getElementById( )
-   > This method is perfect if you want to target one specific element. It uses the id attribute of an element in order to access that element. Beware the id must be unique.
+
+   > This method will return a html element that contain the id name you specify within the parentheses.
+
+   ```
+
+   document.getElementById("id");
+
+   ```
+
 4. .querySelectorAll( )
-   > We can use this method to collect all of the elements that match a specific query. This query is specified within the parentheses.
+
+   > This method returns all elements that matches a CSS selector(s) you specify within the parentheses.
+
+   ```
+
+   document.querySelectorAll("css selector like p .class #id");
+
+   ```
+
 5. .querySelector( )
-   > In a way this method is the counterpart to the previous method discussed. This method returns the first element within the document object that satisfies the CSS selector you provide within the parentheses.
+
+   > This method returns the first element that matches a CSS selector(s) you specify within the parentheses.
+
+   ```
+
+   document.querySelector("css selector like p .class #id");
+
+   ```
 
 ### Create and append Elements using JavaScript Dynamically
 
