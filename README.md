@@ -54,11 +54,11 @@
 |
 [Selection](#element-selection-using-javaScript)
 |
+[Traversing Dom Elements](#traversing-dom-elements-using-javascript-dynamically)
+|
 [Create & Append Elements](#create-and-append-elements-using-javaScript-dynamically)
 |
 [Remove Elements](#remove-elements-using-javaScript-dynamically)
-|
-[Traversing Dom Elements](#traversing-dom-elements-using-javascript-dynamically)
 |
 [Add Events](#add-events-using-javascript-dynamically)
 |
@@ -2009,7 +2009,7 @@ size // কতটি উপাদান আছে তা রিটার্ন �
 
 ### Element Selection using JavaScript
 
-> .getElementsByTagName( ) | .getElementsByClassName( ) | .getElementById( ) | .querySelectorAll( ) | .querySelector( ) | .firstChild | .lastChild
+> .getElementsByTagName( ) | .getElementsByClassName( ) | .getElementById( ) | .querySelectorAll( ) | .querySelector( ) | .getElementsByName().
 
 1. .getElementsByTagName( )
 
@@ -2061,15 +2061,94 @@ size // কতটি উপাদান আছে তা রিটার্ন �
 
    ```
 
+6. .getElementsByName()
+
+   > This method returns a collection of elements with a specified name.
+
+   ```
+
+   const firstName = document.getElementsByName("fname");
+
+   ```
+
+### Traversing DOM elements using JavaScript dynamically
+
+> .parentElement | .children | .previousElementSibling | .nextElementSibling | .firstElementChild | .lastElementChild | Array.from() | Array.prototype.slice.apply() | [...array]
+
+```
+
+const listItem = document.getElementById("li");
+const parent = listItem.parentElement; // Get parent Element
+const children = listItem.children; // Get Childrens
+const previousSibling = listItem.previousElementSibling; // Get Previous Sibling Element
+const nextSibling = listItem.nextElementSibling; // Get Nest Sibling Element
+const firstChiled = listItem.firstElementChild; // Get First Element of child
+const lastChiled = listItem.lastElementChild; // Get Last Element of child
+
+```
+
+#### Convarte array like object to array
+
+> Html Collection is an array like objects so we can convarte an array for Traversing. 3 way to convarte. Array.from() | Array.prototype.slice.apply() | [...array]
+
+#### Array.from()
+
+```
+
+const listItems = Array.from(listItem);
+listItems.forEach((li, index) => {
+  let text = li.innerHTML;
+  li.innerHTML = `(${index + 1}) ${text}`;
+});
+
+
+```
+
+#### Array.prototype.slice.apply()
+
+```
+
+const listItems = Array.prototype.slice.apply(listItem);
+listItems.forEach((li, index) => {
+  let text = li.innerHTML;
+  li.innerHTML = `(${index + 1}) ${text}`;
+});
+
+```
+
+#### [...array]
+
+```
+
+const listItems = [...listItem];
+listItems.forEach((li, index) => {
+  let text = li.innerHTML;
+  li.innerHTML = `(${index + 1}) ${text}`;
+});
+
+```
+
 ### Create and append Elements using JavaScript Dynamically
 
 > .createElement() | .appendChild() | .append() | .insertBefore()
 
+```
+
+// Create a <p> element and append it to the document
+const p = document.createElement("p");
+p.innerText = "This is a paragraph";
+document.body.appendChild(p);
+// Create a <p> element and append it to an element
+const p = document.createElement("p");
+p.innerHTML = "This is a paragraph.";
+document.getElementById("myDIV").appendChild(p);
+
+
+```
+
 ### Remove Elements Or Others using JavaScript dynamically
 
 > .remove() | .removeChild() | .replaceChild() | .removeAttribute() | .removeEventListener()
-
-### Traversing DOM elements using JavaScript dynamically
 
 ### Add Events using JavaScript Dynamically
 
