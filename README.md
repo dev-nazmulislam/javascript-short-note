@@ -2087,7 +2087,7 @@ const lastChiled = listItem.lastElementChild; // Get Last Element of child
 
 ```
 
-#### Convarte array like object to array
+#### convert array like object to array
 
 > Html Collection is an array like objects so we can convarte an array for Traversing. 3 way to convarte. Array.from() | Array.prototype.slice.apply() | [...array]
 
@@ -2130,19 +2130,48 @@ listItems.forEach((li, index) => {
 
 ### Create and append Elements using JavaScript Dynamically
 
-> .createElement() | .appendChild() | .append() | .insertBefore()
+> .createElement() | .appendChild() | .append() | .insertBefore() | .insertAdjacentElement |"afterbegin", p); | .insertAdjacentElement("beforebegin", p); | .insertAdjacentElement("afterend", p); | .insertAdjacentElement("beforeend", p);
+
+- Create a \<p> element and append it to the document
 
 ```
 
-// Create a <p> element and append it to the document
 const p = document.createElement("p");
 p.innerText = "This is a paragraph";
 document.body.appendChild(p);
-// Create a <p> element and append it to an element
+
+```
+
+- Create a \<p> element and append it to an element
+
+```
+
 const p = document.createElement("p");
 p.innerHTML = "This is a paragraph.";
 document.getElementById("myDIV").appendChild(p);
 
+```
+
+- a function for create elements Daynamicly
+
+```
+
+function createElement(tagName, className, innerHTML) {
+  let tag = document.createElement(tagName);
+  tag.classList = className | "";
+  tag.innerHTML = innerHTML | "";
+  return tag;
+}
+
+```
+
+- a function for append elements
+
+```
+
+function append(parent, children) {
+children.forEach((child) => parent.appendChild(child));
+}
 
 ```
 
