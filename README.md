@@ -2009,6 +2009,8 @@ size // কতটি উপাদান আছে তা রিটার্ন �
 
 ### Element Selection using JavaScript
 
+> .getElementsByTagName( ) | .getElementsByClassName( ) | .getElementById( ) | .querySelectorAll( ) | .querySelector( ) | .firstChild | .lastChild
+
 1. .getElementsByTagName( )
 
    > This method will return an array of all the elements you specify between the parentheses.
@@ -2061,7 +2063,11 @@ size // কতটি উপাদান আছে তা রিটার্ন �
 
 ### Create and append Elements using JavaScript Dynamically
 
-### Remove Elements using JavaScript dynamically
+> .createElement() | .appendChild() | .append() | .insertBefore()
+
+### Remove Elements Or Others using JavaScript dynamically
+
+> .remove() | .removeChild() | .replaceChild() | .removeAttribute() | .removeEventListener()
 
 ### Traversing DOM elements using JavaScript dynamically
 
