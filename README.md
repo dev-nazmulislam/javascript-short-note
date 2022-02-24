@@ -62,7 +62,7 @@
 |
 [Exponent operator](#exponent-operator)
 |
-[Default parameter](#eefault-value-and-parameter)
+[Default parameter](#default-value-and-parameter)
 |
 [arrow Function](#arrow-function)
 |
