@@ -1,6 +1,6 @@
 # JavaScript Tutorial
 
-### Basic
+## Basic
 
 [JavaScript Definition](#javascript-definition)
 |
@@ -46,9 +46,39 @@
 |
 [Function](#function)
 
-### [JavaScript ES6](#JavaScript-ES6)
+## [JavaScript ES6](#JavaScript-ES6)
 
-### Dom
+[let & const](#let-&-const)
+|
+[Template and Multiline string](#Template-and-Multiline-string)
+|
+[Destructuring](#Destructuring)
+|
+[Optional chaining](#Optional-chaining)
+|
+[object property & function assignement](#object-property-&-function-assignement)
+|
+[Spread & Rest operator](#Spread-&-Rest-operator)
+|
+[Exponent operator](#Exponent-operator)
+|
+[Default parameter](#Default-Value-&-parameter)
+|
+[arrow Function](#arrow-Function)
+|
+[Method]()
+|
+[Classes]()
+|
+[Promises]()
+|
+[Objects Shorthand syntax]()
+|
+[Modules]()
+|
+[Generators]()
+
+## [Dom](#dom)
 
 [Dom definition](#dom-definition)
 |
@@ -1779,9 +1809,9 @@ Standard built-in objects
 
 > Object Literal, Object Constructor, Accessing Object Properties width (.) notation or array notation, update/Change object value, add object property, Remove/Delete Object Properties, Comparing Two Objects by converting, Iterate Object Properties(‘x’ in obj), for in loop.
 
-- ### Objects Method:
+### Objects Method:
 
-  > Objects.keys(), Objects.values(), Objects.entries(), Objects.assign({}, obj).
+> Objects.keys(), Objects.values(), Objects.entries(), Objects.assign({}, obj).
 
 ### Function
 
@@ -1794,9 +1824,258 @@ Standard built-in objects
 
 > Pure Function, First Class Function, Higher Order Function, Callback Function, forEach, map, Filter, reduce, find, findIndex, Sort, Some, Every, return, Recursive , Currying.
 
-### JavaScript ES6
+## JavaScript ES6
 
-- Arrow function, Default parameters, Let scope, Const, Multiline string, Template strings, String includes (), String starts With (), String repeat (), Destructuring array, Destructuring object, Object property assignment, Object function assignment, Object. Assign (), Object. Entries (), Spread & Rest operator, Destructuring Nested Objects, Exponent operator, For of loop, Set & Map, Set Methods, Map Methods,
+> A quick overview of new JavaScript features in ES2015, ES2016, ES2017, ES2018 and beyond.
+
+### let & const
+
+- let
+
+  > The let keyword was introduced in ES6 (2015). Variables defined with let cannot be Redeclared. It must be Declared before use. Its have a Block Scope.
+
+```
+
+let a = 3;
+if (true) {
+  let a = 5;
+  console.log(a); // prints 5
+}
+console.log(a); // prints 3
+
+```
+
+- const
+
+> Constants work just like let, but can’t be reassigned.
+
+```
+
+const a = 50;
+a = 20; // throws an error
+
+```
+
+### Template and Multiline string
+
+> Template string use back-ticks (``) rather than the quotes ("") to define a string. Its allows multiline, expressions and interpolate variables in strings.
+
+```
+
+const name = "Nazmul";
+let price = 10;
+let VAT = 0.25;
+
+const str = `
+hello
+world
+`; // Use multiline
+let total = `Total: ${(price * (1 + VAT)).toFixed(2)}`; // Use expressions
+const message = `Hello ${name}`; // Use Interpolation
+
+```
+
+### Destructuring
+
+- array
+
+```
+
+let [a, b] = [20, 27];
+console.log(a); // 20
+console.log(b); // 27
+
+```
+
+- Object
+
+```
+
+const obj = { a: 20, b: 27 };
+const { a, b } = obj;
+
+```
+
+- Nested Objects
+
+```
+
+const person = {
+  name: "John Snow",
+  age: 29,
+  sex: "male",
+  materialStatus: "single",
+  address: {
+    country: "Westeros",
+    state: "The Crownlands",
+    city: "Kings Landing",
+    pinCode: "500014",
+  },
+};
+
+const {
+  address: { state, pinCode },
+  name,
+} = person;
+
+console.log(name, state, pinCode); // John Snow The Crownlands 500014
+console.log(city); // ReferenceError
+
+```
+
+### Optional chaining
+
+```
+
+const adventurer = {
+  name: "Alice",
+  cat: {
+    name: "Dinah",
+  },
+};
+const dogName = adventurer.dog?.name;
+console.log(dogName); // expected output: undefined
+console.log(adventurer.someNonExistentMethod?.()); // expected output: undefined
+
+```
+
+### object property & function assignement
+
+- Property assignement
+
+```
+
+const a = 2;
+const b = 5;
+const obj = { a, b };
+console.log(obj); // expected output: { a: 2, b: 5 }
+
+```
+
+- function assignement
+
+```
+
+const obj = {
+  a: 10,
+  b() {
+    console.log("b");
+  },
+};
+obj.b(); // expected output: "b"
+
+```
+
+### Spread & Rest operator
+
+- Array
+
+```
+
+let colors = ["red", "green", "blue"];
+let rgb = [...colors];
+console.log(rgb); // expected output: [ 'red', 'green', 'blue' ]
+
+function sum(x, y, z) {
+  return x + y + z;
+}
+const numbers = [1, 2, 3];
+console.log(sum(...numbers)); // expected output: 6
+
+```
+
+- Object
+
+```
+
+const obj1 = { x: 1, y: 2 };
+const obj2 = { z: 3 };
+// add members obj1 and obj2  to obj3
+const obj3 = { ...obj1, ...obj2 };
+console.log(obj3); // {x: 1, y: 2, z: 3}
+
+```
+
+- Rest
+
+```
+
+function myBio(firstName, lastName, ...otherInfo) {
+  return otherInfo;
+}
+
+let func = function (...args) {
+  console.log(args);
+};
+func(3); // [3]
+func(4, 5, 6); // [4, 5, 6]
+
+```
+
+### Exponent operator
+
+```
+
+const byte = 2 ** 4;
+// Same as: Math.pow(2, 4)
+
+```
+
+### Default Value & parameter
+
+- Value
+
+```
+
+const scores = [22, 33];
+const [math = 50, sci = 50, arts = 50] = scores; // math === 22, sci === 33, arts === 50
+
+```
+
+- Parameter
+
+```
+
+function print(a = 5) {
+  console.log(a);
+}
+print(); // prints 5
+print(22); // prints 22
+
+```
+
+### arrow Function
+
+- Implicit return
+
+```
+
+const sum = (a, b) => a + b;
+console.log(sum(2, 6)); // prints 8
+
+```
+
+- no arguments
+
+```
+
+const birthday = () => "Happy Birthday";
+
+```
+
+- With one arguments
+
+```
+
+const birthday = (name) => {
+  return "Happy Birthday," + name + "!";
+};
+
+```
+
+### Method
+
+[map ()]() | [set ()]() | [forEch()]() | [filter()]() | [Async-await]() | [for of]() | [repeat()]() | [includes()]() | [startsWith()]() | [padStart()]() | [padEnd()]() | [Object.assign()]() | [Object.entries()]() | [Object.values()]()
 
 Arrow function
 const sum = (a, b) => a + b;
@@ -2000,6 +2279,8 @@ has() // যদি উপাদান থাকে তাহলে True রি�
 forEach() // প্রতিটি (Key-value)-র জন্য একটি কলব্যাক আহ্বান করে।
 get() // কোন উপাদান পেতে।
 size // কতটি উপাদান আছে তা রিটার্ন করবে।
+
+## Dom
 
 ### Dom definition
 
