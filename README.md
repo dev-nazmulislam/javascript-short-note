@@ -48,23 +48,23 @@
 
 ## [JavaScript ES6](#JavaScript-ES6)
 
-[let & const](#let-&-const)
+[let & const](#let-and-const)
 |
-[Template and Multiline string](#Template-and-Multiline-string)
+[Template and Multiline string](#template-and-multiline-string)
 |
-[Destructuring](#Destructuring)
+[Destructuring](#destructuring)
 |
-[Optional chaining](#Optional-chaining)
+[Optional chaining](#optional-chaining)
 |
-[object property & function assignement](#object-property-&-function-assignement)
+[object property & function assignement](#object-property-and-function-assignement)
 |
-[Spread & Rest operator](#Spread-&-Rest-operator)
+[Spread & Rest operator](#spread-and-rest-operator)
 |
-[Exponent operator](#Exponent-operator)
+[Exponent operator](#exponent-operator)
 |
-[Default parameter](#Default-Value-&-parameter)
+[Default parameter](#eefault-value-and-parameter)
 |
-[arrow Function](#arrow-Function)
+[arrow Function](#arrow-function)
 |
 [Method]()
 |
@@ -1828,7 +1828,10 @@ Standard built-in objects
 
 > A quick overview of new JavaScript features in ES2015, ES2016, ES2017, ES2018 and beyond.
 
-### let & const
+### let and const
+
+<small><a href="#javascript-tutorial">Top</a></small>
+<small><a href="#template-and-multiline-string">Next</a></small>
 
 - let
 
@@ -1858,6 +1861,9 @@ a = 20; // throws an error
 
 ### Template and Multiline string
 
+<small><a href="#javascript-tutorial">Top</a></small>
+<small><a href="#destructuring">Next</a></small>
+
 > Template string use back-ticks (``) rather than the quotes ("") to define a string. Its allows multiline, expressions and interpolate variables in strings.
 
 ```
@@ -1876,6 +1882,9 @@ const message = `Hello ${name}`; // Use Interpolation
 ```
 
 ### Destructuring
+
+<small><a href="#javascript-tutorial">Top</a></small>
+<small><a href="#optional-chaining">Next</a></small>
 
 - array
 
@@ -1925,6 +1934,9 @@ console.log(city); // ReferenceError
 
 ### Optional chaining
 
+<small><a href="#javascript-tutorial">Top</a></small>
+<small><a href="#object-property-and-function-assignement">Next</a></small>
+
 ```
 
 const adventurer = {
@@ -1939,7 +1951,10 @@ console.log(adventurer.someNonExistentMethod?.()); // expected output: undefined
 
 ```
 
-### object property & function assignement
+### object property and function assignement
+
+<small><a href="#javascript-tutorial">Top</a></small>
+<small><a href="#spread-and-rest-operator">Next</a></small>
 
 - Property assignement
 
@@ -1966,7 +1981,10 @@ obj.b(); // expected output: "b"
 
 ```
 
-### Spread & Rest operator
+### Spread and Rest operator
+
+<small><a href="#javascript-tutorial">Top</a></small>
+<small><a href="#exponent-operator">Next</a></small>
 
 - Array
 
@@ -2014,6 +2032,9 @@ func(4, 5, 6); // [4, 5, 6]
 
 ### Exponent operator
 
+<small><a href="#javascript-tutorial">Top</a></small>
+<small><a href="#default-value-and-parameter">Next</a></small>
+
 ```
 
 const byte = 2 ** 4;
@@ -2021,7 +2042,10 @@ const byte = 2 ** 4;
 
 ```
 
-### Default Value & parameter
+### Default Value and parameter
+
+<small><a href="#javascript-tutorial">Top</a></small>
+<small><a href="#arrow-function">Next</a></small>
 
 - Value
 
@@ -2045,6 +2069,9 @@ print(22); // prints 22
 ```
 
 ### arrow Function
+
+<small><a href="#javascript-tutorial">Top</a></small>
+<small><a href="#method">Next</a></small>
 
 - Implicit return
 
@@ -2074,6 +2101,9 @@ const birthday = (name) => {
 ```
 
 ### Method
+
+<small><a href="#javascript-tutorial">Top</a></small>
+<small><a href="#method">Next</a></small>
 
 [map ()]() | [set ()]() | [forEch()]() | [filter()]() | [Async-await]() | [for of]() | [repeat()]() | [includes()]() | [startsWith()]() | [padStart()]() | [padEnd()]() | [Object.assign()]() | [Object.entries()]() | [Object.values()]()
 
