@@ -66,7 +66,7 @@
 |
 [arrow Function](#arrow-function)
 |
-[Method]()
+[Method](#method)
 |
 [Classes]()
 |
