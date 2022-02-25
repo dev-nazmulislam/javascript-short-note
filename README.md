@@ -2105,9 +2105,9 @@ const birthday = (name) => {
 <small><a href="#javascript-tutorial">Top</a></small>
 <small><a href="#map">Next</a></small>
 
-[map ()](#map) | [forEch()](#forech) | [filter()](#filter) | [find()](#find) | [async-await](#async-await) | [for of](#for-of) | [repeat()](#repeat) | [includes()](#includes) | [startsWith()](#startswith) | [padStart()](#padstart) | [padEnd()](#padend) | [Object.assign()](#Object.assign) | [Object.entries()](#Object.entries) | [Object.values()](#Object.values) | [set ()](#set)
+[map ()](#map) | [forEch()](#forech) | [filter()](#filter) | [find()](#find) | [async-await](#async-await) | [for of](#for-of) | [repeat()](#repeat) | [includes()](#includes) | [startsWith()](#startswith) | [padStart()](#padstart) | [padEnd()](#padend) | [Object.assign()](#object-assign) | [Object.entries()](#object-entries) | [Object.values()](#object-values) | [set ()](#set)
 
-### map ()
+### map()
 
 <small><a href="#javascript-tutorial">Top</a></small>
 <small><a href="#method">Method</a></small>
@@ -2315,7 +2315,7 @@ lastDigits.padStart(number.length - 2, "*"); // expected output:'*******40'
 
 <small><a href="#javascript-tutorial">Top</a></small>
 <small><a href="#method">Method</a></small>
-<small><a href="#Object.assign">Next</a></small>
+<small><a href="#object-assign">Next</a></small>
 
 > padEnd() method pads the current string with another string (multiple times, if needed) in ending position of string.
 
