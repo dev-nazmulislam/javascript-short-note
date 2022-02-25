@@ -2103,9 +2103,236 @@ const birthday = (name) => {
 ### Method
 
 <small><a href="#javascript-tutorial">Top</a></small>
-<small><a href="#method">Next</a></small>
+<small><a href="#map">Next</a></small>
 
-[map ()]() | [set ()]() | [forEch()]() | [filter()]() | [Async-await]() | [for of]() | [repeat()]() | [includes()]() | [startsWith()]() | [padStart()]() | [padEnd()]() | [Object.assign()]() | [Object.entries()]() | [Object.values()]()
+[map ()](#map) | [forEch()](#forech) | [filter()](#filter) | [find()](#find) | [async-await](#async-await) | [for of](#for-of) | [repeat()](#repeat) | [includes()](#includes) | [startsWith()](#startswith) | [padStart()](#padstart) | [padEnd()](#padend) | [Object.assign()](#Object.assign) | [Object.entries()](#Object.entries) | [Object.values()](#Object.values) | [set ()](#set)
+
+### map ()
+
+<small><a href="#javascript-tutorial">Top</a></small>
+<small><a href="#method">Method</a></small>
+<small><a href="#forech">Next</a></small>
+
+> map() Method creates a new array from calling a function for every array element. its does not execute the function for empty elements. Its does not change the original array.
+
+```
+
+map((element) => {
+  /* ... */
+});
+map((element, index) => {
+  /* ... */
+});
+map((element, index, array) => {
+  /* ... */
+});
+const array = [1, 4, 9, 16];
+const map = array.map((x) => x * 2);
+console.log(map); // expected output: Array [2, 8, 18, 32]
+
+```
+
+### forEch()
+
+<small><a href="#javascript-tutorial">Top</a></small>
+<small><a href="#method">Method</a></small>
+<small><a href="#filter">Next</a></small>
+
+> forEch() method calls a function for each element in an array. its not executed for empty elements and does not return anything.
+
+```
+
+forEach((element) => {
+  /* ... */
+});
+forEach((element, index) => {
+  /* ... */
+});
+forEach((element, index, array) => {
+  /* ... */
+});
+const array = ["a", "b", "c"];
+array.forEach((element) => console.log(element));
+
+```
+
+### filter()
+
+<small><a href="#javascript-tutorial">Top</a></small>
+<small><a href="#method">Method</a></small>
+<small><a href="#find">Next</a></small>
+
+> filter() method creates a new array filled with elements that pass a test provided by a function. The filter() method does not change the original array.
+
+```
+
+filter((element) => {
+  /* ... */
+});
+filter((element, index) => {
+  /* ... */
+});
+filter((element, index, array) => {
+  /* ... */
+});
+const words = ["spray", "limit", "elite", "exuberant"];
+const result = words.filter((word) => word.length > 6);
+console.log(result);
+
+```
+
+### find()
+
+<small><a href="#javascript-tutorial">Top</a></small>
+<small><a href="#method">Method</a></small>
+<small><a href="#async-await">Next</a></small>
+
+> find() method returns the value of the first element that passes a test. The find() method does not change the original array.
+
+```
+
+find((element) => {
+  /* ... */
+});
+find((element, index) => {
+  /* ... */
+});
+find((element, index, array) => {
+  /* ... */
+});
+const array = [5, 12, 8, 130, 44];
+const found = array.find((element) => element > 10);
+console.log(found); // expected output: 12
+
+```
+
+### Async-await
+
+<small><a href="#javascript-tutorial">Top</a></small>
+<small><a href="#method">Method</a></small>
+<small><a href="#for-of">Next</a></small>
+
+> async await: The keyword async before a function makes the function return a promise. The keyword await before a function makes the function wait for a promise.
+
+```
+
+async function run() {
+  const user = await getUser();
+  const tweets = await getTweets(user);
+  return [user, tweets];
+}
+
+```
+
+### for of
+
+<small><a href="#javascript-tutorial">Top</a></small>
+<small><a href="#method">Method</a></small>
+<small><a href="#repeat">Next</a></small>
+
+> for of loop: loops through the values of an iterable object
+
+```
+
+const array1 = ["a", "b", "c"];
+for (const element of array1) {
+  console.log(element);
+}
+
+```
+
+### repeat()
+
+<small><a href="#javascript-tutorial">Top</a></small>
+<small><a href="#method">Method</a></small>
+<small><a href="#includes">Next</a></small>
+
+> The repeat() method returns a new string with a number of copies of a string. Its method does not change the original string.
+
+```
+
+let text = "Hello world!";
+let result = text.repeat(2);
+
+```
+
+### includes()
+
+<small><a href="#javascript-tutorial">Top</a></small>
+<small><a href="#method">Method</a></small>
+<small><a href="#startswith">Next</a></small>
+
+> The includes() method returns true if a string contains a specified string. Otherwise it returns false. Its method is case sensitive.
+
+```
+
+const array = [1, 2, 3];
+console.log(array.includes(2)); // expected output: true
+console.log(array.includes(5)); // expected output: false
+
+const str = "hellow this is me";
+console.log(str.includes("s")); // expected output: true
+console.log(str.includes("a")); // expected output: false
+
+```
+
+### startsWith()
+
+<small><a href="#javascript-tutorial">Top</a></small>
+<small><a href="#method">Method</a></small>
+<small><a href="#padstart">Next</a></small>
+
+> startsWith() method returns true if a string starts with a specified string. Otherwise it returns false. This method is case sensitive.
+
+```
+
+const str = "Saturday night plans";
+console.log(str.startsWith("Sat")); // expected output: true
+console.log(str.startsWith("Sat", 3)); // expected output: false
+
+```
+
+### padStart()
+
+<small><a href="#javascript-tutorial">Top</a></small>
+<small><a href="#method">Method</a></small>
+<small><a href="#padend">Next</a></small>
+
+> The padStart() method pads the current string with another string (multiple times, if needed) in starting position of string.
+
+```
+
+const str = "5";
+console.log(str.padStart(2, "0")); // expected output: "05"
+
+let number = "01555555540";
+let lastDigits = number.slice(-2);
+lastDigits.padStart(number.length - 2, "*"); // expected output:'*******40'
+
+```
+
+### padEnd()
+
+<small><a href="#javascript-tutorial">Top</a></small>
+<small><a href="#method">Method</a></small>
+<small><a href="#Object.assign">Next</a></small>
+
+> padEnd() method pads the current string with another string (multiple times, if needed) in ending position of string.
+
+```
+
+const str = "5";
+console.log(str.padEnd(3, ".")); // expected output: "5.."
+
+```
+
+### Object.assign()
+
+### Object.entries()
+
+### Object.values()
+
+### set ()
 
 Arrow function
 const sum = (a, b) => a + b;
