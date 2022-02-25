@@ -1,6 +1,6 @@
 # JavaScript Tutorial
 
-## Basic
+## Fundamental Concepts
 
 [JavaScript Definition](#javascript-definition)
 |
@@ -46,7 +46,7 @@
 |
 [Function](#function)
 
-## [JavaScript ES6](#JavaScript-ES6)
+## JavaScript ES6
 
 [let & const](#let-and-const)
 |
@@ -78,7 +78,7 @@
 |
 [Generators]()
 
-## [Dom](#dom)
+## Dom
 
 [Dom definition](#dom-definition)
 |
@@ -2541,11 +2541,17 @@ size // কতটি উপাদান আছে তা রিটার্ন �
 
 ### Dom definition
 
+<small><a href="#javascript-tutorial">Top</a></small>
+<small><a href="#element-selection-using-javaScript">Next</a></small>
+
 > DOM (Document Object Model)
 > The Document Object Model (DOM) is the data representation of the objects that comprise the structure and content of a document on the web. This guide will introduce the DOM, look at how the DOM represents an HTML document in memory and how to use APIs to create web content and applications.
 > It is just an API to interact with HTML documents and change it later on demand.
 
 ### Element Selection using JavaScript
+
+<small><a href="#javascript-tutorial">Top</a></small>
+<small><a href="#traversing-dom-elements-using-javascript-dynamically">Next</a></small>
 
 > .getElementsByTagName( ) | .getElementsByClassName( ) | .getElementById( ) | .querySelectorAll( ) | .querySelector( ) | .getElementsByName().
 
@@ -2611,6 +2617,9 @@ size // কতটি উপাদান আছে তা রিটার্ন �
 
 ### Traversing DOM elements using JavaScript dynamically
 
+<small><a href="#javascript-tutorial">Top</a></small>
+<small><a href="#create-and-append-elements-using-javascript-dynamically">Next</a></small>
+
 > .parentElement | .children | .previousElementSibling | .nextElementSibling | .firstElementChild | .lastElementChild | Array.from() | Array.prototype.slice.apply() | [...array]
 
 ```
@@ -2668,6 +2677,9 @@ listItems.forEach((li, index) => {
 
 ### Create and append Elements using JavaScript Dynamically
 
+<small><a href="#javascript-tutorial">Top</a></small>
+<small><a href="#remove-elementseor-others-using-javascript-dynamically">Next</a></small>
+
 > .createElement() | .appendChild() | .append() | .insertBefore() | .insertAdjacentElement |"afterbegin", p); | .insertAdjacentElement("beforebegin", p); | .insertAdjacentElement("afterend", p); | .insertAdjacentElement("beforeend", p);
 
 - Create a \<p> element and append it to the document
@@ -2715,21 +2727,45 @@ children.forEach((child) => parent.appendChild(child));
 
 ### Remove Elements Or Others using JavaScript dynamically
 
+<small><a href="#javascript-tutorial">Top</a></small>
+<small><a href="#add-events-eusing-javascript-dynamically">Next</a></small>
+
 > .remove() | .removeChild() | .replaceChild() | .removeAttribute() | .removeEventListener()
 
 ### Add Events using JavaScript Dynamically
 
+<small><a href="#javascript-tutorial">Top</a></small>
+<small><a href="#difference-between-an-event-listener-and-event-handler">Next</a></small>
+
 ### Difference between an Event Listener and Event Handler
+
+<small><a href="#javascript-tutorial">Top</a></small>
+<small><a href="#deferent-type-of-event">Next</a></small>
 
 ### Deferent Type of Event
 
+<small><a href="#javascript-tutorial">Top</a></small>
+<small><a href="#capturing-and-bubbling">Next</a></small>
+
 ### Capturing and Bubbling
+
+<small><a href="#javascript-tutorial">Top</a></small>
+<small><a href="#add-or-remove-element-using-event-bubbling">Next</a></small>
 
 ### Add or remove element using event bubbling
 
+<small><a href="#javascript-tutorial">Top</a></small>
+<small><a href="#event-delegation">Next</a></small>
+
 ### Event Delegation
 
+<small><a href="#javascript-tutorial">Top</a></small>
+<small><a href="#add-or-remove-classes-using-favascript-dynamically">Next</a></small>
+
 ### Add or Remove Classes using JavaScript dynamically
+
+<small><a href="#javascript-tutorial">Top</a></small>
+<small><a href="#checkList">Next</a></small>
 
 ### CheckList
 
