@@ -86,7 +86,7 @@
 |
 [Traversing Dom Elements](#traversing-dom-elements-using-javascript-dynamically)
 |
-[Create & Append Elements](#create-and-append-elements-using-javaScript-dynamically)
+[Create & Append Elements](#create-and-append-elements-using-javascript-dynamically)
 |
 [Remove Elements](#remove-elements-using-javaScript-dynamically)
 |
@@ -2678,7 +2678,7 @@ listItems.forEach((li, index) => {
 ### Create and append Elements using JavaScript Dynamically
 
 <small><a href="#javascript-tutorial">Top</a></small>
-<small><a href="#remove-elementseor-others-using-javascript-dynamically">Next</a></small>
+<small><a href="#remove-elementse-or-others-using-javascript-dynamically">Next</a></small>
 
 > .createElement() | .appendChild() | .append() | .insertBefore() | .insertAdjacentElement |"afterbegin", p); | .insertAdjacentElement("beforebegin", p); | .insertAdjacentElement("afterend", p); | .insertAdjacentElement("beforeend", p);
 
