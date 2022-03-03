@@ -132,6 +132,34 @@
 |
 [History Object](#history-object)
 
+## Web API
+
+[Client Storage](#client-storage)
+|
+[Cookies](#cookies)
+|
+[localStorage](#localstorage)
+|
+[sessionStorage](#sessionstorage)
+|
+[IndexedDB](#indexeddb)
+|
+[FormData](#formdata)
+|
+[Drag and Drop API](#drag-and-drop-api)
+|
+[FileReader API](#filereader-api)
+|
+[Geolocation API](#geolocation-api)
+|
+[Notification API](#notification-api)
+|
+[Canvas API](#canvas-api)
+|
+[History API](#history-api)
+|
+[Network Requests](#network-requests)
+
 [Problem Solving](#problem-solving)
 
 # Learn JavaScript
@@ -2957,6 +2985,90 @@ setTimeout(() => {
 
 <small><a href="#javascript-tutorial">Top</a></small>
 <small><a href="#bom">Bom</a></small>
+<small><a href="#problem-solving">Next</a></small>
+
+## Web API
+
+<small><a href="#javascript-tutorial">Top</a></small>
+<small><a href="#web-api">Web API</a></small>
+<small><a href="#client-storage">Next</a></small>
+
+### Client Storage
+
+<small><a href="#javascript-tutorial">Top</a></small>
+<small><a href="#web-api">Web API</a></small>
+<small><a href="#cookies">Next</a></small>
+
+### Cookies
+
+<small><a href="#javascript-tutorial">Top</a></small>
+<small><a href="#web-api">Web API</a></small>
+<small><a href="#localstorage">Next</a></small>
+
+### localStorage
+
+<small><a href="#javascript-tutorial">Top</a></small>
+<small><a href="#web-api">Web API</a></small>
+<small><a href="#sessionstorage">Next</a></small>
+
+### sessionStorage
+
+<small><a href="#javascript-tutorial">Top</a></small>
+<small><a href="#web-api">Web API</a></small>
+<small><a href="#indexeddb">Next</a></small>
+
+### IndexedDB
+
+<small><a href="#javascript-tutorial">Top</a></small>
+<small><a href="#web-api">Web API</a></small>
+<small><a href="#formdata">Next</a></small>
+
+### FormData
+
+<small><a href="#javascript-tutorial">Top</a></small>
+<small><a href="#web-api">Web API</a></small>
+<small><a href="#drag-and-drop-api">Next</a></small>
+
+### Drag and Drop API
+
+<small><a href="#javascript-tutorial">Top</a></small>
+<small><a href="#web-api">Web API</a></small>
+<small><a href="#filereader-api">Next</a></small>
+
+### FileReader API
+
+<small><a href="#javascript-tutorial">Top</a></small>
+<small><a href="#web-api">Web API</a></small>
+<small><a href="#geolocation-api">Next</a></small>
+
+### Geolocation API
+
+<small><a href="#javascript-tutorial">Top</a></small>
+<small><a href="#web-api">Web API</a></small>
+<small><a href="#notification-api">Next</a></small>
+
+### Notification API
+
+<small><a href="#javascript-tutorial">Top</a></small>
+<small><a href="#web-api">Web API</a></small>
+<small><a href="#canvas-api">Next</a></small>
+
+### Canvas API
+
+<small><a href="#javascript-tutorial">Top</a></small>
+<small><a href="#web-api">Web API</a></small>
+<small><a href="#history-api">Next</a></small>
+
+### History API
+
+<small><a href="#javascript-tutorial">Top</a></small>
+<small><a href="#web-api">Web API</a></small>
+<small><a href="#network-requests">Next</a></small>
+
+### History API
+
+<small><a href="#javascript-tutorial">Top</a></small>
+<small><a href="#web-api">Web API</a></small>
 <small><a href="#problem-solving">Next</a></small>
 
 ### Problem Solving
