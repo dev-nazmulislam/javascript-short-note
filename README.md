@@ -104,9 +104,35 @@
 |
 [Add or Remove Classes](#add-or-remove-classes-using-javascript-dynamically)
 
-### [CheckList](#checklist)
+## Bom
 
-### [Problem Solving](#problem-solving)
+[Window Object](#window-object)
+|
+[Window Object Methods](#window-object-methods)
+|
+[Alert](#alert)
+|
+[Confirm]()
+|
+[Prompt]()
+|
+[setTimeout]()
+|
+[setInterval]()
+|
+[Location Object]()
+|
+[Get query string parameters]()
+|
+[Redirect to a new URL]()
+|
+[Navigator Object]()
+|
+[Screen Object]()
+|
+[History Object]()
+
+[Problem Solving](#problem-solving)
 
 # Learn JavaScript
 
@@ -2542,7 +2568,7 @@ size // কতটি উপাদান আছে তা রিটার্ন �
 ### Dom definition
 
 <small><a href="#javascript-tutorial">Top</a></small>
-<small><a href="#element-selection-using-javaScript">Next</a></small>
+<small><a href="#element-selection-using-javascript">Next</a></small>
 
 > DOM (Document Object Model)
 > The Document Object Model (DOM) is the data representation of the objects that comprise the structure and content of a document on the web. This guide will introduce the DOM, look at how the DOM represents an HTML document in memory and how to use APIs to create web content and applications.
@@ -2678,7 +2704,7 @@ listItems.forEach((li, index) => {
 ### Create and append Elements using JavaScript Dynamically
 
 <small><a href="#javascript-tutorial">Top</a></small>
-<small><a href="#remove-elementse-or-others-using-javascript-dynamically">Next</a></small>
+<small><a href="#remove-elements-or-others-using-javascript-dynamically">Next</a></small>
 
 > .createElement() | .appendChild() | .append() | .insertBefore() | .insertAdjacentElement |"afterbegin", p); | .insertAdjacentElement("beforebegin", p); | .insertAdjacentElement("afterend", p); | .insertAdjacentElement("beforeend", p);
 
@@ -2728,7 +2754,7 @@ children.forEach((child) => parent.appendChild(child));
 ### Remove Elements Or Others using JavaScript dynamically
 
 <small><a href="#javascript-tutorial">Top</a></small>
-<small><a href="#add-events-eusing-javascript-dynamically">Next</a></small>
+<small><a href="#add-events-using-favascript-dynamically">Next</a></small>
 
 > .remove() | .removeChild() | .replaceChild() | .removeAttribute() | .removeEventListener()
 
@@ -2767,17 +2793,111 @@ children.forEach((child) => parent.appendChild(child));
 <small><a href="#javascript-tutorial">Top</a></small>
 <small><a href="#checkList">Next</a></small>
 
-### CheckList
+## Bom
+
+### Window Object
 
 <small><a href="#javascript-tutorial">Top</a></small>
-<small><a href="#problem-solving">Next</a></small>
+<small><a href="#bom">Bom</a></small>
+<small><a href="#window-object-methods">Next</a></small>
 
-1.  Get the total, largest, smallest, odd & even number.
-2.  get the total, largest, smallest, odd & even number with a loop.
-3.  Array traversing with for, while & forEach loop.
-4.  get total, largest, smallest, odd & even of array elements.
-5.  get total, largest, smallest, odd & even of objects elements.
-6.  Create a new array with many arrays, 08. Create & Traversing Multidimensional array.
+> The JavaScript window object which is the global object of JavaScript in the browser and exposes the browsers functionality.
+
+```
+
+var counter = 1;
+var showCounter = () => console.log(counter);
+
+console.log(window.counter);
+window.showCounter();
+
+```
+
+### Window Object Methods
+
+<small><a href="#javascript-tutorial">Top</a></small>
+<small><a href="#bom">Bom</a></small>
+<small><a href="#alert">Next</a></small>
+
+[open()](#open) | [resize()](#resize) | [moveTo()](#moveto) | [close()](#close)
+
+### open()
+
+> To open a new window or tab, you use the window.open() method:
+
+```
+
+window.open(url, windowName, [windowFeatures]);
+
+let url = 'http://localhost/js/about.html';
+let newWindow = window.open(url,'about');
+
+```
+
+### resize()
+
+> To resize a window you use the resizeTo(), resizeBy(), method.
+
+```
+
+window.resizeTo(width,height);
+window.resizeBy(deltaX,deltaY);
+
+let newWindow = window.open(
+    'http://localhost/js/about.html',
+    'about',
+    'height=600,width=800');
+
+setTimeout(() => {
+    newWindow.resizeTo(600, 300);
+}, 3000);
+
+```
+
+### moveTo()
+
+> To move a window you use the moveTo(), moveBy(), method.
+
+```
+
+window.moveTo(x, y);
+window.moveBy(x, y);
+
+let newWindow = window.open(
+    'http://localhost/js/about.html',
+    'about',
+    'height=600,width=600');
+
+setTimeout(() => {
+    newWindow.moveTo(500, 500);
+}, 3000);
+
+```
+
+### close()
+
+> To close a window, you use the window.close() method.
+
+```
+
+window.close()
+
+let newWindow = window.open(
+    'http://localhost/js/about.html',
+    'about',
+    'height=600,width=600');
+
+setTimeout(() => {
+    newWindow.close();
+}, 3000);
+
+```
+
+### Alert
+
+<small><a href="#javascript-tutorial">Top</a></small>
+<small><a href="#bom">Bom</a></small>
+<small><a href="#">Next</a></small>
 
 ### Problem Solving
 
