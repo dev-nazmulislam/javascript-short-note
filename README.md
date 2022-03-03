@@ -122,8 +122,6 @@
 |
 [Location Object](#location-object)
 |
-[Get query string parameters](#get-query-string-parameters)
-|
 [Redirect to a new URL](#redirect-to-a-new-url)
 |
 [Navigator Object](#navigator-object)
@@ -2952,12 +2950,6 @@ setTimeout(() => {
 <small><a href="#location-object">Next</a></small>
 
 ### Location Object
-
-<small><a href="#javascript-tutorial">Top</a></small>
-<small><a href="#bom">Bom</a></small>
-<small><a href="#get-query-string-parameters">Next</a></small>
-
-### Get query string parameters
 
 <small><a href="#javascript-tutorial">Top</a></small>
 <small><a href="#bom">Bom</a></small>
