@@ -112,25 +112,25 @@
 |
 [Alert](#alert)
 |
-[Confirm]()
+[Confirm](#confirm)
 |
-[Prompt]()
+[Prompt](#prompt)
 |
-[setTimeout]()
+[setTimeout](#settimeout)
 |
-[setInterval]()
+[setInterval](#setinterval)
 |
-[Location Object]()
+[Location Object](#location-object)
 |
-[Get query string parameters]()
+[Get query string parameters](#get-query-string-parameters)
 |
-[Redirect to a new URL]()
+[Redirect to a new URL](#redirect-to-a-new-url)
 |
-[Navigator Object]()
+[Navigator Object](#navigator-object)
 |
-[Screen Object]()
+[Screen Object](#screen-object)
 |
-[History Object]()
+[History Object](#history-object)
 
 [Problem Solving](#problem-solving)
 
@@ -2897,7 +2897,67 @@ setTimeout(() => {
 
 <small><a href="#javascript-tutorial">Top</a></small>
 <small><a href="#bom">Bom</a></small>
-<small><a href="#">Next</a></small>
+<small><a href="#confirm">Next</a></small>
+
+### Confirm
+
+<small><a href="#javascript-tutorial">Top</a></small>
+<small><a href="#bom">Bom</a></small>
+<small><a href="#prompt">Next</a></small>
+
+### Prompt
+
+<small><a href="#javascript-tutorial">Top</a></small>
+<small><a href="#bom">Bom</a></small>
+<small><a href="#settimeout">Next</a></small>
+
+### setTimeout
+
+<small><a href="#javascript-tutorial">Top</a></small>
+<small><a href="#bom">Bom</a></small>
+<small><a href="#setinterval">Next</a></small>
+
+### setInterval
+
+<small><a href="#javascript-tutorial">Top</a></small>
+<small><a href="#bom">Bom</a></small>
+<small><a href="#location-object">Next</a></small>
+
+### Location Object
+
+<small><a href="#javascript-tutorial">Top</a></small>
+<small><a href="#bom">Bom</a></small>
+<small><a href="#get-query-string-parameters">Next</a></small>
+
+### Get query string parameters
+
+<small><a href="#javascript-tutorial">Top</a></small>
+<small><a href="#bom">Bom</a></small>
+<small><a href="#redirect-to-a-new-url">Next</a></small>
+
+### Redirect to a new URL
+
+<small><a href="#javascript-tutorial">Top</a></small>
+<small><a href="#bom">Bom</a></small>
+<small><a href="#navigator-object">Next</a></small>
+
+### Navigator Object
+
+<small><a href="#javascript-tutorial">Top</a></small>
+<small><a href="#bom">Bom</a></small>
+<small><a href="#screen-object">Next</a></small>
+
+### Screen Object
+
+<small><a href="#javascript-tutorial">Top</a></small>
+<small><a href="#bom">Bom</a></small>
+<small><a href="#history-object">Next</a></small>
+
+### History Object
+
+<small><a href="#javascript-tutorial">Top</a></small>
+<small><a href="#bom">Bom</a></small>
+<small><a href="#problem-solving">Next</a></small>
 
 ### Problem Solving
 
