@@ -2943,11 +2943,31 @@ setTimeout(() => {
 <small><a href="#bom">Bom</a></small>
 <small><a href="#setinterval">Next</a></small>
 
+> The setTimeout() sets a timer and executes a callback function after the timer expires.
+
+```
+
+setTimeout(() => {
+  console.log("this is the first message");
+}, 5000);
+
+```
+
 ### setInterval
 
 <small><a href="#javascript-tutorial">Top</a></small>
 <small><a href="#bom">Bom</a></small>
 <small><a href="#location-object">Next</a></small>
+
+> The setInterval() repeatedly calls a function with a fixed delay between each call.
+
+```
+
+setInterval(function () {
+  element.innerHTML += "Hello";
+}, 1000);
+
+```
 
 ### Location Object
 
