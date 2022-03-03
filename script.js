@@ -1,6 +1,13 @@
 // 02. Alert
+// > The alert() method displays an alert box with a message and an OK button.
+alert("Hello! I am an JavaScrip alert!!");
 // 03. Confirm
+// > The confirm() method displays a dialog box with a message, an OK button, and a Cancel button.This method returns true if the user clicked "OK", otherwise false.
+confirm("are you going to picnic");
 // 04. Prompt
+// > The prompt() method displays a dialog box that prompts the user for input. this method returns the input value if the user clicks "OK", otherwise it returns null.
+const person = prompt("Please enter your name");
+console.log(person);
 // 05. setTimeout
 // > The setTimeout()  sets a timer and executes a callback function after the timer expires.
 setTimeout(() => {
@@ -13,6 +20,8 @@ setInterval(function () {
 }, 1000);
 
 // 07. Location Object
+// > The location object can be used to get the current page address (URL) and to redirect the browser to a new page.
+// reload(), assign(), hash, host, hostname, href, origin, pathname;
 // 08. Get query string parameters
 // 09. Redirect to a new URL
 // 10. Navigator Object

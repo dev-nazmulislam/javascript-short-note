@@ -2925,17 +2925,43 @@ setTimeout(() => {
 <small><a href="#bom">Bom</a></small>
 <small><a href="#confirm">Next</a></small>
 
+> The alert() method displays an alert box with a message and an OK button.
+
+```
+
+alert("Hello! I am an JavaScrip alert!!");
+
+```
+
 ### Confirm
 
 <small><a href="#javascript-tutorial">Top</a></small>
 <small><a href="#bom">Bom</a></small>
 <small><a href="#prompt">Next</a></small>
 
+> The confirm() method displays a dialog box with a message, an OK button, and a Cancel button.This method returns true if the user clicked "OK", otherwise false.
+
+```
+
+const response = confirm('are you going to picnic?')
+console.log(response)
+
+```
+
 ### Prompt
 
 <small><a href="#javascript-tutorial">Top</a></small>
 <small><a href="#bom">Bom</a></small>
 <small><a href="#settimeout">Next</a></small>
+
+> The prompt() method displays a dialog box that prompts the user for input. this method returns the input value if the user clicks "OK", otherwise it returns null.
+
+```
+
+const person = prompt("Please enter your name");
+console.log(person);
+
+```
 
 ### setTimeout
 
@@ -2975,6 +3001,10 @@ setInterval(function () {
 <small><a href="#bom">Bom</a></small>
 <small><a href="#redirect-to-a-new-url">Next</a></small>
 
+> The location object can be used to get the current page address (URL) and to redirect the browser to a new page.
+
+> reload(), assign(), hash, host, hostname, href, origin, pathname;
+
 ### Redirect to a new URL
 
 <small><a href="#javascript-tutorial">Top</a></small>
@@ -2998,6 +3028,10 @@ setInterval(function () {
 <small><a href="#javascript-tutorial">Top</a></small>
 <small><a href="#bom">Bom</a></small>
 <small><a href="#problem-solving">Next</a></small>
+
+> The history object contains the URLs visited by the user (in the browser window).
+
+> back, forward, go, pushState
 
 ## Web API
 
