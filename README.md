@@ -3045,11 +3045,11 @@ location.search // ''
 location.hash // '#first-examples'
 ```
 
-- Manipulating the location
+### Manipulating the location
 
 > The location object there are many usful methood `assign(), reload(), replace()`
 
-- assign()
+#### assign()
 
 > The `assign()` method loads a new document.
 
@@ -3058,7 +3058,7 @@ location.assign('https://web.programming-hero.com/');
 
 ```
 
-- reload()
+#### reload()
 
 > The `reload()` method Reload the current document.
 
@@ -3066,7 +3066,7 @@ location.assign('https://web.programming-hero.com/');
 location.reload();
 ```
 
-- replace()
+#### replace()
 
 > The `replace()` Mehtod Replace the current document.
 
@@ -3074,7 +3074,7 @@ location.reload();
 location.replace("https://web.programming-hero.com/");
 ```
 
-- Redirect to a new URL
+### Redirect to a new URL
 
 <small><a href="#javascript-tutorial">Top</a></small>
 <small><a href="#bom">Bom</a></small>
@@ -3082,7 +3082,7 @@ location.replace("https://web.programming-hero.com/");
 
 > There are a many ways to redirect to another webpage with JavaScript.`exp: location.href, location.replace, and location.assign()`:
 
-- location.href
+#### location.href
 
 > To redirect to a new URL from the current page, you use the `location.href` object.
 
@@ -3090,7 +3090,7 @@ location.replace("https://web.programming-hero.com/");
 location.href = 'https://web.programming-hero.com/';
 ```
 
-- location.replace()
+#### location.replace()
 
 > To redirect to a new URL without creating a new entry in the history stack of the browser, you use the `location.replace()` method.
 
@@ -3098,7 +3098,7 @@ location.href = 'https://web.programming-hero.com/';
 location.replace('https://web.programming-hero.com/');
 ```
 
-- location.assign()
+#### location.assign()
 
 > Assigning a value to the href property of the location object has the same effect as calling the `location.assign()` method.
 
@@ -3106,7 +3106,7 @@ location.replace('https://web.programming-hero.com/');
 location.assign('https://web.programming-hero.com/');
 ```
 
-- Redirect to a relative URL
+#### Redirect to a relative URL
 
 > To redirect to a relative URL you use the `location.href` method.
 
@@ -3115,7 +3115,7 @@ location.href = 'about.html';
 location.href = '/contact.html';
 ```
 
-- Redirect on page loading
+#### Redirect on page loading
 
 > If you want to redirect to a new page upon loading, you use the following code
 
