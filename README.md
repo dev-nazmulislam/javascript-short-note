@@ -3143,9 +3143,32 @@ window.onload = function() {
 <small><a href="#bom">Bom</a></small>
 <small><a href="#problem-solving">Next</a></small>
 
-> The history object contains the URLs visited by the user (in the browser window).
+> The history stack stores the current page and previous pages that you visited, The history object provides three methods for navigating between pages in the history stack. exp. `back, forward, go`.
 
-> back, forward, go, pushState
+#### back()
+
+> To move backward through history, you use the `back()` method.
+
+```
+history.back();
+```
+
+#### forward()
+
+> To move forward history, you use the `forward()` method
+
+```
+history.forward();
+```
+
+#### go()
+
+> To move to a specific URL in the history stack, you use the `go()` method. The go() method accepts an integer that is the relative position to the current page. The current page’s position is 0.
+
+```
+history.go(-1);
+history.go(1)
+```
 
 ## Web API
 
