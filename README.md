@@ -3001,9 +3001,79 @@ setInterval(function () {
 <small><a href="#bom">Bom</a></small>
 <small><a href="#redirect-to-a-new-url">Next</a></small>
 
-> The location object can be used to get the current page address (URL) and to redirect the browser to a new page.
+> The location object can be used to get the current page address (URL) and to redirect the browser to a new page. There are many properties Like: `href, protocol, host, pathname, search, hash`;
 
-> reload(), assign(), hash, host, hostname, href, origin, pathname;
+`Suppose that is the current URL:`
+
+```
+https://reactjs.org/docs/getting-started.html#first-examples
+```
+
+**`location.href` To get the entire URL**
+
+```
+location.href // 'https://reactjs.org/docs/getting-started.html#first-examples'
+```
+
+**`location.protocol` To get protocol of the current URL**
+
+```
+location.protocol // 'https:'
+```
+
+**`location.host` To get hostname of the current URL**
+
+```
+location.host // 'reactjs.org'
+```
+
+**`location.pathname` To get the pathname of a URL (page).**
+
+```
+location.pathname // '/docs/getting-started.html'
+```
+
+**`location.search` To get the querystring part of a URL.**
+
+```
+location.search // ''
+```
+
+**`location.hash` To Get the anchor part of the URL**
+
+```
+location.hash // '#first-examples'
+
+```
+
+### Manipulating the location
+
+> The location object there are many usful methood `assign(), reload(), replace()`
+
+### assign()
+
+> The `assign()` method loads a new document.
+
+```
+location.assign('https://web.programming-hero.com/');
+
+```
+
+### reload()
+
+> The `reload()` method Reload the current document.
+
+```
+location.reload();
+```
+
+### replace()
+
+> The `replace()` Mehtod Replace the current document.
+
+```
+location.replace("https://web.programming-hero.com/");
+```
 
 ### Redirect to a new URL
 
@@ -3051,17 +3121,23 @@ setInterval(function () {
 <small><a href="#web-api">Web API</a></small>
 <small><a href="#localstorage">Next</a></small>
 
+> Cookies let you store user information in web pages.
+
 ### localStorage
 
 <small><a href="#javascript-tutorial">Top</a></small>
 <small><a href="#web-api">Web API</a></small>
 <small><a href="#sessionstorage">Next</a></small>
 
+> The localStorage object allows you to save key/value pairs in the browser. The localStorage object stores data with no expiration date.
+
 ### sessionStorage
 
 <small><a href="#javascript-tutorial">Top</a></small>
 <small><a href="#web-api">Web API</a></small>
 <small><a href="#indexeddb">Next</a></small>
+
+> The sessionStorage object let you store key/value pairs in the browser. The sessionStorage object stores data for only one session.
 
 ### IndexedDB
 

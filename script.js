@@ -21,9 +21,31 @@ setInterval(function () {
 
 // 07. Location Object
 // > The location object can be used to get the current page address (URL) and to redirect the browser to a new page.
-// reload(), assign(), hash, host, hostname, href, origin, pathname;
+// There are many properties Like: hash, host, hostname, href, origin, pathname;
 // 08. Get query string parameters
 // 09. Redirect to a new URL
 // 10. Navigator Object
 // 11. Screen Object
 // 12. History Object
+
+// #Web API
+// #Client Storage
+// 01. Cookies
+// 02. localStorage
+// getItem, setItem, removeItem, key, clear,
+// 03. sessionStorage
+
+// 04. IndexedDB
+
+// #FormData API
+// 01. FormData
+
+// #Drag and Drop API
+// 01. Drag and Drop API
+// 02. FileReader API
+
+// #Geolocation API
+// #Notification API
+// #Canvas API
+// #History API
+// #Network Requests
