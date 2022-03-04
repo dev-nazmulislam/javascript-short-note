@@ -3043,7 +3043,6 @@ location.search // ''
 
 ```
 location.hash // '#first-examples'
-
 ```
 
 ### Manipulating the location
@@ -3080,6 +3079,51 @@ location.replace("https://web.programming-hero.com/");
 <small><a href="#javascript-tutorial">Top</a></small>
 <small><a href="#bom">Bom</a></small>
 <small><a href="#navigator-object">Next</a></small>
+
+> There are a many ways to redirect to another webpage with JavaScript.`exp: location.href, location.replace, and location.assign()`:
+
+### location.href
+
+> To redirect to a new URL from the current page, you use the `location.href` object.
+
+```
+location.href = 'https://web.programming-hero.com/';
+```
+
+### location.replace()
+
+> To redirect to a new URL without creating a new entry in the history stack of the browser, you use the `location.replace()` method.
+
+```
+location.replace('https://web.programming-hero.com/');
+```
+
+### location.assign()
+
+> Assigning a value to the href property of the location object has the same effect as calling the `location.assign()` method.
+
+```
+location.assign('https://web.programming-hero.com/');
+```
+
+### Redirect to a relative URL
+
+> To redirect to a relative URL you use the `location.href` method.
+
+```
+location.href = 'about.html';
+location.href = '/contact.html';
+```
+
+### Redirect on page loading
+
+> If you want to redirect to a new page upon loading, you use the following code
+
+```
+window.onload = function() {
+    location.href = "https://web.programming-hero.com/";
+}
+```
 
 ### Navigator Object
 
