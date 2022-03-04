@@ -2845,7 +2845,7 @@ window.showCounter();
 <small><a href="#bom">Bom</a></small>
 <small><a href="#alert">Next</a></small>
 
-[open()](#open) | [resize()](#resize) | [moveTo()](#moveto) | [close()](#close)
+[open()](#open) | [resize()](#resize) | [moveTo()](#moveto) | [close()](#close) | [alert()](#alert) | [confirm()](#confirm) | [prompt()](#prompt) | [setTimeout()](#settimeout) | [setInterval()](#setinterval)
 
 ### open()
 
