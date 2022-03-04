@@ -132,8 +132,6 @@
 
 ## Web API
 
-[Client Storage](#client-storage)
-|
 [Cookies](#cookies)
 |
 [localStorage](#localstorage)
@@ -3174,12 +3172,6 @@ history.go(1)
 
 <small><a href="#javascript-tutorial">Top</a></small>
 <small><a href="#web-api">Web API</a></small>
-<small><a href="#client-storage">Next</a></small>
-
-### Client Storage
-
-<small><a href="#javascript-tutorial">Top</a></small>
-<small><a href="#web-api">Web API</a></small>
 <small><a href="#cookies">Next</a></small>
 
 ### Cookies
@@ -3190,6 +3182,12 @@ history.go(1)
 
 > Cookies let you store user information in web pages.
 
+#### The get() method
+
+#### The set() method
+
+#### The remove() method
+
 ### localStorage
 
 <small><a href="#javascript-tutorial">Top</a></small>
@@ -3198,6 +3196,20 @@ history.go(1)
 
 > The localStorage object allows you to save key/value pairs in the browser. The localStorage object stores data with no expiration date.
 
+#### setItem()
+
+#### removeItem()
+
+#### getItem()
+
+#### key()
+
+#### clear()
+
+### Loop over keys of the localStorage object
+
+### Storing objects
+
 ### sessionStorage
 
 <small><a href="#javascript-tutorial">Top</a></small>
@@ -3205,6 +3217,20 @@ history.go(1)
 <small><a href="#indexeddb">Next</a></small>
 
 > The sessionStorage object let you store key/value pairs in the browser. The sessionStorage object stores data for only one session.
+
+#### setItem()
+
+#### removeItem()
+
+#### getItem()
+
+#### key()
+
+#### clear()
+
+### Loop over keys of the sessionStorage object
+
+### Storing objects
 
 ### IndexedDB
 
