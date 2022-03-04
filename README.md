@@ -219,7 +219,7 @@
 
 > JavaScript statements are composed of Values, Operators, Expressions, Keywords, and Comments. There are many type of statements like Block, break, continue, Empty, if...else, switch, throw, try...catch. We discuse in details in statement lessaion.
 
-```
+```Js
 
 let x, y, z; // Statement 1
 x = 5; // Statement 2
@@ -274,7 +274,7 @@ z = x + y; // Statement 4
 
   > The most common primitive data type is numbers. To declare numbers in JavaScript is easy. Both integer numbers and floating numbers are the same in JavaScript. Both are considered float numbers. JavaScript provides 64 bits for every single number.
 
-  ```
+  ```Js
 
   var num = 4546;
   var num2 = 55.5;
@@ -292,7 +292,7 @@ z = x + y; // Statement 4
 
   > In the JavaScript programming language, anything wrapped between quotes is considered as string. It can be a single quote or double quote. Even by using a backtick sign, string can be declared in ES6. JavaScript provides two types of string functionality. A. string literal and B. string constructor.
 
-  ```
+  ```Js
 
   var str = "This is text";
   var str2 = "This is text";
@@ -306,7 +306,7 @@ z = x + y; // Statement 4
 
   > In JavaScript, Boolean is a primitive data type. The Boolean data type has two values only. It deals with true or false. Controlling program flow using conditional statements like - while, do...while, switch, if...else, the Boolean data type is used.
 
-  ```
+  ```Js
 
   var isRaining = true;
   var isComming = false;
@@ -319,7 +319,7 @@ z = x + y; // Statement 4
 
   > Generally, in a programming language, we can assign any primitive or non-primitive type of value to a variable. But JavaScript adds the functionalities of two additional primitive type values - null and undefined. These can be assigned to a variable that has a special meaning.
 
-  ```
+  ```Js
 
   var abc;
   var text = null;
@@ -333,7 +333,7 @@ z = x + y; // Statement 4
 
 - Number Conversion: Number().
 
-  ```
+  ```Js
 
   Number(" 123 "); // 123
   Number("123z"); // NaN (error reading a number at "z")
@@ -349,7 +349,7 @@ z = x + y; // Statement 4
 
 - String Conversion: String() or toString()
 
-  ```
+  ```Js
 
   String(true); // now true is a string "true"
   String(x) // returns a string from a number variable x
@@ -360,7 +360,7 @@ z = x + y; // Statement 4
 
 - Boolean Conversion: Boolean()
 
-  ```
+  ```Js
 
   Boolean(1)); // true
   Boolean(0); // false
@@ -380,7 +380,7 @@ z = x + y; // Statement 4
 
 > List of falsy values: false, 0, -0, ""''``, nul, undefined, NaN
 
-```
+```Js
 
 if (false)
 if (null)
@@ -416,7 +416,7 @@ if ("")
 
 1. **Assignment Operators symbol: =, +=, -=, \_=, /=, %=, \*\*=, <<=, >>=, >>>=, &=, ^=, |=, &&=, ||=, ??=**
 
-```
+```Js
 
 let x = 50; // 50
 x += 10; // 60
@@ -438,7 +438,7 @@ x ??= 10; // 10
 
 2. **Comparison Operators symbol: ==, !=, ===, !==, >, >=, <, <=.**
 
-```
+```Js
 
 let number = 50;
 if (number == 50) //Returns true if the operands are equal.
@@ -454,7 +454,7 @@ if (number <= 50) // Returns true if the left operand is less than or equal to t
 
 3. **Arithmetic Operators symbol: %, ++, --, -, +, \*\*.**
 
-```
+```Js
 
 let number = 51;
 number % 2; // Returns the integer remainder of dividing the two operands.
@@ -468,7 +468,7 @@ number ** 2; // Calculates the base to the exponent power, that is, base^exponen
 
 4. **Logical Operators symbol: &&, ||, !.**
 
-```
+```Js
 
 var a = true;
 var b = false;
@@ -491,7 +491,7 @@ b || b; // f && f returns false
 6. **String operators**
 7. **Conditional (ternary) operators: condition ? val1 : val2**
 
-```
+```Js
 
 var n = 10;
 console.log(n % 2 == 0 ? "Even" : "Odd");
@@ -521,7 +521,7 @@ console.log(str);
 
 - if Statement
 
-```
+```Js
 
 var a = 50;
 var b = 60;
@@ -537,7 +537,7 @@ console.log("B is greater than A");
 
 - else Statement
 
-```
+```Js
 
 var a = 60;
 var b = 40;
@@ -552,7 +552,7 @@ console.log("B is grater then A");
 
 - else if Statement
 
-```
+```Js
 
 var a = 20;
 var b = 20;
@@ -569,7 +569,7 @@ console.log("The both are same");
 
 - Switch Statement
 
-```
+```Js
 
 var date = new Date();
 var today = date.getDay();
@@ -632,7 +632,7 @@ console.log("Not a Valid Number");
 > // Statements
 > }
 
-```
+```Js
 
 for (var i = 1; i <= 50; i++) {
 console.log(i + " Md. Nazmul islam");
@@ -646,7 +646,7 @@ console.log(i + " Md. Nazmul islam");
 > // code block to be executed
 > }
 
-```
+```Js
 
 var i = 0;
 while (i <= 10) {
@@ -662,7 +662,7 @@ i++;
 > // code block to be executed
 > } while (condition);
 
-```
+```Js
 
 var isRanning = false;
 do {
@@ -674,7 +674,7 @@ console.log("I am Running");
 
 - Nested Loop
 
-```
+```Js
 
 var n = 5;
 for (var i = 1; i <= n; i++) {
@@ -689,7 +689,7 @@ console.log(result);
 
 - Break Statement
 
-```
+```Js
 
 while (true) {
 var rand = Math.floor(Math.random() \* 10 + 1);
@@ -705,7 +705,7 @@ console.log("You have got " + rand);
 
 - Continue Statement
 
-```
+```Js
 
 for (var i = 1; i <= 10; i++) {
 if (i == 3 || i == 6) {
@@ -719,7 +719,7 @@ console.log(i);
 
 - Infinity for Loop
 
-```
+```Js
 
 for (;;) {
 var rand = Math.floor(Math.random() \* 10 + 1);
@@ -754,7 +754,7 @@ console.log("You have got " + rand);
 
 - Math.abs() `The Math.abs() function returns the absolute value of a number.`
 
-```
+```Js
 
 Math.abs('-1');     // 1
 Math.abs(-2);       // 2
@@ -771,7 +771,7 @@ Math.abs();         // NaN
 
 - Math.floor() `The Math.floor() function returns the largest integer less than or equal to a given number.`
 
-```
+```Js
 
 Math.floor( 45.95); //  45
 Math.floor( 45.05); //  45
@@ -783,7 +783,7 @@ Math.floor(-45.95); // -46
 
 - Math.ceil() `The Math.ceil() method rounds a number UPWARDS to the nearest integer, and returns the result.`
 
-```
+```Js
 
 Math.ceil(.95);    // 1
 Math.ceil(4);      // 4
@@ -796,7 +796,7 @@ Math.ceil(-7.004); // -7
 
 - Math.round() `The Math.round() function returns the value of a number rounded to the nearest integer.`
 
-```
+```Js
 
 Math.round( 20.49); //  20
 Math.round( 20.5 ); //  21
@@ -808,7 +808,7 @@ Math.round(-20.51); // -21
 
 - Math.max() `The Math.max() method returns the number with the highest value.`
 
-```
+```Js
 
 Math.max(10, 20);   //  20
 Math.max(-10, -20); // -10
@@ -818,7 +818,7 @@ Math.max(-10, 20);  //  20
 
 - Math.min() `The Math.min() returns the number with the lowest value.`
 
-```
+```Js
 
 Math.min(10, 5); // 5
 
@@ -826,7 +826,7 @@ Math.min(10, 5); // 5
 
 - Math.pow() `The Math.pow() static method, given two arguments, base and exponent, returns` base<sup>exponent</sup>.
 
-```
+```Js
 
 // simple
 Math.pow(7, 3);    // 343
@@ -842,7 +842,7 @@ Math.pow(-7, 3);   // -343 (cubes can be negative)
 
 - Math.sqrt() `The Math.sqrt() method returns the square root of a number.`
 
-```
+```Js
 
 Math.sqrt(9); // 3
 Math.sqrt(2); // 1.414213562373095
@@ -851,7 +851,7 @@ Math.sqrt(2); // 1.414213562373095
 
 - Math.random() `Math.random() returns a random number between 0 (inclusive), and 1 (exclusive)`
 
-```
+```Js
 
 function getRandomInt(max) {
   return Math.floor(Math.random() * max);
@@ -864,7 +864,7 @@ console.log(getRandomInt(3));
 
 - Math.round() `The Math.round() method rounds a number to the nearest integer.`
 
-```
+```Js
 
 Math.round( 20.49); //  20
 Math.round( 20.5 ); //  21
@@ -914,7 +914,7 @@ Math.round(-20.51); // -21
 
 `The concat() method joins two or more strings. This method does not change the existing strings and returns a new string.`
 
-```
+```Js
 
 let text1 = "Hello";
 let text2 = "world!";
@@ -927,7 +927,7 @@ let result = text1.concat(" ", text2, " ", text3);
 
 `The substr() method extracts a part of a string. This method begins at a specified position, and returns a specified number of characters and does not change the original string.`
 
-```
+```Js
 substr(start, length)
 
 const str = "Mozilla";
@@ -944,7 +944,7 @@ console.log(str.substr(2));
 
 `The charAt() method returns the character at a specified index (position) in a string.`
 
-```
+```Js
 
 charAt(index)
 let text = "HELLO WORLD";
@@ -954,7 +954,7 @@ let letter = text.charAt(1); // E
 
 - startsWith() `The startsWith() method returns true if a string starts with a specified string. Otherwise it returns false. This method is case sensitive.`
 
-```
+```Js
 startsWith(searchString)
 startsWith(searchString, position)
 
@@ -966,7 +966,7 @@ console.log(str1.startsWith("Sat", 3)); // expected output: false
 
 - endsWith() `The endsWith() method returns true if a string ends with a specified string.Otherwise it returns false.The endsWith() method is case sensitive.`
 
-```
+```Js
 
 endsWith(searchString)
 endsWith(searchString, length)
@@ -979,7 +979,7 @@ console.log(str.endsWith('to be', 19))  // true
 
 - toUpperCase() `The toUpperCase() method converts a string to uppercase letters.`
 
-```
+```Js
 
 const sentence = 'The quick brown fox jumps over the lazy dog.';
 console.log(sentence.toUpperCase()); // expected output: "THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG."
@@ -988,7 +988,7 @@ console.log(sentence.toUpperCase()); // expected output: "THE QUICK BROWN FOX JU
 
 - toLowerCase() `The toUpperCase() method does not change the original string.`
 
-```
+```Js
 
 const sentence = "The quick brown fox jumps over the lazy dog.";
 console.log(sentence.toLowerCase()); // expected output: "the quick brown fox jumps over the lazy dog."
@@ -997,7 +997,7 @@ console.log(sentence.toLowerCase()); // expected output: "the quick brown fox ju
 
 - trim() `The trim() method removes whitespace from both sides of a string. This method does not change the original string.`
 
-```
+```Js
 
 var orig = "   foo  ";
 console.log(orig.trim()); // 'foo'
@@ -1006,7 +1006,7 @@ console.log(orig.trim()); // 'foo'
 
 - split() `The split() method splits a string into an array of substrings. This method returns the new array. This method does not change the original string.`
 
-```
+```Js
 
 split()
 split(separator)
@@ -1019,7 +1019,7 @@ console.log(words[3]); // expected output: "fox"
 
 - includes() `The includes() method returns true if a string contains a specified string.Otherwise it returns false. This method is case sensitive.`
 
-```
+```Js
 
 includes(searchElement)
 includes(searchElement, fromIndex)
@@ -1030,7 +1030,7 @@ let result = text.includes("world", 12);
 
 - indexOf() `The indexOf() method returns the position of the first occurrence of a value in a string. This method returns -1 if the value is not found. This method is case sensitive.`
 
-```
+```Js
 
 let text = "Hello world, welcome to the universe.";
 let result = text.indexOf("welcome");
@@ -1039,7 +1039,7 @@ let result = text.indexOf("welcome");
 
 - match() `The match() method matches a string against a regular expression. This method returns an array with the matches. This method returns null if no match is found.`
 
-```
+```Js
 
 match(regexp);
 const paragraph = "The quick brown fox jumps over the lazy dog. It barked.";
@@ -1051,7 +1051,7 @@ console.log(found); // expected output: Array ["T", "I"]
 
 - replace() `The replace() method searches a string for a value or a regular expression. This method returns a new string with the value(s) replaced. This method does not change the original string.`
 
-```
+```Js
 
 replace(regexp, newSubstr);
 replace(regexp, replacerFunction);
@@ -1063,7 +1063,7 @@ console.log(p.replace("dog", "monkey")); // expected output: "The quick brown fo
 
 - search() `The search() method matches a string against a regular expression ** This method returns the index (position) of the first match.This method returns -1 if no match is found.`
 
-```
+```Js
 
 search(regexp);
 let str = "hey JudE";
@@ -1074,7 +1074,7 @@ console.log(str.search(re)); // returns 4, which is the index of the first capit
 
 - slice() `The slice() method returns selected elements in an array, as a new array. The slice() method selects from a given start, up to a (not inclusive) given end. The slice() method does not change the original array.`
 
-```
+```Js
 
 slice();
 slice(start);
@@ -1088,7 +1088,7 @@ console.log(animals.slice(2, 4)); // expected output: Array ["camel", "duck"]
 
 - split() `The split() method splits a string into an array of substrings. The split() method returns the new array. The split() method does not change the original string.`
 
-```
+```Js
 
 split();
 split(separator);
@@ -1105,7 +1105,7 @@ console.log(chars[8]); // expected output: "k"
 
 - str.length `The length property returns the length of a string. The length property of an empty string is 0.`
 
-```
+```Js
 
 const str = 'Life, the universe and everything. Answer:';
 console.log(str.length); // expected output:  42
@@ -1139,7 +1139,7 @@ console.log(str.length); // expected output:  42
 
 ### Accessing Array Elements
 
-```
+```Js
 
 let fruits = ['Apple', 'Banana']
 console.log(fruits) // Apple Banana
@@ -1152,7 +1152,7 @@ let last = fruits[fruits.length - 1] // Banana
 
 > To traverse an array means to access each element (item) stored in the array so that the data can be checked or used as part of a process.
 
-```
+```Js
 
 const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 for (var i = 0; i < arr.length; i++) { // Regular For
@@ -1202,7 +1202,7 @@ for (const x of arr) { // for/of
 
 ### Multidimensional Array
 
-```
+```Js
 
 var arr = [
 [80, 85, 90, 87],
@@ -1887,7 +1887,7 @@ Standard built-in objects
 
   > The let keyword was introduced in ES6 (2015). Variables defined with let cannot be Redeclared. It must be Declared before use. Its have a Block Scope.
 
-```
+```Js
 
 let a = 3;
 if (true) {
@@ -1902,7 +1902,7 @@ console.log(a); // prints 3
 
 > Constants work just like let, but can’t be reassigned.
 
-```
+```Js
 
 const a = 50;
 a = 20; // throws an error
@@ -1916,7 +1916,7 @@ a = 20; // throws an error
 
 > Template string use back-ticks (``) rather than the quotes ("") to define a string. Its allows multiline, expressions and interpolate variables in strings.
 
-```
+```Js
 
 const name = "Nazmul";
 let price = 10;
@@ -1938,7 +1938,7 @@ const message = `Hello ${name}`; // Use Interpolation
 
 - array
 
-```
+```Js
 
 let [a, b] = [20, 27];
 console.log(a); // 20
@@ -1948,7 +1948,7 @@ console.log(b); // 27
 
 - Object
 
-```
+```Js
 
 const obj = { a: 20, b: 27 };
 const { a, b } = obj;
@@ -1957,7 +1957,7 @@ const { a, b } = obj;
 
 - Nested Objects
 
-```
+```Js
 
 const person = {
   name: "John Snow",
@@ -1987,7 +1987,7 @@ console.log(city); // ReferenceError
 <small><a href="#javascript-tutorial">Top</a></small>
 <small><a href="#object-property-and-function-assignement">Next</a></small>
 
-```
+```Js
 
 const adventurer = {
   name: "Alice",
@@ -2008,7 +2008,7 @@ console.log(adventurer.someNonExistentMethod?.()); // expected output: undefined
 
 - Property assignement
 
-```
+```Js
 
 const a = 2;
 const b = 5;
@@ -2019,7 +2019,7 @@ console.log(obj); // expected output: { a: 2, b: 5 }
 
 - function assignement
 
-```
+```Js
 
 const obj = {
   a: 10,
@@ -2038,7 +2038,7 @@ obj.b(); // expected output: "b"
 
 - Array
 
-```
+```Js
 
 let colors = ["red", "green", "blue"];
 let rgb = [...colors];
@@ -2054,7 +2054,7 @@ console.log(sum(...numbers)); // expected output: 6
 
 - Object
 
-```
+```Js
 
 const obj1 = { x: 1, y: 2 };
 const obj2 = { z: 3 };
@@ -2066,7 +2066,7 @@ console.log(obj3); // {x: 1, y: 2, z: 3}
 
 - Rest
 
-```
+```Js
 
 function myBio(firstName, lastName, ...otherInfo) {
   return otherInfo;
@@ -2085,7 +2085,7 @@ func(4, 5, 6); // [4, 5, 6]
 <small><a href="#javascript-tutorial">Top</a></small>
 <small><a href="#default-value-and-parameter">Next</a></small>
 
-```
+```Js
 
 const byte = 2 ** 4;
 // Same as: Math.pow(2, 4)
@@ -2099,7 +2099,7 @@ const byte = 2 ** 4;
 
 - Value
 
-```
+```Js
 
 const scores = [22, 33];
 const [math = 50, sci = 50, arts = 50] = scores; // math === 22, sci === 33, arts === 50
@@ -2108,7 +2108,7 @@ const [math = 50, sci = 50, arts = 50] = scores; // math === 22, sci === 33, art
 
 - Parameter
 
-```
+```Js
 
 function print(a = 5) {
   console.log(a);
@@ -2125,7 +2125,7 @@ print(22); // prints 22
 
 - Implicit return
 
-```
+```Js
 
 const sum = (a, b) => a + b;
 console.log(sum(2, 6)); // prints 8
@@ -2134,7 +2134,7 @@ console.log(sum(2, 6)); // prints 8
 
 - no arguments
 
-```
+```Js
 
 const birthday = () => "Happy Birthday";
 
@@ -2142,7 +2142,7 @@ const birthday = () => "Happy Birthday";
 
 - With one arguments
 
-```
+```Js
 
 const birthday = (name) => {
   return "Happy Birthday," + name + "!";
@@ -2165,7 +2165,7 @@ const birthday = (name) => {
 
 > map() Method creates a new array from calling a function for every array element. its does not execute the function for empty elements. Its does not change the original array.
 
-```
+```Js
 
 map((element) => {
   /* ... */
@@ -2190,7 +2190,7 @@ console.log(map); // expected output: Array [2, 8, 18, 32]
 
 > forEch() method calls a function for each element in an array. its not executed for empty elements and does not return anything.
 
-```
+```Js
 
 forEach((element) => {
   /* ... */
@@ -2214,7 +2214,7 @@ array.forEach((element) => console.log(element));
 
 > filter() method creates a new array filled with elements that pass a test provided by a function. The filter() method does not change the original array.
 
-```
+```Js
 
 filter((element) => {
   /* ... */
@@ -2239,7 +2239,7 @@ console.log(result);
 
 > find() method returns the value of the first element that passes a test. The find() method does not change the original array.
 
-```
+```Js
 
 find((element) => {
   /* ... */
@@ -2264,7 +2264,7 @@ console.log(found); // expected output: 12
 
 > async await: The keyword async before a function makes the function return a promise. The keyword await before a function makes the function wait for a promise.
 
-```
+```Js
 
 async function run() {
   const user = await getUser();
@@ -2282,7 +2282,7 @@ async function run() {
 
 > for of loop: loops through the values of an iterable object
 
-```
+```Js
 
 const array1 = ["a", "b", "c"];
 for (const element of array1) {
@@ -2299,7 +2299,7 @@ for (const element of array1) {
 
 > The repeat() method returns a new string with a number of copies of a string. Its method does not change the original string.
 
-```
+```Js
 
 let text = "Hello world!";
 let result = text.repeat(2);
@@ -2314,7 +2314,7 @@ let result = text.repeat(2);
 
 > The includes() method returns true if a string contains a specified string. Otherwise it returns false. Its method is case sensitive.
 
-```
+```Js
 
 const array = [1, 2, 3];
 console.log(array.includes(2)); // expected output: true
@@ -2334,7 +2334,7 @@ console.log(str.includes("a")); // expected output: false
 
 > startsWith() method returns true if a string starts with a specified string. Otherwise it returns false. This method is case sensitive.
 
-```
+```Js
 
 const str = "Saturday night plans";
 console.log(str.startsWith("Sat")); // expected output: true
@@ -2350,7 +2350,7 @@ console.log(str.startsWith("Sat", 3)); // expected output: false
 
 > The padStart() method pads the current string with another string (multiple times, if needed) in starting position of string.
 
-```
+```Js
 
 const str = "5";
 console.log(str.padStart(2, "0")); // expected output: "05"
@@ -2369,7 +2369,7 @@ lastDigits.padStart(number.length - 2, "*"); // expected output:'*******40'
 
 > padEnd() method pads the current string with another string (multiple times, if needed) in ending position of string.
 
-```
+```Js
 
 const str = "5";
 console.log(str.padEnd(3, ".")); // expected output: "5.."
@@ -2609,7 +2609,7 @@ size // কতটি উপাদান আছে তা রিটার্ন �
 
    > This method will return an array of all the elements you specify between the parentheses.
 
-   ```
+   ```Js
    const collection = document.getElementsByTagName("p");
    const collection = document.getElementsByTagName("*");
 
@@ -2619,7 +2619,7 @@ size // কতটি উপাদান আছে তা রিটার্ন �
 
    > This method will returns a array of html elements that contain the class name you specify within the parentheses.
 
-   ```
+   ```Js
 
    const collection = document.getElementsByClassName("class");
 
@@ -2629,7 +2629,7 @@ size // কতটি উপাদান আছে তা রিটার্ন �
 
    > This method will return a html element that contain the id name you specify within the parentheses.
 
-   ```
+   ```Js
 
    document.getElementById("id");
 
@@ -2639,7 +2639,7 @@ size // কতটি উপাদান আছে তা রিটার্ন �
 
    > This method returns all elements that matches a CSS selector(s) you specify within the parentheses.
 
-   ```
+   ```Js
 
    document.querySelectorAll("css selector like p .class #id");
 
@@ -2649,7 +2649,7 @@ size // কতটি উপাদান আছে তা রিটার্ন �
 
    > This method returns the first element that matches a CSS selector(s) you specify within the parentheses.
 
-   ```
+   ```Js
 
    document.querySelector("css selector like p .class #id");
 
@@ -2659,7 +2659,7 @@ size // কতটি উপাদান আছে তা রিটার্ন �
 
    > This method returns a collection of elements with a specified name.
 
-   ```
+   ```Js
 
    const firstName = document.getElementsByName("fname");
 
@@ -2672,7 +2672,7 @@ size // কতটি উপাদান আছে তা রিটার্ন �
 
 > .parentElement | .children | .previousElementSibling | .nextElementSibling | .firstElementChild | .lastElementChild | Array.from() | Array.prototype.slice.apply() | [...array]
 
-```
+```Js
 
 const listItem = document.getElementById("li");
 const parent = listItem.parentElement; // Get parent Element
@@ -2690,7 +2690,7 @@ const lastChiled = listItem.lastElementChild; // Get Last Element of child
 
 #### Array.from()
 
-```
+```Js
 
 const listItems = Array.from(listItem);
 listItems.forEach((li, index) => {
@@ -2703,7 +2703,7 @@ listItems.forEach((li, index) => {
 
 #### Array.prototype.slice.apply()
 
-```
+```Js
 
 const listItems = Array.prototype.slice.apply(listItem);
 listItems.forEach((li, index) => {
@@ -2715,7 +2715,7 @@ listItems.forEach((li, index) => {
 
 #### [...array]
 
-```
+```Js
 
 const listItems = [...listItem];
 listItems.forEach((li, index) => {
@@ -2734,7 +2734,7 @@ listItems.forEach((li, index) => {
 
 - Create a \<p> element and append it to the document
 
-```
+```Js
 
 const p = document.createElement("p");
 p.innerText = "This is a paragraph";
@@ -2744,7 +2744,7 @@ document.body.appendChild(p);
 
 - Create a \<p> element and append it to an element
 
-```
+```Js
 
 const p = document.createElement("p");
 p.innerHTML = "This is a paragraph.";
@@ -2754,7 +2754,7 @@ document.getElementById("myDIV").appendChild(p);
 
 - a function for create elements Daynamicly
 
-```
+```Js
 
 function createElement(tagName, className, innerHTML) {
   let tag = document.createElement(tagName);
@@ -2767,7 +2767,7 @@ function createElement(tagName, className, innerHTML) {
 
 - a function for append elements
 
-```
+```Js
 
 function append(parent, children) {
 children.forEach((child) => parent.appendChild(child));
@@ -2827,7 +2827,7 @@ children.forEach((child) => parent.appendChild(child));
 
 > The JavaScript window object which is the global object of JavaScript in the browser and exposes the browsers functionality.
 
-```
+```Js
 
 var counter = 1;
 var showCounter = () => console.log(counter);
@@ -2849,7 +2849,7 @@ window.showCounter();
 
 > To open a new window or tab, you use the window.open() method:
 
-```
+```Js
 
 window.open(url, windowName, [windowFeatures]);
 
@@ -2862,7 +2862,7 @@ let newWindow = window.open(url,'about');
 
 > To resize a window you use the resizeTo(), resizeBy(), method.
 
-```
+```Js
 
 window.resizeTo(width,height);
 window.resizeBy(deltaX,deltaY);
@@ -2882,7 +2882,7 @@ setTimeout(() => {
 
 > To move a window you use the moveTo(), moveBy(), method.
 
-```
+```Js
 
 window.moveTo(x, y);
 window.moveBy(x, y);
@@ -2902,7 +2902,7 @@ setTimeout(() => {
 
 > To close a window, you use the window.close() method.
 
-```
+```Js
 
 window.close()
 
@@ -2925,7 +2925,7 @@ setTimeout(() => {
 
 > The alert() method displays an alert box with a message and an OK button.
 
-```
+```Js
 
 alert("Hello! I am an JavaScrip alert!!");
 
@@ -2939,7 +2939,7 @@ alert("Hello! I am an JavaScrip alert!!");
 
 > The confirm() method displays a dialog box with a message, an OK button, and a Cancel button.This method returns true if the user clicked "OK", otherwise false.
 
-```
+```Js
 
 const response = confirm('are you going to picnic?')
 console.log(response)
@@ -2954,7 +2954,7 @@ console.log(response)
 
 > The prompt() method displays a dialog box that prompts the user for input. this method returns the input value if the user clicks "OK", otherwise it returns null.
 
-```
+```Js
 
 const person = prompt("Please enter your name");
 console.log(person);
@@ -2969,7 +2969,7 @@ console.log(person);
 
 > The setTimeout() sets a timer and executes a callback function after the timer expires.
 
-```
+```Js
 
 setTimeout(() => {
   console.log("this is the first message");
@@ -2985,7 +2985,7 @@ setTimeout(() => {
 
 > The setInterval() repeatedly calls a function with a fixed delay between each call.
 
-```
+```Js
 
 setInterval(function () {
   element.innerHTML += "Hello";
@@ -3003,43 +3003,43 @@ setInterval(function () {
 
 `Suppose that is the current URL:`
 
-```
+```Js
 https://reactjs.org/docs/getting-started.html#first-examples
 ```
 
 **`location.href` To get the entire URL**
 
-```
+```Js
 location.href // 'https://reactjs.org/docs/getting-started.html#first-examples'
 ```
 
 **`location.protocol` To get protocol of the current URL**
 
-```
+```Js
 location.protocol // 'https:'
 ```
 
 **`location.host` To get hostname of the current URL**
 
-```
+```Js
 location.host // 'reactjs.org'
 ```
 
 **`location.pathname` To get the pathname of a URL (page).**
 
-```
+```Js
 location.pathname // '/docs/getting-started.html'
 ```
 
 **`location.search` To get the querystring part of a URL.**
 
-```
+```Js
 location.search // ''
 ```
 
 **`location.hash` To Get the anchor part of the URL**
 
-```
+```Js
 location.hash // '#first-examples'
 ```
 
@@ -3051,7 +3051,7 @@ location.hash // '#first-examples'
 
 > The `assign()` method loads a new document.
 
-```
+```Js
 location.assign('https://web.programming-hero.com/');
 
 ```
@@ -3060,7 +3060,7 @@ location.assign('https://web.programming-hero.com/');
 
 > The `reload()` method Reload the current document.
 
-```
+```Js
 location.reload();
 ```
 
@@ -3068,7 +3068,7 @@ location.reload();
 
 > The `replace()` Mehtod Replace the current document.
 
-```
+```Js
 location.replace("https://web.programming-hero.com/");
 ```
 
@@ -3084,7 +3084,7 @@ location.replace("https://web.programming-hero.com/");
 
 > To redirect to a new URL from the current page, you use the `location.href` object.
 
-```
+```Js
 location.href = 'https://web.programming-hero.com/';
 ```
 
@@ -3092,7 +3092,7 @@ location.href = 'https://web.programming-hero.com/';
 
 > To redirect to a new URL without creating a new entry in the history stack of the browser, you use the `location.replace()` method.
 
-```
+```Js
 location.replace('https://web.programming-hero.com/');
 ```
 
@@ -3100,7 +3100,7 @@ location.replace('https://web.programming-hero.com/');
 
 > Assigning a value to the href property of the location object has the same effect as calling the `location.assign()` method.
 
-```
+```Js
 location.assign('https://web.programming-hero.com/');
 ```
 
@@ -3108,7 +3108,7 @@ location.assign('https://web.programming-hero.com/');
 
 > To redirect to a relative URL you use the `location.href` method.
 
-```
+```Js
 location.href = 'about.html';
 location.href = '/contact.html';
 ```
@@ -3117,7 +3117,7 @@ location.href = '/contact.html';
 
 > If you want to redirect to a new page upon loading, you use the following code
 
-```
+```Js
 window.onload = function() {
     location.href = "https://web.programming-hero.com/";
 }
@@ -3147,7 +3147,7 @@ window.onload = function() {
 
 > To move backward through history, you use the `back()` method.
 
-```
+```Js
 history.back();
 ```
 
@@ -3155,7 +3155,7 @@ history.back();
 
 > To move forward history, you use the `forward()` method
 
-```
+```Js
 history.forward();
 ```
 
@@ -3163,7 +3163,7 @@ history.forward();
 
 > To move to a specific URL in the history stack, you use the `go()` method. The go() method accepts an integer that is the relative position to the current page. The current page’s position is 0.
 
-```
+```Js
 history.go(-1);
 history.go(1)
 ```
