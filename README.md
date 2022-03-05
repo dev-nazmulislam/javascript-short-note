@@ -411,7 +411,7 @@ if ("")
 > 7.  String operators,
 > 8.  Conditional (ternary) operators,
 > 9.  Comma operators,
-> 10. Unary operators,
+> 10. Tarnary operators,
 > 11. Relational operators.
 
 1. **Assignment Operators symbol: =, +=, -=, \_=, /=, %=, \*\*=, <<=, >>=, >>>=, &=, ^=, |=, &&=, ||=, ??=**
