@@ -158,7 +158,7 @@
 
 [Problem Solving](#problem-solving)
 
-# JavaScirpt All Methood
+# JavaScirpt All Methods.
 
 <table align="center">
   <thead align="center">
@@ -193,6 +193,36 @@
       <td>Returns the absolute value of a number. NaN if the value is not a number. 0 if the value is null.</td>
       <td><a href="#">Math.floor()</a></td>
       <td>Rounds a number DOWNWARDS to the nearest integer, and returns the result.</td>
+    </tr>
+    <tr>
+      <td><a href="#">Math.ceil()</a></td>
+      <td>Rounds a number UPWARDS to the nearest integer, and returns the result.</td>
+      <td><a href="#">Math.round()</a></td>
+      <td>Rounds a number to the nearest integer.</td>
+    </tr>
+    <tr>
+      <td><a href="#">Math.max()</a></td>
+      <td>Returns the number with the highest value or NaN if any parameter isn't a number and can't be converted into one.</td>
+      <td><a href="#">Math.min()</a></td>
+      <td>Returns the number with the lowest value or NaN if any parameter isn't a number and can't be converted into one.</td>
+    </tr>
+    <tr>
+      <td><a href="#">Math.pow()</a></td>
+      <td>Returns the value of x to the power of y (xy).</td>
+      <td><a href="#">Math.sqrt()</a></td>
+      <td>Returns the square root of a number. If the number is negative, NaN is returned</td>
+    </tr>
+    <tr>
+      <td><a href="#">Math.random()</a></td>
+      <td>returns a random number between 0 (inclusive),  and 1 (exclusive)</td>
+      <td><a href="#">new Date()</a></td>
+      <td>returns a random number between 0 (inclusive),  and 1 (exclusive)</td>
+    </tr>
+    <tr>
+      <td><a href="#">toDateString()</a></td>
+      <td>Returns the date (not the time) of a date object as a string.</td>
+      <td><a href="#">toTimeString()</a></td>
+      <td>Returns the time portion of a date object as a string.</td>
     </tr>
     <tr>
       <td><a href="#"></a></td>
