@@ -160,19 +160,23 @@
 
 # JavaScirpt All Methood
 
-<table  style="width: 100%" align="center">
-  <tr>
-    <td>Method</td>
-    <td>Use For</td>
-    <td>Method</td>
-    <td>Use For</td>
-  </tr>
-  <tr>
-    <td><a href="#">String()</a></td>
-    <td>Convert different values to strings.Convert different values to strings.Convert different values to strings.</td>
-    <td><a href="#">toString()</a></td>
-    <td>Convert a number to a string.</td>
-  </tr>
+<table>
+  <thead align="center">
+    <tr>
+      <th>Method</th>
+      <th>Use For</th>
+      <th>Method</th>
+      <th>Use For</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>String()</td>
+      <td>Convert different values to strings.</td>
+      <td>toString()</td>
+      <td>Convert a number to a string.</td>
+    </tr>
+  </tbody>
 </table>
 # Learn JavaScript
 
