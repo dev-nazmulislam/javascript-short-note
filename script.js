@@ -13,6 +13,7 @@ console.log(person);
 setTimeout(() => {
   console.log("this is the first message");
 }, 5000);
+
 // 06. setInterval
 // > The setInterval() repeatedly calls a function with a fixed delay between each call.
 setInterval(function () {

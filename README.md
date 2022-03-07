@@ -2155,7 +2155,7 @@ const birthday = (name) => {
 <small><a href="#javascript-tutorial">Top</a></small>
 <small><a href="#map">Next</a></small>
 
-[map ()](#map) | [forEch()](#forech) | [filter()](#filter) | [find()](#find) | [async-await](#async-await) | [for of](#for-of) | [repeat()](#repeat) | [includes()](#includes) | [startsWith()](#startswith) | [padStart()](#padstart) | [padEnd()](#padend) | [Object.assign()](#object-assign) | [Object.entries()](#object-entries) | [Object.values()](#object-values) | [set ()](#set)
+[map ()](#map) | [forEch()](#forech) | [filter()](#filter) | [find()](#find) | [async-await](#async-await) | [for of](#for-of) | [repeat()](#repeat) | [includes()](#includes) | [startsWith()](#startswith) | [padStart()](#padstart) | [padEnd()](#padend) | [Object.assign()](#object-assign) | [Object.entries()](#object-entries) | [Object.values()](#object-values) | [Object.keys()](#object-keys) | [delete](#delete) | [Object.seal()](#object-seal) | [Object.freeze()](#object-freeze) | [bind()](#bind) | [call()](#call) | [apply()](#apply) | [set ()](#set)
 
 ### map()
 
