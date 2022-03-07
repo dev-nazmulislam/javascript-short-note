@@ -160,7 +160,7 @@
 
 # JavaScirpt All Methood
 
-<table style="width:100%" align="center">
+<table  style="width: 100%" align="center">
   <tr>
     <td>Method</td>
     <td>Use For</td>
