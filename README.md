@@ -160,7 +160,7 @@
 
 # JavaScirpt All Methood
 
-<table>
+<table align="center">
   <thead align="center">
     <tr>
       <th>Method</th>
@@ -171,10 +171,34 @@
   </thead>
   <tbody>
     <tr>
-      <td>String()</td>
+      <td><a href="#">String()</a></td>
       <td>Convert different values to strings.</td>
-      <td>toString()</td>
+      <td><a href="#">toString()</a></td>
       <td>Convert a number to a string.</td>
+    </tr>
+    <tr>
+      <td><a href="#">Number()</a></td>
+      <td>Convert Booleans, strings and dates to a number.</td>
+      <td><a href="#">Boolean()</a></td>
+      <td>A JavaScript Boolean represents one of two values true or false.</td>
+    </tr>
+    <tr>
+      <td><a href="#">parseInt()</a></td>
+      <td>Parses a value as a string and returns the first integer. NaN if no integer is found.</td>
+      <td><a href="#">parseFloat()</a></td>
+      <td>Parses a value as a string and returns the first number. If the first character cannot be converted, NaN is returned.</td>
+    </tr>
+    <tr>
+      <td><a href="#">Math.abs()</a></td>
+      <td>Returns the absolute value of a number. NaN if the value is not a number. 0 if the value is null.</td>
+      <td><a href="#">Math.floor()</a></td>
+      <td>Rounds a number DOWNWARDS to the nearest integer, and returns the result.</td>
+    </tr>
+    <tr>
+      <td><a href="#"></a></td>
+      <td></td>
+      <td><a href="#"></a></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
