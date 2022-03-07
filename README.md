@@ -160,6 +160,8 @@
 
 # JavaScirpt All Methods.
 
+[String()](#) | [toString()](#) | [Number()](#) | [Boolean()](#) | [parseInt()](#) | [parseFloat()](#) | [Math.abs()](#) | [Math.floor()](#) | [Math.ceil()](#) | [Math.round()](#)
+
 <table align="center">
   <thead align="center">
     <tr>
@@ -232,6 +234,7 @@
     </tr>
   </tbody>
 </table>
+
 # Learn JavaScript
 
 ### Javascript Definition
