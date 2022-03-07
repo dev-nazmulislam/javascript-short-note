@@ -169,7 +169,7 @@
   </tr>
   <tr>
     <td><a href="#">String()</a></td>
-    <td>Convert different values to strings.</td>
+    <td>Convert different values to strings.Convert different values to strings.Convert different values to strings.</td>
     <td><a href="#">toString()</a></td>
     <td>Convert a number to a string.</td>
   </tr>
