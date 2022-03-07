@@ -164,7 +164,7 @@
 
 [toString()](#) | [String()](#) | [concat()](#) | [toUpperCase()](#) | [toLowerCase()](#) | [trim()](#) | [length](#) | [slice()](#) | [split()](#) | [substr()](#) | [includes()](#) | [startsWith()](#) | [endsWith()](#) | [indexOf()](#) | [lastIndexOf()](#) | [match()](#) | [charAt()](#) | [repeat()](#) | [replace()](#) | [search()](#).
 
-### JavaScript Date object Methods
+### JavaScript Date Object Methods
 
 [Date()](#) | [new Date()](#) | [Date.now()](#) | [toDateString()](#) | [toTimeString() ](#) | [toLocaleString()](#) | [toLocaleDateString()](#) | [toLocaleTimeString()](#) | [getFullYear()](#) | [getMonth()](#) | [getDate()](#) | [getHours()](#) | [getMinutes() ](#) | [getSeconds()](#) | [getDay()](#) | [setDate()](#) | [setDay()](#) | [setFullYears()](#) | [setHours()](#) | [setMinutes()](#) | [setMonth()](#).
 
@@ -174,11 +174,15 @@
 
 ### JavaScript Array Methods
 
-[length](#) | [push()](#) | [pop()](#) | [shift()](#) | [unshift()](#) | [indexOf()](#) | [splice()](#) | [[...arr]](#) | [slice()](#) | [Array.from()](#) | [join()](#) | [fill()](#) | [concat()](#) | [toString()](#) | [Array.isArray()](#) | [Array.from()](#) | [every()](#) | [filter()](#) | [find()](#) | [findIndex](#) | [forEach()](#) | [includes()](#) | [keys()](#) | [values()](#) | [entries()](#) | [map()](#) | [reduce()](#) | [reverse()](#) | [some()](#) | [sort()](#).
+[length](#) | [push()](#) | [pop()](#) | [shift()](#) | [unshift()](#) | [indexOf()](#) | [splice()](#) | […](#) | [[...arr]](#) | [slice()](#) | [Array.from()](#) | [join()](#) | [fill()](#) | [concat()](#) | [toString()](#) | [Array.isArray()](#) | [Array.from()](#) | [every()](#) | [filter()](#) | [find()](#) | [findIndex](#) | [forEach()](#) | [includes()](#) | [keys()](#) | [values()](#) | [entries()](#) | [map()](#) | [reduce()](#) | [reverse()](#) | [some()](#) | [sort()](#).
 
-### Check korte hobe
+### JavaScript Object Methods
 
-[String()](#) | [toString()](#) | [Number()](#) | [Boolean()](#) | [parseInt()](#) | [parseFloat()](#) | [Math.abs()](#) | [Math.floor()](#) | [Math.ceil()](#) | [Math.round()](#) | [Math.max()](#) | [Math.min()](#) | [Math.pow()](#) | [Math.sqrt()](#) | [Math.random()](#) | [new Date()](#) | [toDateString()](#) | [toTimeString()](#) | [toLocaleString()](#) | [toLocaleDateString()](#) | [toLocaleTimeString()](#) | [getFullYear()](#) | [getMonth()](#) | [getDate()](#) | [getHours()](#) | [getMinutes()](#) | [getSeconds()](#) | [getDay()](#) | [concat()](#) | [substr()](#) | [charAt()](#) | [startsWith()](#) | [endsWith()](#) | [toUpperCase()](#) | [toLowerCase()](#) | [trim()](#) | [split()](#) | [Array()](#) | [forEach()](#) | [push()](#) | [unshift()](#) | [splice()](#) | [pop()](#) | [shift()](#) | [reverse()](#) | [join()](#) | [Array.from()](#) | [new Object()](#) | [delete](#) | [JSON.stringify()](#) | [Object.keys()](#) | [Object.values()](#) | [Object.entries()](#) | [Object.assign()](#) | [filter()](#) | [reduce()](#) | [find()](#) | [findIndex()](#) | [sort()](#) | [every()](#) | [some()](#) | [slice()](#) | [new Array()](#) | [includes()](#) | [repeat()](#) | [padStart()](#) | [padEnd()](#) | […](#) | [...rest](#) | [assign()](#) | [new Set()](#) | [add()](#) | [has()](#) | [clear()](#) | [forEach()](#) | [size()](#) | [Map()](#) | [new Map()](#) | [Map.set()](#) | [get()](#) | [flat()](#) | [flatMap()](#) | [fill()](#)
+[Object()](#) | [new Object()](#) | [Object.assign()](#) | [Object.create()](#) | [Object.entries()](#) | [Object.freeze()](#) | [Object.keys()](#) | [Object.seal()](#) | [Object.values()](#) | [delete](#).
+
+### Others Methods
+
+[Number()](#) | [Boolean()](#) | [parseInt()](#) | [parseFloat()](#)| [new Set()](#) | [add()](#) | [has()](#) | [clear()](#) | [size()](#) | [new Map()](#) | [Map.set()](#) | [get()](#) | [flat()](#) | [flatMap()](#).
 
 # Learn JavaScript
 
