@@ -172,63 +172,63 @@
   <tbody>
     <tr>
       <td><a href="#">String()</a></td>
-      <td>Convert different values to strings.</td>
+      <td><small>Convert different values to strings.</small></td>
       <td><a href="#">toString()</a></td>
-      <td>Convert a number to a string.</td>
+      <td><small>Convert a number to a string.</small></td>
     </tr>
     <tr>
       <td><a href="#">Number()</a></td>
-      <td>Convert Booleans, strings and dates to a number.</td>
+      <td><small>Convert Booleans, strings and dates to a number.</small></td>
       <td><a href="#">Boolean()</a></td>
-      <td>A JavaScript Boolean represents one of two values true or false.</td>
+      <td><small>A JavaScript Boolean represents one of two values true or false.</small></td>
     </tr>
     <tr>
       <td><a href="#">parseInt()</a></td>
-      <td>Parses a value as a string and returns the first integer. NaN if no integer is found.</td>
+      <td><small>Parses a value as a string and returns the first integer. NaN if no integer is found.</small></td>
       <td><a href="#">parseFloat()</a></td>
-      <td>Parses a value as a string and returns the first number. If the first character cannot be converted, NaN is returned.</td>
+      <td><small>Parses a value as a string and returns the first number. If the first character cannot be converted, NaN is returned.</small></td>
     </tr>
     <tr>
       <td><a href="#">Math.abs()</a></td>
-      <td>Returns the absolute value of a number. NaN if the value is not a number. 0 if the value is null.</td>
+      <td><small>Returns the absolute value of a number. NaN if the value is not a number. 0 if the value is null.</small></td>
       <td><a href="#">Math.floor()</a></td>
-      <td>Rounds a number DOWNWARDS to the nearest integer, and returns the result.</td>
+      <td><small>Rounds a number DOWNWARDS to the nearest integer, and returns the result.</small></td>
     </tr>
     <tr>
       <td><a href="#">Math.ceil()</a></td>
-      <td>Rounds a number UPWARDS to the nearest integer, and returns the result.</td>
+      <td><small>Rounds a number UPWARDS to the nearest integer, and returns the result.</small></td>
       <td><a href="#">Math.round()</a></td>
-      <td>Rounds a number to the nearest integer.</td>
+      <td><small>Rounds a number to the nearest integer.</small></td>
     </tr>
     <tr>
       <td><a href="#">Math.max()</a></td>
-      <td>Returns the number with the highest value or NaN if any parameter isn't a number and can't be converted into one.</td>
+      <td><small>Returns the number with the highest value or NaN if any parameter isn't a number and can't be converted into one.</small></td>
       <td><a href="#">Math.min()</a></td>
-      <td>Returns the number with the lowest value or NaN if any parameter isn't a number and can't be converted into one.</td>
+      <td><small>Returns the number with the lowest value or NaN if any parameter isn't a number and can't be converted into one.</small></td>
     </tr>
     <tr>
       <td><a href="#">Math.pow()</a></td>
-      <td>Returns the value of x to the power of y (xy).</td>
+      <td><small>Returns the value of to the power of get value.</small></td>
       <td><a href="#">Math.sqrt()</a></td>
-      <td>Returns the square root of a number. If the number is negative, NaN is returned</td>
+      <td><small>Returns the square root of a number. If the number is negative, NaN is returned</small></td>
     </tr>
     <tr>
       <td><a href="#">Math.random()</a></td>
-      <td>returns a random number between 0 (inclusive),  and 1 (exclusive)</td>
+      <td><small>returns a random number between 0 (inclusive),  and 1 (exclusive)</small></td>
       <td><a href="#">new Date()</a></td>
-      <td>returns a random number between 0 (inclusive),  and 1 (exclusive)</td>
+      <td><small>returns a random number between 0 (inclusive),  and 1 (exclusive)</small></td>
     </tr>
     <tr>
       <td><a href="#">toDateString()</a></td>
-      <td>Returns the date (not the time) of a date object as a string.</td>
+      <td><small>Returns the date (not the time) of a date object as a string.</small></td>
       <td><a href="#">toTimeString()</a></td>
-      <td>Returns the time portion of a date object as a string.</td>
+      <td><small>Returns the time portion of a date object as a string.</small></td>
     </tr>
     <tr>
       <td><a href="#"></a></td>
-      <td></td>
+      <td><small></small></td>
       <td><a href="#"></a></td>
-      <td></td>
+      <td><small></small></td>
     </tr>
   </tbody>
 </table>
