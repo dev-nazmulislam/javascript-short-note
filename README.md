@@ -357,7 +357,7 @@ z = x + y; // Statement 4
 <small><a href="#javascript-tutorial">Top</a></small>
 <small><a href="#falsy-values">Next</a></small>
 
-- Number Conversion
+## Number Conversion
 
 ### Number()
 
