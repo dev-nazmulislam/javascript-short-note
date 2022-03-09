@@ -4,8 +4,24 @@
 #number
 #parseint
 #parsefloat
-
-
+#tofixed
+#string
+#tostring
+#boolean
+#math-abs
+#math-floor
+#math-ceil
+#math-round
+#math-max
+#math-min
+#math-pow
+#math-sqrt
+#math-random
+#math-round
+#new-date
+#date-todatestring
+#date-totimestring
+#date-tolocalestring
 */
 
 // 02. Alert

@@ -301,7 +301,6 @@ z = x + y; // Statement 4
   > The most common primitive data type is numbers. To declare numbers in JavaScript is easy. Both integer numbers and floating numbers are the same in JavaScript. Both are considered float numbers. JavaScript provides 64 bits for every single number.
 
   ```Js
-
   var num = 4546;
   var num2 = 55.5;
   var num3 = Number("55.5");
@@ -311,7 +310,6 @@ z = x + y; // Statement 4
   console.log(Number.MAX_VALUE);
   console.log(Number.MAX_SAFE_INTEGER);
   console.log(1 / 0);
-
   ```
 
 - String
@@ -319,7 +317,6 @@ z = x + y; // Statement 4
   > In the JavaScript programming language, anything wrapped between quotes is considered as string. It can be a single quote or double quote. Even by using a backtick sign, string can be declared in ES6. JavaScript provides two types of string functionality. A. string literal and B. string constructor.
 
   ```Js
-
   var str = "This is text";
   var str2 = "This is text";
   var str3 = `this is text`;
@@ -333,12 +330,10 @@ z = x + y; // Statement 4
   > In JavaScript, Boolean is a primitive data type. The Boolean data type has two values only. It deals with true or false. Controlling program flow using conditional statements like - while, do...while, switch, if...else, the Boolean data type is used.
 
   ```Js
-
   var isRaining = true;
   var isComming = false;
   var isEqual = Boolean(true);
   var isNotEqual = Boolean(false);
-
   ```
 
 - Null and Undefined
@@ -346,30 +341,30 @@ z = x + y; // Statement 4
   > Generally, in a programming language, we can assign any primitive or non-primitive type of value to a variable. But JavaScript adds the functionalities of two additional primitive type values - null and undefined. These can be assigned to a variable that has a special meaning.
 
   ```Js
-
   var abc;
   var text = null;
-
   ```
 
-### Type Conversion
+## Type Conversion
 
 <small><a href="#javascript-tutorial">Top</a></small>
 <small><a href="#falsy-values">Next</a></small>
 
-## Number Conversion
+> In programming, type conversion is the process of converting data of one type to another.
+
+### Number Conversion
+
+> Converting Variables to Numbers. There are 3 way to convert variables to numbers. The Number(), parseInt(), parseFloat().
 
 ### Number()
 
 ```Js
-
 Number(" 123 "); // 123
 Number("123z"); // NaN (error reading a number at "z")
 Number(true); // 1
 Number(false) ); // 0
 Number(undefined) // NaN
 Number(null) // 0
-
 ```
 
 > Decimal Number to Integer Number.
@@ -399,29 +394,36 @@ let num = 5.56789;
 let n = num.toFixed();
 ```
 
-- String Conversion: String() or toString()
+### String Conversion.
 
-  ```Js
+### String()
 
-  String(true); // now true is a string "true"
-  String(x) // returns a string from a number variable x
-  String(123) // returns a string from a number literal 123
-  String(100 + 23) // returns a string from a number from an expression
+```Js
+String(true); // now true is a string "true"
+String(x) // returns a string from a number variable x
+String(123) // returns a string from a number literal 123
+String(100 + 23) // returns a string from a number from an expression
+```
 
-  ```
+### toString()
 
-- Boolean Conversion: Boolean()
+```Js
+var num=12;
+num.toString()
+```
 
-  ```Js
+### Boolean Conversion.
 
-  Boolean(1)); // true
-  Boolean(0); // false
-  Boolean("0"); // true
-  Boolean("hello"); // true
-  Boolean(""); // false
-  Boolean(" "); // spaces, also true (any non-empty string is true)
+### Boolean()
 
-  ```
+```Js
+Boolean(1)); // true
+Boolean(0); // false
+Boolean("0"); // true
+Boolean("hello"); // true
+Boolean(""); // false
+Boolean(" "); // spaces, also true (any non-empty string is true)
+```
 
 ### Falsy Values
 
@@ -433,7 +435,6 @@ let n = num.toFixed();
 > List of falsy values: false, 0, -0, ""''``, nul, undefined, NaN
 
 ```Js
-
 if (false)
 if (null)
 if (undefined)
@@ -442,7 +443,6 @@ if (-0)
 if (0n)
 if (NaN)
 if ("")
-
 ```
 
 ### JavaScript Operators
@@ -469,7 +469,6 @@ if ("")
 1. **Assignment Operators symbol: =, +=, -=, \_=, /=, %=, \*\*=, <<=, >>=, >>>=, &=, ^=, |=, &&=, ||=, ??=**
 
 ```Js
-
 let x = 50; // 50
 x += 10; // 60
 x -= 5; // 55
@@ -485,13 +484,11 @@ x |= 10; // 14
 x &&= 10; // 10
 x ||= 10; // 10
 x ??= 10; // 10
-
 ```
 
 2. **Comparison Operators symbol: ==, !=, ===, !==, >, >=, <, <=.**
 
 ```Js
-
 let number = 50;
 if (number == 50) //Returns true if the operands are equal.
 if (number != 50) // Returns true if the operands are not equal.
@@ -501,13 +498,11 @@ if (number > 50) // Returns true if the left operand is greater than the right o
 if (number >= 50) // Returns true if the left operand is greater than or equal to the right operand.
 if (number < 50) // Returns true if the left operand is less than the right operand.
 if (number <= 50) // Returns true if the left operand is less than or equal to the right operand.
-
 ```
 
 3. **Arithmetic Operators symbol: %, ++, --, -, +, \*\*.**
 
 ```Js
-
 let number = 51;
 number % 2; // Returns the integer remainder of dividing the two operands.
 number++; //  Adds one to its operand
@@ -515,13 +510,11 @@ number--; // Subtracts one from its operand.
 -number; // Returns the negation of its operand
 +"3"; // Attempts to convert the operand to a number, if it is not already.
 number ** 2; // Calculates the base to the exponent power, that is, base^exponent
-
 ```
 
 4. **Logical Operators symbol: &&, ||, !.**
 
 ```Js
-
 var a = true;
 var b = false;
 a && a; // t && t returns true
@@ -536,7 +529,6 @@ b || b; // f && f returns false
 
 !a; // !t returns false
 !b; // !f returns true
-
 ```
 
 5. **Bitwise operators symbol: &, |, ^, ~, <<, >>, >>>.**
@@ -544,17 +536,15 @@ b || b; // f && f returns false
 7. **Conditional (ternary) operators: condition ? val1 : val2**
 
 ```Js
-
 var n = 10;
 console.log(n % 2 == 0 ? "Even" : "Odd");
 var str = "";
 str = n % 2 == 0 ? "Even" : "Odd";
 console.log(str);
-
 ```
 
 8. **Comma operators symbol: ,**
-9. **Unary operators: delete.**
+9. **Tarnary operators: delete.**
 10. **Relational operators: in.**
 
 ### Conditional Statements
@@ -566,15 +556,14 @@ console.log(str);
 
 > In JavaScript we have the following conditional statements:
 
-> 1. Use if to specify a block of code to be executed, if a specified condition is true
-> 2. Use else to specify a block of code to be executed, if the same condition is false
-> 3. Use else if to specify a new condition to test, if the first condition is false
-> 4. Use switch to specify many alternative blocks of code to be executed
+> 1. Use `if` to specify a block of code to be executed, if a specified condition is true
+> 2. Use `else` to specify a block of code to be executed, if the same condition is false
+> 3. Use `else if` to specify a new condition to test, if the first condition is false
+> 4. Use `switch` to specify many alternative blocks of code to be executed
 
 - if Statement
 
 ```Js
-
 var a = 50;
 var b = 60;
 // a > b true or false
@@ -584,13 +573,11 @@ console.log("A is greater than B");
 if (a < b) {
 console.log("B is greater than A");
 }
-
 ```
 
 - else Statement
 
 ```Js
-
 var a = 60;
 var b = 40;
 // a > b true or false
@@ -599,13 +586,11 @@ console.log("A is grater then B");
 } else {
 console.log("B is grater then A");
 }
-
 ```
 
 - else if Statement
 
 ```Js
-
 var a = 20;
 var b = 20;
 // a > b true or false
@@ -616,13 +601,11 @@ console.log("B is greater than A");
 } else {
 console.log("The both are same");
 }
-
 ```
 
 - Switch Statement
 
 ```Js
-
 var date = new Date();
 var today = date.getDay();
 // 0 - Sunday, 1 - Manday, 2 - Tuesday
@@ -651,7 +634,6 @@ break;
 default:
 console.log("Not a Valid Number");
 }
-
 ```
 
 ### Declarations
@@ -659,11 +641,11 @@ console.log("Not a Valid Number");
 <small><a href="#javascript-tutorial">Top</a></small>
 <small><a href="#loops-and-iteration">Next</a></small>
 
-> var // Declares a variable, optionally initializing it to a value.
+> `var` Declares a variable, optionally initializing it to a value.
 
-> let // Declares a block scope local variable, optionally initializing it to a value.
+> `let` Declares a block scope local variable, optionally initializing it to a value.
 
-> const // Declares a read-only named constant.
+> `const` Declares a read-only named constant.
 
 ### Loops and iteration
 
@@ -672,11 +654,11 @@ console.log("Not a Valid Number");
 
 > Loops are handy, if you want to run the same code over and over again, each time with a different value. JavaScript supports different kinds of loops.
 
-1. for - loops through a block of code a number of times
-2. for/in - loops through the properties of an object
-3. for/of - loops through the values of an iterable object
-4. while - loops through a block of code while a specified condition is true
-5. do/while - also loops through a block of code while a specified condition is true
+1. `for` loops through a block of code a number of times
+2. `for/in` loops through the properties of an object
+3. `for/of` loops through the values of an iterable object
+4. `while` loops through a block of code while a specified condition is true
+5. `do/while` also loops through a block of code while a specified condition is true
 
 - For loop
 
@@ -685,11 +667,9 @@ console.log("Not a Valid Number");
 > }
 
 ```Js
-
 for (var i = 1; i <= 50; i++) {
 console.log(i + " Md. Nazmul islam");
 }
-
 ```
 
 - While Loop
@@ -699,13 +679,11 @@ console.log(i + " Md. Nazmul islam");
 > }
 
 ```Js
-
 var i = 0;
 while (i <= 10) {
 console.log(i + " Md. Nazmul islam");
 i++;
 }
-
 ```
 
 - Do While Loop
@@ -715,19 +693,16 @@ i++;
 > } while (condition);
 
 ```Js
-
 var isRanning = false;
 do {
 console.log("I am Ranning");
 } while (isRanning);
 console.log("I am Running");
-
 ```
 
 - Nested Loop
 
 ```Js
-
 var n = 5;
 for (var i = 1; i <= n; i++) {
 result = "";
@@ -736,13 +711,11 @@ result += j + " ";
 }
 console.log(result);
 }
-
 ```
 
 - Break Statement
 
 ```Js
-
 while (true) {
 var rand = Math.floor(Math.random() \* 10 + 1);
 if (rand == 9) {
@@ -752,13 +725,11 @@ break;
 console.log("You have got " + rand);
 }
 }
-
 ```
 
 - Continue Statement
 
 ```Js
-
 for (var i = 1; i <= 10; i++) {
 if (i == 3 || i == 6) {
 continue;
@@ -766,13 +737,11 @@ continue;
 console.log(i);
 }
 }
-
 ```
 
 - Infinity for Loop
 
 ```Js
-
 for (;;) {
 var rand = Math.floor(Math.random() \* 10 + 1);
 if (rand == 9) {
@@ -782,7 +751,6 @@ break;
 console.log("You have got " + rand);
 }
 }
-
 ```
 
 ### JavaScript Comment
@@ -804,10 +772,11 @@ console.log("You have got " + rand);
 
 ### Static methods
 
-- Math.abs() `The Math.abs() function returns the absolute value of a number.`
+### Math.abs()
+
+> The `Math.abs()` function returns the absolute value of a number.
 
 ```Js
-
 Math.abs('-1');     // 1
 Math.abs(-2);       // 2
 Math.abs(null);     // 0
@@ -818,68 +787,68 @@ Math.abs([1,2]);    // NaN
 Math.abs({});       // NaN
 Math.abs('string'); // NaN
 Math.abs();         // NaN
-
 ```
 
-- Math.floor() `The Math.floor() function returns the largest integer less than or equal to a given number.`
+### Math.floor()
+
+> The `Math.floor()` function returns the largest integer less than or equal to a given number.
 
 ```Js
-
 Math.floor( 45.95); //  45
 Math.floor( 45.05); //  45
 Math.floor(  4   ); //   4
 Math.floor(-45.05); // -46
 Math.floor(-45.95); // -46
-
 ```
 
-- Math.ceil() `The Math.ceil() method rounds a number UPWARDS to the nearest integer, and returns the result.`
+### Math.ceil()
+
+> The `Math.ceil()` method rounds a number UPWARDS to the nearest integer, and returns the result.
 
 ```Js
-
 Math.ceil(.95);    // 1
 Math.ceil(4);      // 4
 Math.ceil(7.004);  // 8
 Math.ceil(-0.95);  // -0
 Math.ceil(-4);     // -4
 Math.ceil(-7.004); // -7
-
 ```
 
-- Math.round() `The Math.round() function returns the value of a number rounded to the nearest integer.`
+### Math.round()
+
+> The `Math.round()` function returns the value of a number rounded to the nearest integer.
 
 ```Js
-
 Math.round( 20.49); //  20
 Math.round( 20.5 ); //  21
 Math.round( 42   ); //  42
 Math.round(-20.5 ); // -20
 Math.round(-20.51); // -21
-
 ```
 
-- Math.max() `The Math.max() method returns the number with the highest value.`
+### Math.max()
+
+> The `Math.max()` method returns the number with the highest value.
 
 ```Js
-
 Math.max(10, 20);   //  20
 Math.max(-10, -20); // -10
 Math.max(-10, 20);  //  20
-
 ```
 
-- Math.min() `The Math.min() returns the number with the lowest value.`
+### Math.min()
+
+> The `Math.min()` returns the number with the lowest value.
 
 ```Js
-
 Math.min(10, 5); // 5
-
 ```
 
-- Math.pow() `The Math.pow() static method, given two arguments, base and exponent, returns` base<sup>exponent</sup>.
+### Math.pow()
+
+> The `Math.pow()` static method, given two arguments, base and exponent, returns base<sup>exponent</sup>.
 
 ```Js
-
 // simple
 Math.pow(7, 3);    // 343
 // fractional exponents
@@ -889,41 +858,38 @@ Math.pow(7, -2);   // 0.02040816326530612 (1/49)
 // signed bases
 Math.pow(-7, 2);   // 49 (squares are positive)
 Math.pow(-7, 3);   // -343 (cubes can be negative)
-
 ```
 
-- Math.sqrt() `The Math.sqrt() method returns the square root of a number.`
+### Math.sqrt()
+
+> The `Math.sqrt()` method returns the square root of a number.
 
 ```Js
-
 Math.sqrt(9); // 3
 Math.sqrt(2); // 1.414213562373095
-
 ```
 
-- Math.random() `Math.random() returns a random number between 0 (inclusive), and 1 (exclusive)`
+### Math.random()
+
+> `Math.random()` returns a random number between 0 (inclusive), and 1 (exclusive)
 
 ```Js
-
 function getRandomInt(max) {
   return Math.floor(Math.random() * max);
 }
-
-console.log(getRandomInt(3));
-// expected output: 0, 1 or 2
-
+console.log(getRandomInt(3)); // expected output: 0, 1 or 2
 ```
 
-- Math.round() `The Math.round() method rounds a number to the nearest integer.`
+### Math.round()
+
+> The `Math.round()` method rounds a number to the nearest integer.
 
 ```Js
-
 Math.round( 20.49); //  20
 Math.round( 20.5 ); //  21
 Math.round( 42   ); //  42
 Math.round(-20.5 ); // -20
 Math.round(-20.51); // -21
-
 ```
 
 ### Date Object
@@ -935,10 +901,22 @@ Math.round(-20.51); // -21
 
 ### Date Function
 
-- new Date() `new Date() creates a new date object with the current date and time`
-- date.toDateString() `Returns the "date" portion of the Date as a human-readable string like 'Thu Apr 12 2018'.`
-- date.toTimeString() `Returns the "time" portion of the Date as a human-readable string.`
-- date.toLocaleString() `Returns a string with a locality-sensitive representation of the time portion of this date, based on system settings.`
+#### new Date()
+
+> `new Date()` creates a new date object with the current date and time.
+
+#### date.toDateString()
+
+> Returns the "date" portion of the Date as a human-readable string like 'Thu Apr 12 2018'.
+
+#### date.toTimeString()
+
+> Returns the "time" portion of the Date as a human-readable string.
+
+#### date.toLocaleString()
+
+> Returns a string with a locality-sensitive representation of the time portion of this date, based on system settings.
+
 - date.getFullYear() `Returns the year (4 digits for 4-digit years) of the specified date according to local time.`
 - date.getMonth() `Returns the month (0–11) in the specified date according to local time.`
 - date.getDate() `Returns the day of the month (1–31) for the specified date according to local time.`
