@@ -357,21 +357,47 @@ z = x + y; // Statement 4
 <small><a href="#javascript-tutorial">Top</a></small>
 <small><a href="#falsy-values">Next</a></small>
 
-- Number Conversion: Number().
+- Number Conversion
 
-  ```Js
+### Number()
 
-  Number(" 123 "); // 123
-  Number("123z"); // NaN (error reading a number at "z")
-  Number(true); // 1
-  Number(false) ); // 0
-  Number(undefined) // NaN
-  Number(null) // 0
+```Js
 
-  ```
+Number(" 123 "); // 123
+Number("123z"); // NaN (error reading a number at "z")
+Number(true); // 1
+Number(false) ); // 0
+Number(undefined) // NaN
+Number(null) // 0
 
-  > Decimal Number to Integer Number: parseInt()
-  > Integer Number to Decimal Number: parseFloat()
+```
+
+> Decimal Number to Integer Number.
+
+### parseInt()
+
+```Js
+parseInt(17.5) // will return 17
+```
+
+> Integer Number to Decimal Number.
+
+### parseFloat()
+
+```Js
+parseFloat(3.14);
+parseFloat('3.14');
+parseFloat(3.1546).toFixed(2)
+```
+
+> If you want to parse float with fixed decimal places
+
+### toFixed()
+
+```Js
+let num = 5.56789;
+let n = num.toFixed();
+```
 
 - String Conversion: String() or toString()
 
