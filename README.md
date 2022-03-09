@@ -917,14 +917,37 @@ Math.round(-20.51); // -21
 
 > Returns a string with a locality-sensitive representation of the time portion of this date, based on system settings.
 
-- date.getFullYear() `Returns the year (4 digits for 4-digit years) of the specified date according to local time.`
-- date.getMonth() `Returns the month (0–11) in the specified date according to local time.`
-- date.getDate() `Returns the day of the month (1–31) for the specified date according to local time.`
-- date.getHours() `Returns the hour (0–23) in the specified date according to local time.`
-- date.getMinutes() `Returns the minutes (0–59) in the specified date according to local time.`
-- date.getSeconds() `Returns the seconds (0–59) in the specified date according to local time.`
-- date.getTime() `Returns the numeric value of the specified date as the number of milliseconds since January 1, 1970, 00:00:00 UTC. (Negative values are returned for prior times.)`
-- date.getDay() `Returns the day of the week (0–6) for the specified date according to local time.`
+### date.getFullYear()
+
+> Returns the year (4 digits for 4-digit years) of the specified date according to local time.
+
+### date.getMonth()
+
+> Returns the month (0–11) in the specified date according to local time.
+
+### date.getDate()
+
+> Returns the day of the month (1–31) for the specified date according to local time.
+
+### date.getHours()
+
+> Returns the hour (0–23) in the specified date according to local time.
+
+### date.getMinutes()
+
+> Returns the minutes (0–59) in the specified date according to local time.
+
+### date.getSeconds()
+
+> Returns the seconds (0–59) in the specified date according to local time.
+
+### date.getTime()
+
+> Returns the numeric value of the specified date as the number of milliseconds since January 1, 1970, 00:00:00 UTC. (Negative values are returned for prior times.)
+
+### date.getDay()
+
+> Returns the day of the week (0–6) for the specified date according to local time.
 
 ### String
 
@@ -938,51 +961,45 @@ Math.round(-20.51); // -21
 
 ### Instance methods
 
-[concat()](#concat) | [substr()](#substr) | [charAt()](#charAt)
-
 ### concat()
 
-`The concat() method joins two or more strings. This method does not change the existing strings and returns a new string.`
+> The `concat()` method joins two or more strings. This method does not change the existing strings and returns a new string.`
 
 ```Js
-
 let text1 = "Hello";
 let text2 = "world!";
 let text3 = "Have a nice day!";
 let result = text1.concat(" ", text2, " ", text3);
-
 ```
 
 ### substr()
 
-`The substr() method extracts a part of a string. This method begins at a specified position, and returns a specified number of characters and does not change the original string.`
+> The `substr()` method extracts a part of a string. This method begins at a specified position, and returns a specified number of characters and does not change the original string.
 
 ```Js
 substr(start, length)
 
 const str = "Mozilla";
-
 console.log(str.substr(1, 2));
 // expected output: "oz"
 
 console.log(str.substr(2));
 // expected output: "zilla"
-
 ```
 
 ### charAt()
 
-`The charAt() method returns the character at a specified index (position) in a string.`
+> The `charAt()` method returns the character at a specified index (position) in a string.
 
 ```Js
-
 charAt(index)
 let text = "HELLO WORLD";
 let letter = text.charAt(1); // E
-
 ```
 
-- startsWith() `The startsWith() method returns true if a string starts with a specified string. Otherwise it returns false. This method is case sensitive.`
+### startsWith()
+
+> The `startsWith()` method returns true if a string starts with a specified string. Otherwise it returns false. This method is case sensitive.
 
 ```Js
 startsWith(searchString)
@@ -991,135 +1008,133 @@ startsWith(searchString, position)
 const str1 = "Saturday night plans";
 console.log(str1.startsWith("Sat")); // expected output: true
 console.log(str1.startsWith("Sat", 3)); // expected output: false
-
 ```
 
-- endsWith() `The endsWith() method returns true if a string ends with a specified string.Otherwise it returns false.The endsWith() method is case sensitive.`
+### endsWith()
+
+> The `endsWith()` method returns true if a string ends with a specified string.Otherwise it returns false.The endsWith() method is case sensitive.
 
 ```Js
-
 endsWith(searchString)
 endsWith(searchString, length)
 let str = 'To be, or not to be, that is the question.'
 console.log(str.endsWith('question.'))  // true
 console.log(str.endsWith('to be'))      // false
 console.log(str.endsWith('to be', 19))  // true
-
 ```
 
-- toUpperCase() `The toUpperCase() method converts a string to uppercase letters.`
+### toUpperCase()
+
+> The `toUpperCase()` method converts a string to uppercase letters.
 
 ```Js
-
 const sentence = 'The quick brown fox jumps over the lazy dog.';
 console.log(sentence.toUpperCase()); // expected output: "THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG."
-
 ```
 
-- toLowerCase() `The toUpperCase() method does not change the original string.`
+### toLowerCase()
+
+> The `toUpperCase()` method does not change the original string.
 
 ```Js
-
 const sentence = "The quick brown fox jumps over the lazy dog.";
 console.log(sentence.toLowerCase()); // expected output: "the quick brown fox jumps over the lazy dog."
-
 ```
 
-- trim() `The trim() method removes whitespace from both sides of a string. This method does not change the original string.`
+### trim()
+
+> The `trim()` method removes whitespace from both sides of a string. This method does not change the original string.
 
 ```Js
-
 var orig = "   foo  ";
 console.log(orig.trim()); // 'foo'
-
 ```
 
-- split() `The split() method splits a string into an array of substrings. This method returns the new array. This method does not change the original string.`
+### split()
+
+> The `split()` method splits a string into an array of substrings. This method returns the new array. This method does not change the original string.
 
 ```Js
-
 split()
 split(separator)
 split(separator, limit)
 const str = "The quick brown fox jumps over the lazy dog.";
 const words = str.split(" ");
 console.log(words[3]); // expected output: "fox"
-
 ```
 
-- includes() `The includes() method returns true if a string contains a specified string.Otherwise it returns false. This method is case sensitive.`
+### includes()
+
+> The `includes()` method returns true if a string contains a specified string.Otherwise it returns false. This method is case sensitive.
 
 ```Js
-
 includes(searchElement)
 includes(searchElement, fromIndex)
 let text = "Hello world, welcome to the universe.";
 let result = text.includes("world", 12);
-
 ```
 
-- indexOf() `The indexOf() method returns the position of the first occurrence of a value in a string. This method returns -1 if the value is not found. This method is case sensitive.`
+### indexOf()
+
+> The `indexOf()` method returns the position of the first occurrence of a value in a string. This method returns -1 if the value is not found. This method is case sensitive.
 
 ```Js
-
 let text = "Hello world, welcome to the universe.";
 let result = text.indexOf("welcome");
-
 ```
 
-- match() `The match() method matches a string against a regular expression. This method returns an array with the matches. This method returns null if no match is found.`
+### match()
+
+> The `match()` method matches a string against a regular expression. This method returns an array with the matches. This method returns null if no match is found.
 
 ```Js
-
 match(regexp);
 const paragraph = "The quick brown fox jumps over the lazy dog. It barked.";
 const regex = /[A-Z]/g;
 const found = paragraph.match(regex);
 console.log(found); // expected output: Array ["T", "I"]
-
 ```
 
-- replace() `The replace() method searches a string for a value or a regular expression. This method returns a new string with the value(s) replaced. This method does not change the original string.`
+### replace()
+
+> The `replace()` method searches a string for a value or a regular expression. This method returns a new string with the value(s) replaced. This method does not change the original string.
 
 ```Js
-
 replace(regexp, newSubstr);
 replace(regexp, replacerFunction);
 const p ="The quick brown fox jumps over the lazy dog. If the dog reacted, was it really lazy?";
 console.log(p.replace("dog", "monkey")); // expected output: "The quick brown fox jumps over the lazy monkey. If the dog reacted, was it really lazy?"
-
-
 ```
 
-- search() `The search() method matches a string against a regular expression ** This method returns the index (position) of the first match.This method returns -1 if no match is found.`
+### search()
+
+> The `search()` method matches a string against a regular expression \*\* This method returns the index (position) of the first match.This method returns -1 if no match is found.
 
 ```Js
-
 search(regexp);
 let str = "hey JudE";
 let re = /[A-Z]/g;
 console.log(str.search(re)); // returns 4, which is the index of the first capital letter "J"
-
 ```
 
-- slice() `The slice() method returns selected elements in an array, as a new array. The slice() method selects from a given start, up to a (not inclusive) given end. The slice() method does not change the original array.`
+### slice()
+
+> The `slice()` method returns selected elements in an array, as a new array. The slice() method selects from a given start, up to a (not inclusive) given end. The slice() method does not change the original array.
 
 ```Js
-
 slice();
 slice(start);
 slice(start, end);
 const animals = ["ant", "bison", "camel", "duck", "elephant"];
 console.log(animals.slice(2)); // expected output: Array ["camel", "duck", "elephant"]
 console.log(animals.slice(2, 4)); // expected output: Array ["camel", "duck"]
-
-
 ```
 
-- split() `The split() method splits a string into an array of substrings. The split() method returns the new array. The split() method does not change the original string.`
+### split()
+
+> The `split()` method splits a string into an array of substrings. The split() method returns the new array. The split() method does not change the original string.
 
 ```Js
-
 split();
 split(separator);
 split(separator, limit);
@@ -1128,18 +1143,19 @@ const words = str.split(" ");
 console.log(words[3]); // expected output: "fox"
 const chars = str.split("");
 console.log(chars[8]); // expected output: "k"
-
 ```
 
-- toString() `The toString() method returns a string as a string. This method does not change the original string. The toString() method can be used to convert a string object into a string.`
+### toString()
 
-- str.length `The length property returns the length of a string. The length property of an empty string is 0.`
+> The `toString()` method returns a string as a string. This method does not change the original string. The toString() method can be used to convert a string object into a string.
+
+### length
+
+> The `length` property returns the length of a string. The length property of an empty string is 0.
 
 ```Js
-
 const str = 'Life, the universe and everything. Answer:';
 console.log(str.length); // expected output:  42
-
 ```
 
 ### Escape Notation

@@ -22,6 +22,34 @@
 #date-todatestring
 #date-totimestring
 #date-tolocalestring
+#date-getfullyear
+#date-getmonth
+#date-getdate
+#date-gethours
+#date-getminutes
+#date-getseconds
+#date-gettime
+#date-getday
+#concat
+#substr
+#charat
+#startswith
+#endswith
+#touppercase
+#tolowercase
+#trim
+#split
+#includes
+#indexof
+#match
+#replace
+#search
+#slice
+#split
+#tostring
+#length
+
+
 */
 
 // 02. Alert
