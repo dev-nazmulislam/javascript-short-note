@@ -48,6 +48,16 @@
 #split
 #tostring
 #length
+#length
+#indexof
+#includes
+#push
+#unshift
+#pop
+#shift
+#concat
+#slice
+#splice
 
 
 */

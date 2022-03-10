@@ -1186,12 +1186,10 @@ console.log(str.length); // expected output:  42
 ### Accessing Array Elements
 
 ```Js
-
 let fruits = ['Apple', 'Banana']
 console.log(fruits) // Apple Banana
 let first = fruits[0] // Apple
 let last = fruits[fruits.length - 1] // Banana
-
 ```
 
 ### array traversing
@@ -1199,9 +1197,8 @@ let last = fruits[fruits.length - 1] // Banana
 > To traverse an array means to access each element (item) stored in the array so that the data can be checked or used as part of a process.
 
 ```Js
-
 const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-for (var i = 0; i < arr.length; i++) { // Regular For
+for (var i = 0; i < arr.length; i++) { // Regular For loop
   console.log(arr[i]);
 }
 
@@ -1212,39 +1209,136 @@ arr.forEach(function (item, index, array) { // forEach
 for (const x of arr) { // for/of
   console.log(x);
 }
-
 ```
 
 - ### Instance methods
 
-- push()
-- pop()
-- shift()
-- unshift()
-- indexOf()
-- splice()
+### length
+
+> The `length` property returns the number of elements in an array.
+
+```Js
+const clothing = ['shoes', 'shirts', 'socks', 'sweaters'];
+console.log(clothing.length); // expected output: 4
+```
+
+### indexOf()
+
+> The `indexOf()` method returns the first index at which a given element can be found in the array, or -1 if it is not present. This index number start with 0.
+
+```Js
+const array = [2, 9, 9];
+array.indexOf(2);     // 0
+array.indexOf(7);     // -1
+```
+
+### includes()
+
+> The `includes()` method returns true if a string contains a specified string. Otherwise it returns false.The `includes()` method is case sensitive.
+
+```Js
+const array = [1, 2, 3, 4];
+console.log(array.includes(2)); // expected output: true
+console.log(array.includes(5)); // expected output: false
+```
+
+### push()
+
+> The `push()`method adds one or more elements to the end of an array and returns the new array’s length.
+
+```Js
+const numbers = [1, 2, 3, 4];
+numbers.push(5);
+numbers.push(6, 7);
+```
+
+### unshift()
+
+> The `unshift()` method adds one or more elements to the beginning of an array and returns the new array’s length.
+
+```Js
+const numbers = [4, 5, 6, 7];
+unshift(1);
+unshift(2, 3);
+```
+
+### pop()
+
+> The `pop()` method removes the last element from an array and returns the removed element.The pop() method changes the length property of the array.
+
+```Js
+const numbers = [10, 20, 30];
+const last = numbers.pop();
+console.log(last); // 30
+console.log(numbers.length); // 2
+```
+
+### shift()
+
+> The `shift()` method removes the first element from an array and returns the removed element. The shift() method changes the length property of the array.
+
+```Js
+const numbers = [10, 20, 30];
+let number = numbers.shift(40);
+console.log(number); // 40
+console.log(numbers); // 10, 20, 30, 40
+console.log(numbers.length); // 4
+```
+
+### concat()
+
+> the `concat()` method merge two or more arrays. The `concat()` method returns a new array and doesn’t change the original arrays.
+
+```Js
+let odds = [1,3,5];
+let evens = [2,4,6]; // merge odds and evens array
+let combined = odds.concat(evens);
+console.log(combined);
+console.log(evens, odds);
+```
+
+### slice()
+
+> The `slice()` is used to clone an array. The `slice()` returns a new array that contains the elements of the original array. it doesn’t change the orginal array and accepts two optional parameters.
+
+```Js
+const animals = ['ant', 'bison', 'camel', 'duck', 'elephant'];
+
+console.log(animals.slice(2)); // expected output: Array ["camel", "duck", "elephant"]
+console.log(animals.slice(2, 4)); // expected output: Array ["camel", "duck"]
+console.log(animals.slice(-2)); // expected output: Array ["duck", "elephant"]
+console.log(animals.slice()); // expected output: Array ["ant", "bison", "camel", "duck", "elephant"]
+```
+
+### splice()
+
+> The `splice()` method use to delete existing elements, insert new elements, and replace elements in an array.
+
+```Js
+const months = ['Jan', 'March', 'April', 'June'];
+months.splice(1, 0, 'Feb'); // inserts at index 1
+console.log(months); // expected output: Array ["Jan", "Feb", "March", "April", "June"]
+```
+
 - [...arr]
-- slice()
 - Array.from()
 - join()
 - fill()
-- concat()
 - Array.isArray()
 - Array.from()
 - entries()
 - every()
+- map()
 - filter()
 - find()
 - forEach()
-- includes()
 - keys()
-- map()
+- values()
 - reduce()
 - reverse()
 - some()
 - sort()
 - toString()
-- values()
 
 ### Multidimensional Array
 
