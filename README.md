@@ -1321,19 +1321,82 @@ console.log(months); // expected output: Array ["Jan", "Feb", "March", "April", 
 ```
 
 - [...arr]
-- Array.from()
-- join()
-- fill()
-- Array.isArray()
-- Array.from()
-- entries()
-- every()
-- map()
-- filter()
+
+### Array.from()
+
+> The `from()` method return an array from an array-like object with a length property.
+
+```Js
+console.log(Array.from('foo')); // expected output: Array ["f", "o", "o"]
+console.log(Array.from([1, 2, 3], x => x + x)); // expected output: Array [2, 4, 6]
+```
+
+### join()
+
+> The `join()` method allows you to concatenate all elements of an array and returns a new string.
+
+```Js
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+const text = fruits.join();
+console.log(text) // Banana,Orange,Apple,Mango
+```
+
+### fill()
+
+> The `fill()` method fills specified elements in an array with a value. This method overwrites the original array.
+
+```Js
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.fill("Kiwi", 1, 4);
+console.log(fruits) // ['Banana', 'Kiwi', 'Kiwi', 'Kiwi']
+```
+
+### Array.isArray()
+
+> The isArray() method returns true if an object is an array, otherwise false.
+
+```Js
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+let result = Array.isArray(fruits); // true
+```
+
+### every()
+
+> The `every()` method tests whether all elements in the array pass the test implemented by the provided function. It returns a Boolean value. its required A function to be run for each element in the array.
+
+```Js
+const ages = [32, 33, 16, 40];
+ages.every(checkAge)
+function checkAge(age) {
+  return age > 18;
+}
+```
+
+### map()
+
+> The `map()` method creates a new array from calling a function for every array element. This method calls a function once for each element in an array. it does not change the original array.
+
+```Js
+const array = [1, 4, 9, 16]; // pass a function to map
+const map = array.map(x => x * 2);
+console.log(map1); // expected output: Array [2, 8, 18, 32]
+```
+
+### filter()
+
+> The `filter()` method creates a new array filled with elements that pass a test provided by a function. This method does not change the original array.
+
+```Js
+const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
+const result = words.filter(word => word.length > 6);
+console.log(result); // expected output: Array ["exuberant", "destruction", "present"]
+```
+
 - find()
 - forEach()
 - keys()
 - values()
+- entries()
 - reduce()
 - reverse()
 - some()

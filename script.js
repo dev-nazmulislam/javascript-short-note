@@ -58,7 +58,13 @@
 #concat
 #slice
 #splice
-
+#array-from
+#join
+#fill
+#array-isarray
+#every
+#map
+#filter
 
 */
 
