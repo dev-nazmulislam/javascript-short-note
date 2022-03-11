@@ -160,27 +160,31 @@
 
 # JavaScirpt All Methods.
 
-### JavaScript String Methods
+#### Number Methods
 
-[toString()](#) | [String()](#) | [concat()](#) | [toUpperCase()](#) | [toLowerCase()](#) | [trim()](#) | [length](#) | [slice()](#) | [split()](#) | [substr()](#) | [includes()](#) | [startsWith()](#) | [endsWith()](#) | [indexOf()](#) | [lastIndexOf()](#) | [match()](#) | [charAt()](#) | [repeat()](#) | [replace()](#) | [search()](#).
+[Number()](#number) | [parseInt()](#parseint) | [parseFloat()](#parsefloat) | [toFixed()](#tofixed)
 
-### JavaScript Date Object Methods
+#### String Methods
 
-[Date()](#) | [new Date()](#) | [Date.now()](#) | [toDateString()](#) | [toTimeString() ](#) | [toLocaleString()](#) | [toLocaleDateString()](#) | [toLocaleTimeString()](#) | [getFullYear()](#) | [getMonth()](#) | [getDate()](#) | [getHours()](#) | [getMinutes() ](#) | [getSeconds()](#) | [getDay()](#) | [setDate()](#) | [setDay()](#) | [setFullYears()](#) | [setHours()](#) | [setMinutes()](#) | [setMonth()](#).
+[String()](#string) | [toString()](#tostring) | [concat()](#concat) | [substr()](#substr) | [charAt()](#charat) | [startsWith()](#startswith) | [endsWith()](#endswith) | [toUpperCase()](#touppercase) | [toLowerCase()](#tolowercase) | [trim()](#trim) | [split()](#split) | [includes()](#includes) | [indexOf()](#indexof) | [match()](#match) | [replace()](#replace) | [search()](#search) | [slice()](#slice) | [split()](#split) | [length](#length) |[lastIndexOf()](#) | [repeat()](#).
 
-### JavaScript Math Object Methods
+#### Date Object Methods
 
-[Math.abs()](#) | [Math.floor()](#) | [Math.ceil()](#) | [Math.round()](#) | [Math.max()](#) | [Math.min()](#) | [Math.pow()](#) | [Math.sqrt()](#) | [Math.random()](#) | [Math. round()](#)|
+[Date()](#) | [new Date()](#new-date) | [Date.now()](#) | [toDateString()](#date-todatestring) | [toTimeString() ](#date-totimestring) | [toLocaleString()](#date-tolocalestring) | [toLocaleDateString()](#) | [toLocaleTimeString()](#) | [getFullYear()](#date-getfullyear) | [getMonth()](#date-getmonth) | [getDate()](#date-getdate) | [getHours()](#date-gethours) | [getMinutes() ](#date-getminutes) | [getSeconds()](#date-getseconds) | [getDay()](#date-getday) | [setDate()](#) | [getTime()](#date-gettime) | [setDay()](#) | [setFullYears()](#) | [setHours()](#) | [setMinutes()](#) | [setMonth()](#).
 
-### JavaScript Array Methods
+#### Math Object Methods
 
-[length](#) | [push()](#) | [pop()](#) | [shift()](#) | [unshift()](#) | [indexOf()](#) | [splice()](#) | […](#) | [[...arr]](#) | [slice()](#) | [Array.from()](#) | [join()](#) | [fill()](#) | [concat()](#) | [toString()](#) | [Array.isArray()](#) | [Array.from()](#) | [every()](#) | [filter()](#) | [find()](#) | [findIndex](#) | [forEach()](#) | [includes()](#) | [keys()](#) | [values()](#) | [entries()](#) | [map()](#) | [reduce()](#) | [reverse()](#) | [some()](#) | [sort()](#).
+[Math.abs()](#math-abs) | [Math.floor()](#math-floor) | [Math.ceil()](#math-ceil) | [Math.round()](#math-round) | [Math.max()](#math-max) | [Math.min()](#math-min) | [Math.pow()](#math-pow) | [Math.sqrt()](#math-sqrt) | [Math.random()](#math-random) | [Math. round()](#math-round)|
 
-### JavaScript Object Methods
+#### Array Methods
+
+[length](#length) | [indexOf()](#indexof) | [includes()](#includes) | [push()](#push) | [unshift()](#unshift) | [pop()](#pop) | [shift()](#shift) | [concat()](#concat) | [slice()](#slice) | [splice()](#splice) | [Array.from()](#array-from) | [join()](#join) | [fill()](#fill) | [Array.isArray()](#array-isarray) | [every()](#every) | [map()](#map) | [filter()](#filter) | […](#) | [[...arr]](#) | [toString()](#) | [Array.from()](#) | [find()](#) | [findIndex](#) | [forEach()](#) | [keys()](#) | [values()](#) | [entries()](#) | [reduce()](#) | [reverse()](#) | [some()](#) | [sort()](#).
+
+#### Object Methods
 
 [Object()](#) | [new Object()](#) | [Object.assign()](#) | [Object.create()](#) | [Object.entries()](#) | [Object.freeze()](#) | [Object.keys()](#) | [Object.seal()](#) | [Object.values()](#) | [delete](#).
 
-### Others Methods
+#### Others Methods
 
 [Number()](#) | [Boolean()](#) | [parseInt()](#) | [parseFloat()](#)| [new Set()](#) | [add()](#) | [has()](#) | [clear()](#) | [size()](#) | [new Map()](#) | [Map.set()](#) | [get()](#) | [flat()](#) | [flatMap()](#).
 
