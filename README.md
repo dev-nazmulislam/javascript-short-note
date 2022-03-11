@@ -170,15 +170,15 @@
 
 #### Date Object Methods
 
-[Date()](#) | [new Date()](#new-date) | [Date.now()](#) | [toDateString()](#date-todatestring) | [toTimeString() ](#date-totimestring) | [toLocaleString()](#date-tolocalestring) | [toLocaleDateString()](#) | [toLocaleTimeString()](#) | [getFullYear()](#date-getfullyear) | [getMonth()](#date-getmonth) | [getDate()](#date-getdate) | [getHours()](#date-gethours) | [getMinutes() ](#date-getminutes) | [getSeconds()](#date-getseconds) | [getDay()](#date-getday) | [setDate()](#) | [getTime()](#date-gettime) | [setDay()](#) | [setFullYears()](#) | [setHours()](#) | [setMinutes()](#) | [setMonth()](#).
+[Date()](#) | [new Date()](#new.date) | [Date.now()](#) | [toDateString()](#date.todatestring) | [toTimeString() ](#date.totimestring) | [toLocaleString()](#date.tolocalestring) | [toLocaleDateString()](#) | [toLocaleTimeString()](#) | [getFullYear()](#date.getfullyear) | [getMonth()](#date.getmonth) | [getDate()](#date.getdate) | [getHours()](#date.gethours) | [getMinutes() ](#date.getminutes) | [getSeconds()](#date.getseconds) | [getDay()](#date.getday) | [setDate()](#) | [getTime()](#date.gettime) | [setDay()](#) | [setFullYears()](#) | [setHours()](#) | [setMinutes()](#) | [setMonth()](#).
 
 #### Math Object Methods
 
-[Math.abs()](#math-abs) | [Math.floor()](#math-floor) | [Math.ceil()](#math-ceil) | [Math.round()](#math-round) | [Math.max()](#math-max) | [Math.min()](#math-min) | [Math.pow()](#math-pow) | [Math.sqrt()](#math-sqrt) | [Math.random()](#math-random) | [Math. round()](#math-round)|
+[Math.abs()](#math.abs) | [Math.floor()](#math.floor) | [Math.ceil()](#math.ceil) | [Math.round()](#math.round) | [Math.max()](#math.max) | [Math.min()](#math.min) | [Math.pow()](#math.pow) | [Math.sqrt()](#math.sqrt) | [Math.random()](#math.random) | [Math. round()](#math.round)|
 
 #### Array Methods
 
-[length](#length) | [indexOf()](#indexof) | [includes()](#includes) | [push()](#push) | [unshift()](#unshift) | [pop()](#pop) | [shift()](#shift) | [concat()](#concat) | [slice()](#slice) | [splice()](#splice) | [Array.from()](#array-from) | [join()](#join) | [fill()](#fill) | [Array.isArray()](#array-isarray) | [every()](#every) | [map()](#map) | [filter()](#filter) | […](#) | [[...arr]](#) | [toString()](#) | [Array.from()](#) | [find()](#) | [findIndex](#) | [forEach()](#) | [keys()](#) | [values()](#) | [entries()](#) | [reduce()](#) | [reverse()](#) | [some()](#) | [sort()](#).
+[length](#length) | [indexOf()](#indexof) | [includes()](#includes) | [push()](#push) | [unshift()](#unshift) | [pop()](#pop) | [shift()](#shift) | [concat()](#concat) | [slice()](#slice) | [splice()](#splice) | [Array.from()](#array.from) | [join()](#join) | [fill()](#fill) | [Array.isArray()](#array.isarray) | [every()](#every) | [map()](#map) | [filter()](#filter) | […](#) | [[...arr]](#) | [toString()](#) | [Array.from()](#) | [find()](#) | [findIndex](#) | [forEach()](#) | [keys()](#) | [values()](#) | [entries()](#) | [reduce()](#) | [reverse()](#) | [some()](#) | [sort()](#).
 
 #### Object Methods
 
